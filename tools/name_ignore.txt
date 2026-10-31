@@ -1,0 +1,23 @@
+# tools/check_names.py が「日本語（英語）」の形を拾っても、カード名ではないので照合しない語
+Notion
+UBR
+WUB
+UW
+Archfiend Alteration
+Grixis UBR
+Pioneer
+UR Cutter
+Verge Lands
+G2-3
+Single Source of Truth
+# 略称（本文の初出で正式名を書いていない箇所。見つけたら正式名に直す）
+Kaito
+RiP
+Boseiju
+Eiganjo
+Otawara
+Takenuma
+SOS
+Bo1
+Bo3
+Routine

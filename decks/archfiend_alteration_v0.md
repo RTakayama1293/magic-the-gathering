@@ -9,8 +9,8 @@
 | 勝ち筋 | 内容 | 比率（2026-04時点） |
 |---|---|---|
 | コンボ | 変態変異（Metamorphic Alteration）でクリーチャーをドロスの魔神（Archfiend of the Dross）のコピーにし、油カウンターを0にして相手を敗北させる | 約40% |
-| ミッドレンジ | 鏡割りの寓話（Fable of the Mirror-Breaker）、血税の収穫者（Bloodtithe Harvester）、黙示録、シェオルドレッド（Sheoldred, the Apocalypse）で盤面を取る | 約30% |
-| シルバーバレット | 鏡への懇願（Beseech the Mirror）で対面に応じたカードをサーチする | 約30% |
+| ミッドレンジ | 鏡割りの寓話（Fable of the Mirror-Breaker）、税血の収穫者（Bloodtithe Harvester）、黙示録、シェオルドレッド（Sheoldred, the Apocalypse）で盤面を取る | 約30% |
+| シルバーバレット | 鏡に願いを（Beseech the Mirror）で対面に応じたカードをサーチする | 約30% |
 
 ## メインデッキ（60）
 
@@ -75,7 +75,7 @@ SPELLS (19)
 - 思考囲い（Thoughtseize）で抜く優先度: Badgermole Mole Pup（マナ加速と、除去されにくい本体でアドバンテージ源になる）> Sentinel of Lost Lore（地図トークンでカードを得る）> その他
 
 ### vs ボロス土地破壊
-- IN: 強迫（Duress）×2 / 魁斗（Kaito）×2
+- IN: 強迫（Duress）×2 / 悪夢滅ぼし、魁渡（Kaito, Bane of Nightmares）×2
 - OUT: 寓話 / 変態変異
 - 基本土地がSwamp 1枚のみで、主要呪文が3〜4マナに集中しているため、2土地で止まると勝てない。メタ上の出現率が低い対面として負けを許容する
 
@@ -84,7 +84,7 @@ SPELLS (19)
 - 有利: フェアなミッドレンジ、コントロール、盤面勝負のデッキ。コンボで予想外のタイミングに勝てる
 - 不利: 完成形まで組み上がるコンボ（Creativity、Ramp）
 - 不利: ディミーア・バウンス。Yorion 80枚でETBパーマネントを使い回し、ハンデス・除去・バウンスを持つため、コンボ軸でもミッドレンジ軸でも勝ちにくい
-- Cori-Steel Cutterの禁止でアグロが減り、準備に時間がかかるこのデッキには追い風
+- コーリ鋼の短刀（Cori-Steel Cutter）の禁止でアグロが減り、準備に時間がかかるこのデッキには追い風（2026-09時点の見立て。2026-10時点ではイゼット果敢と赤単果敢が上位にいるため当てはまらない。`meta/2026-10_metagame.md` を参照）
 
 ## 保留中の検討事項
 
