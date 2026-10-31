@@ -1319,6 +1319,16 @@ Counter target spell unless its controller pays {3}.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/eld/58/mystical-dispute
 
+## 否認（Negate）
+
+{1}{U}　Instant
+
+```
+Counter target noncreature spell.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/trc/439/negate
+
 ## タコの型（Octopus Form）
 
 {U}　Instant — Lesson
@@ -1608,6 +1618,17 @@ This land enters tapped unless you control two or fewer other lands.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/one/258/seachrome-coast
+
+## 名もなき都市の歩哨（Sentinel of the Nameless City）
+
+{2}{G}　Creature — Merfolk Warrior Scout　3/4
+
+```
+Vigilance
+Whenever this creature enters or attacks, create a Map token. (It's an artifact with "{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery.")
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city
 
 ## 黙示録、シェオルドレッド（Sheoldred, the Apocalypse）
 
@@ -2089,7 +2110,7 @@ Ritual Chamber: When you unlock this door, create a 6/6 black Demon creature tok
 (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:referenced　https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber
 
 ## 未認可霊柩車（Unlicensed Hearse）
 

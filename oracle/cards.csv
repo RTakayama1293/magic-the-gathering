@@ -280,6 +280,7 @@ Mutavault,変わり谷,,,0.0,Land,,"{T}: Add {C}.
 {1}: This land becomes a 2/2 creature with all creature types until end of turn. It's still a land.",legal,yes,TRC,2026-11-13,list:referenced,https://scryfall.com/card/trc/542/mutavault,2026-10-31
 Mystical Dispute,神秘の論争,,{2}{U},3.0,Instant,,"This spell costs {2} less to cast if it targets a blue spell.
 Counter target spell unless its controller pays {3}.",legal,yes,ELD,2019-10-04,list:referenced,https://scryfall.com/card/eld/58/mystical-dispute,2026-10-31
+Negate,否認,,{1}{U},2.0,Instant,,Counter target noncreature spell.,legal,yes,TRC,2026-11-13,list:referenced,https://scryfall.com/card/trc/439/negate,2026-10-31
 Octopus Form,タコの型,,{U},1.0,Instant — Lesson,,Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.),legal,yes,TLA,2025-11-21,list:opponents,https://scryfall.com/card/tla/66/octopus-form,2026-10-31
 Oscorp Industries,オズコープ社,Exclusive Nightclub,,0.0,Land,,"This land enters tapped.
 When this land enters from a graveyard, you lose 2 life.
@@ -345,6 +346,8 @@ Screaming Nemesis,叫ぶ宿敵,,{2}{R},3.0,Creature — Spirit,3/3,"Haste
 Whenever this creature is dealt damage, it deals that much damage to any other target. If a player is dealt damage this way, they can't gain life for the rest of the game.",legal,yes,DSK,2024-09-27,list:opponents,https://scryfall.com/card/dsk/157/screaming-nemesis,2026-10-31
 Seachrome Coast,金属海の沿岸,,,0.0,Land,,"This land enters tapped unless you control two or fewer other lands.
 {T}: Add {W} or {U}.",legal,yes,ONE,2023-02-10,list:soulflayer_v6,https://scryfall.com/card/one/258/seachrome-coast,2026-10-31
+Sentinel of the Nameless City,名もなき都市の歩哨,,{2}{G},3.0,Creature — Merfolk Warrior Scout,3/4,"Vigilance
+Whenever this creature enters or attacks, create a Map token. (It's an artifact with ""{1}, {T}, Sacrifice this token: Target creature you control explores. Activate only as a sorcery."")",legal,yes,LCI,2023-11-17,list:referenced,https://scryfall.com/card/lci/211/sentinel-of-the-nameless-city,2026-10-31
 "Sheoldred, the Apocalypse",黙示録、シェオルドレッド,,{2}{B}{B},4.0,Legendary Creature — Phyrexian Praetor,4/5,"Deathtouch
 Whenever you draw a card, you gain 2 life.
 Whenever an opponent draws a card, they lose 2 life.",legal,yes,DMU,2022-09-09,deck:archfiend_alteration_v0;list:soulflayer_v6,https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse,2026-10-31
@@ -448,7 +451,7 @@ Unholy Annex // Ritual Chamber,不浄な別室 // 祭儀室,,{2}{B} // {3}{B}{B}
 (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 //
 Ritual Chamber: When you unlock this door, create a 6/6 black Demon creature token with flying.
-(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",legal,yes,DSK,2024-09-27,deck:archfiend_alteration_v0,https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber,2026-10-31
+(You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)",legal,yes,DSK,2024-09-27,deck:archfiend_alteration_v0;list:referenced,https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber,2026-10-31
 Unlicensed Hearse,未認可霊柩車,,{2},2.0,Artifact — Vehicle,*/*,"{T}: Exile up to two target cards from a single graveyard.
 Unlicensed Hearse's power and toughness are each equal to the number of cards exiled with it.
 Crew 2",legal,yes,SNC,2022-04-29,deck:archfiend_alteration_v0;list:opponents,https://scryfall.com/card/snc/246/unlicensed-hearse,2026-10-31

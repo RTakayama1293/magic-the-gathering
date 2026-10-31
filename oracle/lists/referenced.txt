@@ -29,3 +29,6 @@ Deceit
 Vibrance
 Balustrade Spy
 Undercity Informer
+Negate
+Sentinel of the Nameless City
+Unholy Annex

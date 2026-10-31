@@ -36,7 +36,7 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 - 根拠の重みは、ユーザーの実戦経験と戦績DB、出典のある大会結果、Claudeの推論の順に置く。Claudeの推論は、ほかの2つと食い違ったら取り下げる
 - ユーザーに価値判断の誤りを指摘されたら、`notes/play_learnings.md` の「デッキ設計の原則」に原則として記録する
 - 判断の手順と根拠の基準は `notes/decision_criteria.md` に書く
-- 戦略記録の根拠の棚卸しの結果は `notes/strategy_inventory.md` に置く（2026-10-31時点で作成中）
+- 戦略記録の根拠の棚卸しの結果は `notes/strategy_inventory.md` にある。Claudeの価値判断に繰り返し出た誤りの型を2章に書いた。価値判断を書く前に読む
 
 ## 文章の書き方
 
@@ -73,7 +73,7 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 | プレイ原則と対戦から得た知見 | `notes/play_learnings.md`（振り返り前に読む） |
 | プロジェクトの現状と未処理タスク | `notes/project_status.md` |
 | Notion戦績登録のテンプレート | `guides/match_log_entry_guide.md`（登録のたびに読む） |
-| 黒系ミッドレンジ対面 | `guides/vs_black_midrange_guide.md`（Soulflayer V3時代の分析。三層構造の分析は今も使える） |
+| 黒系ミッドレンジ対面 | `guides/vs_black_midrange_guide.md`（Soulflayer V3時代のシミュレーションから作った分析。カードテキストの誤りがあり、墓地を使わないArchfiend Alterationには層2が当てはまらない。`notes/strategy_inventory.md` を参照） |
 | 墓地戦略の汎用フレームワーク | `guides/soulflayer_graveyard_strategy_framework.md` |
 | 想起スキャム軸の分析 | `guides/scam_axis_analysis.md` |
 | パイオニア全体のTier・アーキタイプ・禁止履歴 | `meta/pioneer_knowledge_base.md`（2026-02時点。禁止履歴はその後コーリ鋼の短刀が追加された） |
