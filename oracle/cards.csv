@@ -51,6 +51,8 @@ Flying
 This creature can block only creatures with flying.
 //
 Petty Theft: Return target nonland permanent an opponent controls to its owner's hand.",legal,yes,SOC,2026-04-24,list:opponents,https://scryfall.com/card/soc/190/brazen-borrower-petty-theft,2026-10-31
+Bringer of the Last Gift,最後の贈り物の運び手,,{6}{B}{B},8.0,Creature — Vampire Demon,6/6,"Flying
+When this creature enters, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield.",legal,yes,LCI,2023-11-17,list:soulflayer_v8,https://scryfall.com/card/lci/94/bringer-of-the-last-gift,2026-10-31
 Burst Lightning,噴出の稲妻,,{R},1.0,Instant,,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Burst Lightning deals 2 damage to any target. If this spell was kicked, it deals 4 damage instead.",legal,yes,FDN,2024-11-15,list:opponents,https://scryfall.com/card/fdn/192/burst-lightning,2026-10-31
 Can't Stay Away,未練残り,,{W}{B},2.0,Sorcery,,"Return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains ""If this creature would die, exile it instead.""
@@ -391,6 +393,7 @@ Sulfurous Springs,硫黄泉,,,0.0,Land,,"{T}: Add {C}.
 Sunspine Lynx,陽背骨のオオヤマネコ,,{2}{R}{R},4.0,Creature — Elemental Cat,5/4,"Players can't gain life.
 Damage can't be prevented.
 When this creature enters, it deals damage to each player equal to the number of nonbasic lands that player controls.",legal,yes,BLB,2024-08-02,list:opponents,https://scryfall.com/card/blb/155/sunspine-lynx,2026-10-31
+Superior Spider-Man,スーペリア・スパイダーマン,,{2}{U}{B},4.0,Legendary Creature — Spider Human Hero,4/4,"Mind Swap — You may have Superior Spider-Man enter as a copy of any creature card in a graveyard, except his name is Superior Spider-Man and he's a 4/4 Spider Human Hero in addition to his other types. When you do, exile that card.",legal,yes,SPM,2025-09-26,list:soulflayer_v8,https://scryfall.com/card/spm/155/superior-spider-man,2026-10-31
 Supreme Verdict,至高の評決,,{1}{W}{W}{U},4.0,Sorcery,,"This spell can't be countered.
 Destroy all creatures.",legal,yes,TRC,2026-11-13,list:referenced;list:soulflayer_v6,https://scryfall.com/card/trc/480/supreme-verdict,2026-10-31
 Swamp,沼,,,0.0,Basic Land — Swamp,,({T}: Add {B}.),legal,yes,MDD,2027-04-09,deck:archfiend_alteration_v0,https://scryfall.com/card/mdd/296/swamp,2026-10-31

@@ -262,6 +262,17 @@ Petty Theft: Return target nonland permanent an opponent controls to its owner's
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/190/brazen-borrower-petty-theft
 
+## 最後の贈り物の運び手（Bringer of the Last Gift）
+
+{6}{B}{B}　Creature — Vampire Demon　6/6
+
+```
+Flying
+When this creature enters, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/lci/94/bringer-of-the-last-gift
+
 ## 噴出の稲妻（Burst Lightning）
 
 {R}　Instant
@@ -1825,6 +1836,16 @@ When this creature enters, it deals damage to each player equal to the number of
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/blb/155/sunspine-lynx
+
+## スーペリア・スパイダーマン（Superior Spider-Man）
+
+{2}{U}{B}　Legendary Creature — Spider Human Hero　4/4
+
+```
+Mind Swap — You may have Superior Spider-Man enter as a copy of any creature card in a graveyard, except his name is Superior Spider-Man and he's a 4/4 Spider Human Hero in addition to his other types. When you do, exile that card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/spm/155/superior-spider-man
 
 ## 至高の評決（Supreme Verdict）
 
