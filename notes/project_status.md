@@ -13,7 +13,7 @@
 
 - Notion戦績DBの `SB Depth` の選択肢がSoulflayer時代のまま（変身なし / 部分変身 / 全変身 / 偶察）。Archfiend Alteration用に選択肢を足すか、プロパティを使わないままにするかを決める
 - `match_log_entry_guide.md` はSoulflayer V6時代の版。Archfiend Alteration用のSB Depthの扱いが決まったら書き直す
-- Notion戦績DBのSoulflayer時代の102件（2026-02〜03）の `使用デッキ` に「Soulflayer」を入れる（2026-10-31にユーザーが依頼）
+- （完了）Notion戦績DBのSoulflayer時代の102件に `使用デッキ` =「Soulflayer」を入れた。2026-10-31にDBを読み戻し、空欄0件、Soulflayer 102件（37勝65敗）、Archfiend Alteration 18件（9勝9敗）を確認した
 - 再開デッキの選択: Archfiend Alterationに戻るか、Soulflayerを再開するか
 - `meta/2026-10_metagame.md` の分析をもとに、Archfiend Alterationを今の環境に持ち込むかを議論する（イゼット果敢・赤単果敢・ジャンド・サクリファイスへのSBプランが無い）
 - 次の禁止改定の発表（2026-11-30）の後に、`.claude/skills/meta-update/SKILL.md` の手順でメタを調べ直す
