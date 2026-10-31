@@ -31,15 +31,20 @@ def request(url, body=None):
     headers = dict(HEADERS)
     if data:
         headers["Content-Type"] = "application/json"
-    req = urllib.request.Request(url, data=data, headers=headers)
-    time.sleep(WAIT)
-    try:
-        with urllib.request.urlopen(req, timeout=30) as res:
-            return json.load(res)
-    except urllib.error.HTTPError as e:
-        if e.code == 404:
-            return None
-        raise
+    for attempt in range(5):
+        req = urllib.request.Request(url, data=data, headers=headers)
+        time.sleep(WAIT)
+        try:
+            with urllib.request.urlopen(req, timeout=30) as res:
+                return json.load(res)
+        except urllib.error.HTTPError as e:
+            if e.code == 404:
+                return None
+            if e.code == 429 and attempt < 4:
+                # 1秒10リクエストを超えると 429 が返る。待ってからやり直す
+                time.sleep(2 ** attempt * 2)
+                continue
+            raise
 
 
 def collect_names():

@@ -151,6 +151,17 @@ Whenever you tap a creature for mana, add an additional {G}.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/tla/167/badgermole-cub
 
+## 欄干のスパイ（Balustrade Spy）
+
+{3}{B}　Creature — Vampire Rogue　2/3
+
+```
+Flying
+When this creature enters, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.
+```
+
+Pioneer: banned / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/rvr/66/balustrade-spy
+
 ## 鏡に願いを（Beseech the Mirror）
 
 {1}{B}{B}{B}　Sorcery
@@ -2055,6 +2066,16 @@ Draw three cards.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/205/treasure-cruise
+
+## 地底街の密告人（Undercity Informer）
+
+{2}{B}　Creature — Human Rogue　2/3
+
+```
+{1}, Sacrifice a creature: Target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.
+```
+
+Pioneer: banned / Arena収録: no　出どころ: list:referenced　https://scryfall.com/card/gtc/82/undercity-informer
 
 ## 不浄な別室 // 祭儀室（Unholy Annex // Ritual Chamber）
 
