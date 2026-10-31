@@ -70,9 +70,8 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 | 現行デッキの一覧 | `CURRENT_DECKS.md` |
 | Archfiend Alterationのリスト・SBプラン・対面傾向 | `decks/archfiend_alteration_v0.md` |
 | 判断基準（根拠の重み、試合数と結論の強さ、層ごとの基準） | `notes/decision_criteria.md`（デッキ選択・構築・SB・振り返りの前に読む） |
-| 判断の層ごとの知見（取り組み方からマナの支払い方まで11層、空白の層も記載） | `notes/knowledge_layers.md` |
-| トッププロの判断基準の調査（八十岡翔太・原根健太ほか、出典URL付き） | `notes/pro_thinking.md`（上の層）、`notes/pro_thinking_lower.md`（マナベース・マリガン・ゲームプラン・局面・手順・Arenaの操作） |
-| ユーザーがGemini Notebookで調べた結果（二次として扱う） | `notes/sources/` |
+| 判断の層ごとの知見（全層を1ファイルに集約。「使える知見」と「アーカイブ」に分け、出典一覧付き） | `notes/knowledge_layers.md`（デッキ選択・構築・SB・対戦の振り返りの前に読む） |
+| 知見の元になった調査の記録（トッププロの発言の詳細、Geminiの結果） | `notes/sources/`（`pro_thinking.md` は上の層、`pro_thinking_lower.md` は下の層、`gemini_dengeki_2026-10-31.md`） |
 | プレイ原則と対戦から得た知見 | `notes/play_learnings.md`（振り返り前に読む） |
 | プロジェクトの現状と未処理タスク | `notes/project_status.md` |
 | Notion戦績登録のテンプレート | `guides/match_log_entry_guide.md`（登録のたびに読む） |
