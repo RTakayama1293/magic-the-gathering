@@ -1,0 +1,44 @@
+# tools/check_names.py が「日本語（英語）」の形を拾っても、カード名ではないので照合しない語
+Notion
+UBR
+WUB
+UW
+Archfiend Alteration
+Grixis UBR
+Pioneer
+UR Cutter
+Verge Lands
+G2-3
+Single Source of Truth
+# 略称（本文の初出で正式名を書いていない箇所。見つけたら正式名に直す）
+Kaito
+RiP
+Boseiju
+Eiganjo
+Otawara
+Takenuma
+SOS
+Bo1
+Bo3
+Routine
+URL
+V3
+PVDDR
+MTG Wiki
+Team Cygames 2019-12-14
+CLAUDE.md
+Who's the Beatdown
+Reid Duke
+Lucas Esper Berthoud
+Mike Flores
+Brad Nelson
+Frank Karsten
+Sam Black
+Luis Scott-Vargas
+Jacob Nagro
+Gavin Verhey
+Handy
+Ari Lax
+Patrick Chapin
+Jon Finkel
+Martin Jůza

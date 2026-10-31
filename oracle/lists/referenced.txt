@@ -1,0 +1,34 @@
+# meta/ と guides/ の文書に出てくるカード（2026-10-31に tools/check_names.py の未収録から追加）
+Cauldron Familiar
+Witch's Oven
+Temporary Lockdown
+Supreme Verdict
+Mystical Dispute
+Tormod's Crypt
+Scavenging Ooze
+Lion Sash
+Cling to Dust
+Deafening Silence
+Aether Gust
+Pick Your Poison
+Pithing Needle
+Spirebluff Canal
+Shivan Reef
+Boseiju, Who Endures
+Eiganjo, Seat of the Empire
+Otawara, Soaring City
+Takenuma, Abandoned Mire
+Den of the Bugbear
+Mutavault
+Otherworldly Gaze
+Deep-Cavern Bat
+Rest in Peace
+Ghost Vacuum
+Wistfulness
+Deceit
+Vibrance
+Balustrade Spy
+Undercity Informer
+Negate
+Sentinel of the Nameless City
+Unholy Annex

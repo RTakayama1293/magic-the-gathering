@@ -1,0 +1,70 @@
+# 相手デッキのカード。2026-02時点のメタから引き継いだ
+Abrade
+Abrupt Decay
+Academic Dispute
+Archon of Emeria
+Arclight Phoenix
+Beza, the Bounding Spring
+Bloodletter of Aclazotz
+Boomerang Basics
+Brazen Borrower
+Burst Lightning
+Can't Stay Away
+Carnage Tyrant
+Collected Company
+Cori-Steel Cutter
+Dark Petition
+Emberheart Challenger
+Emergent Ultimatum
+Enduring Innocence
+Farewell
+Firebending Lesson
+Fleeting Spirit
+Go Blank
+Grafdigger's Cage
+Graveyard Trespasser
+Greasefang, Okiba Boss
+Guardian of New Benalia
+Hallowed Moonlight
+Hardened Scales
+Hidden Strings
+High Noon
+Iron-Shield Elf
+Klothys, God of Destiny
+Knight of Autumn
+Kumano Faces Kakkazan
+Ledger Shredder
+Leyline of the Void
+Lightning Axe
+Liliana of the Veil
+Llanowar Elves
+Lotus Field
+Magebane Lizard
+March of Otherworldly Light
+Monastery Swiftspear
+Monstrous Rage
+Octopus Form
+Parhelion II
+Pest Control
+Pyroclasm
+Reckless Rage
+Redcap Melee
+Rest in Peace
+Screaming Nemesis
+Skyclave Apparition
+Skysovereign, Consul Flagship
+Soul-Guide Lantern
+Soul-Scar Mage
+Spell Pierce
+Stitcher's Supplier
+Stormchaser's Talent
+Sunspine Lynx
+Teferi, Hero of Dominaria
+The Legend of Roku
+The Meathook Massacre
+The Wandering Emperor
+Thespian's Stage
+Thing in the Ice
+Treasure Cruise
+Unlicensed Hearse
+Unstoppable Slasher
