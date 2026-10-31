@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Soulflayer Graveyard Strategy Framework</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;color:#1a1a1a;background:#f9f9f7;padding:2rem 1rem}
+.wrap{max-width:720px;margin:0 auto}
+h1{font-size:22px;font-weight:500;margin-bottom:4px}
+h2{font-size:16px;font-weight:500;margin:2rem 0 .75rem}
+h3{font-size:14px;font-weight:500;margin:.5rem 0}
+p{font-size:14px;line-height:1.75;color:#1a1a1a}
+.sub{font-size:13px;color:#666;margin-bottom:1.5rem}
+.verdict{background:#f1efe8;border-left:3px solid #534AB7;padding:1rem 1.25rem;margin:1.5rem 0}
+.verdict p{font-size:14px;line-height:1.75}
+.verdict strong{font-weight:500}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin:1rem 0}
+.grid3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px;margin:1rem 0}
+.card{background:#fff;border:0.5px solid rgba(0,0,0,0.15);border-radius:12px;padding:.875rem 1rem}
+.card-label{font-size:11px;color:#999;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px}
+.card-val{font-size:22px;font-weight:500}
+.card-desc{font-size:12px;color:#666;margin-top:4px;line-height:1.5}
+.tag{display:inline-block;font-size:11px;padding:3px 8px;border-radius:8px;font-weight:500}
+.tag-ok{background:#E1F5EE;color:#085041}
+.tag-ng{background:#FCEBEB;color:#791F1F}
+.tag-mid{background:#FAEEDA;color:#633806}
+.divider{border:none;border-top:0.5px solid rgba(0,0,0,0.12);margin:2rem 0}
+.row-item{display:flex;align-items:flex-start;gap:10px;padding:.5rem 0;border-bottom:0.5px solid rgba(0,0,0,0.08)}
+.row-item:last-child{border-bottom:none}
+.row-num{font-size:13px;font-weight:500;color:#534AB7;min-width:20px}
+.row-body{font-size:13px;line-height:1.65;color:#1a1a1a}
+.row-body strong{font-weight:500}
+.matrix{width:100%;border-collapse:collapse;font-size:13px;margin:.75rem 0}
+.matrix th{font-weight:500;font-size:12px;color:#666;text-align:left;padding:6px 8px;border-bottom:0.5px solid rgba(0,0,0,0.2)}
+.matrix td{padding:7px 8px;border-bottom:0.5px solid rgba(0,0,0,0.08);vertical-align:top;line-height:1.6}
+.matrix tr:last-child td{border-bottom:none}
+.cite{font-size:12px;color:#666;font-style:italic;border-left:2px solid rgba(0,0,0,0.15);padding:.4rem .75rem;margin:.75rem 0;line-height:1.6}
+.section-num{font-size:11px;color:#534AB7;font-weight:500;letter-spacing:.04em;text-transform:uppercase;margin-bottom:4px}
+.hate-row{display:grid;grid-template-columns:140px 1fr 60px;gap:8px;align-items:center;padding:6px 0;border-bottom:0.5px solid rgba(0,0,0,0.08);font-size:13px}
+.hate-row:last-child{border-bottom:none}
+.hate-name{font-weight:500}
+.hate-desc{color:#666;line-height:1.5}
+.abstract-box{border:0.5px solid #534AB7;border-radius:12px;padding:1.25rem 1.5rem;margin:1.25rem 0}
+.abstract-box p{font-size:14px;line-height:1.8}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="section-num">research + insights</div>
+  <h1>墓地デッキのサイドボード戦略：知見まとめ</h1>
+  <p class="sub">パイオニア魂剥ぎへの示唆 — 外部リサーチ + 会話分析</p>
+
+  <div class="verdict">
+    <p><strong>結論：変身SBはパイオニア魂剥ぎにとって罠。</strong><br>
+    MTG競技史上の最強墓地デッキは変身ではなく、「対策を除去しながらメインプランを通す」アプローチで結果を出してきた。変身が機能した事例には魂剥ぎが満たさない構造的条件がある。</p>
+  </div>
+
+  <hr class="divider">
+
+  <div class="section-num">1 / 歴史的事例</div>
+  <h2>25年の墓地デッキが示すこと</h2>
+
+  <div class="grid2">
+    <div class="card">
+      <div class="card-label">押し通す派</div>
+      <h3>Modern Dredge</h3>
+      <p class="card-desc">SBの5〜8枠を対策除去（Nature's Claim、Ancient Grudge等）に充て、エンジンは温存。変身は選択肢として存在しない。</p>
+    </div>
+    <div class="card">
+      <div class="card-label">変身派（機能した条件付き）</div>
+      <h3>Legacy Reanimator</h3>
+      <p class="card-desc">Show and Tell変身が機能した理由：すでにデッキにいるフィニッシャーをそのまま使うため消費スロットが3〜4枠のみ。インフラを共有している。</p>
+    </div>
+  </div>
+
+  <div class="card" style="margin:.75rem 0">
+    <div class="card-label">最重要ケース — 「そもそも気にしない」</div>
+    <h3>Modern Hollow One / Hogaak</h3>
+    <p class="card-desc" style="margin-top:6px">変身も押し通しも不要だった理由：Hollow Oneは墓地対策の半分が関係ない脅威を持っていた（本体はハードキャスト可、Flameblade Adeptはアタッカー）。Hogaakも個々のクリーチャーが独立して機能した。</p>
+  </div>
+
+  <div class="cite">「長い目で見て、エンジンが回っているのに自分の動きができないせいで負けるゲームの方が、予期しない対策を引かれて負けるゲームより多い」— Sodeq（Modern Dredge専門家）</div>
+
+  <hr class="divider">
+
+  <div class="section-num">2 / 変身SBの問題</div>
+  <h2>稀釈コストの数学</h2>
+
+  <p style="font-size:13px;color:#666;margin-bottom:1rem">機能する変身には8〜12枠必要 → 残り3〜7枠で他全マッチアップに対応しなければならない。</p>
+
+  <div class="grid3">
+    <div class="card">
+      <div class="card-label">変身に必要なスロット</div>
+      <div class="card-val">8〜12</div>
+      <div class="card-desc">プランとして機能させるための最低ライン</div>
+    </div>
+    <div class="card">
+      <div class="card-label">残りスロット</div>
+      <div class="card-val">3〜7</div>
+      <div class="card-desc">他全マッチアップへの解答がここに収まらない</div>
+    </div>
+    <div class="card">
+      <div class="card-label">対策が初手にある確率</div>
+      <div class="card-val">25〜33%</div>
+      <div class="card-desc">相手のSB2〜3枚を前提とした推計。過半数のゲームは対策なしで始まる</div>
+    </div>
+  </div>
+
+  <h2 style="margin-top:1.5rem">Abzan Greasefangとの構造比較</h2>
+
+  <table class="matrix">
+    <thead>
+      <tr>
+        <th>指標</th>
+        <th>Greasefang（変身成功例）</th>
+        <th>魂剥ぎ（変身困難）</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>変身コスト</td>
+        <td>4〜5枠。コンボパーツを数枚抜くだけ</td>
+        <td>8〜12枠必要。エンジン全体が対象</td>
+      </tr>
+      <tr>
+        <td>サブプランの単体性能</td>
+        <td>Sheoldred、Esika's Chariotは強力な単体脅威</td>
+        <td>KWドナーの素出しは弱い。エネーブラーは仕事なし</td>
+      </tr>
+      <tr>
+        <td>インフラ共有</td>
+        <td>セルフミルクリーチャーが両プランで機能</td>
+        <td>墓地プランのカードが非墓地文脈で機能しない</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+
+  <div class="section-num">3 / パイオニアの対策環境</div>
+  <h2>主要な墓地対策の影響度マップ</h2>
+
+  <div class="card" style="margin:.75rem 0">
+    <div class="hate-row" style="border-bottom:0.5px solid rgba(0,0,0,0.2);padding-bottom:8px;margin-bottom:4px">
+      <span style="font-size:11px;color:#999;font-weight:500">カード</span>
+      <span style="font-size:11px;color:#999;font-weight:500">魂剥ぎへの影響</span>
+      <span style="font-size:11px;color:#999;font-weight:500">脅威度</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Rest in Peace</span>
+      <span class="hate-desc">白マナ必要、メタの15〜20%。最も対処優先度が高い</span>
+      <span class="tag tag-ng">高</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Unlicensed Hearse</span>
+      <span class="hate-desc">最多採用。クルー必要、段階的追放——同ターン着地に間に合わない場面あり</span>
+      <span class="tag tag-mid">中</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Graveyard Trespasser</span>
+      <span class="hate-desc">1枚/ターン追放。速度差で乗り越えられる</span>
+      <span class="tag tag-mid">中</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Go Blank</span>
+      <span class="hate-desc">3マナ。T2〜3着地後では間に合わないことが多い</span>
+      <span class="tag tag-mid">中</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Grafdigger's Cage</span>
+      <span class="hate-desc"><strong>Delveを止めない。</strong>Urborg ScavengersのETBには干渉するが魂剥ぎ本体は無関係</span>
+      <span class="tag tag-ok">低</span>
+    </div>
+    <div class="hate-row">
+      <span class="hate-name">Leyline of the Void</span>
+      <span class="hate-desc">パイオニアでは非推奨カード扱い。採用率低い</span>
+      <span class="tag tag-ok">低</span>
+    </div>
+  </div>
+
+  <h2>推奨SBスロット配分</h2>
+
+  <table class="matrix">
+    <thead>
+      <tr><th>役割</th><th>カード例</th><th>枠数</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>プリエンプティブ</td><td>Thoughtseize、Duress</td><td>2〜3</td></tr>
+      <tr><td>解決済み対策除去</td><td>Abrupt Decay、Pick Your Poison、Boseiju</td><td>3〜4</td></tr>
+      <tr><td>スタック上の保護</td><td>Stubborn Denial（4/4以上で確定カウンター）</td><td>1〜2</td></tr>
+      <tr><td>その他マッチアップ</td><td>残り枠をビート・コントロール等に充当</td><td>7〜9</td></tr>
+    </tbody>
+  </table>
+
+  <hr class="divider">
+
+  <div class="section-num">4 / 抽象的フレームワーク</div>
+  <h2>「強い魂剥ぎデッキ」の輪郭</h2>
+
+  <p style="font-size:13px;color:#666;margin-bottom:1rem">今回のリサーチ知見のみを根拠に、デッキタイプとして抽象化した像。</p>
+
+  <div class="abstract-box">
+    <p>魂剥ぎを<strong>「コンボデッキ」として設計したもの</strong>——バリューデッキとしてではなく。</p>
+  </div>
+
+  <div class="row-item">
+    <span class="row-num">①</span>
+    <div class="row-body">
+      <strong>墓地が「状態」ではなく「燃料」として扱われている</strong><br>
+      弱い構築は墓地を「育てる」——複数ターンかけて積み上げ維持しながら使う。強い構築は墓地を「点火する」——着地直前ターンに一気に満たして即解決。<br>
+      <span style="font-size:12px;color:#534AB7;font-weight:500">→ 墓地が満たされている時間を最小化する設計</span>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <span class="row-num">②</span>
+    <div class="row-body">
+      <strong>Delveの一時性を構造的優位として活かしている</strong><br>
+      Greasefangは墓地を「維持し続ける」必要がある。魂剥ぎは着地した瞬間に取引完了で、以降の墓地状態は無関係になる。この性質が対策への耐性を生む。<br>
+      <span style="font-size:12px;color:#534AB7;font-weight:500">→ 「同ターン内で墓地を満たして着地まで完結」が設計目標</span>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <span class="row-num">③</span>
+    <div class="row-body">
+      <strong>エネーブラー・KWドナー以外の枠に独立機能するカードを置く</strong><br>
+      KWドナーとエネーブラーは墓地文脈がなければ機能しない。Hollow Oneとの決定的差。魂剥ぎが常に抱える構造的脆弱性をカバーするには、残りの枠の独立性が鍵。<br>
+      <span style="font-size:12px;color:#534AB7;font-weight:500">→ 対策下でも単体で意味を持つカード（除去・ハンデス・カウンター）</span>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <span class="row-num">④</span>
+    <div class="row-body">
+      <strong>SBは「別プランの収容」ではなく「メインゲームへの妨害除去」に特化している</strong><br>
+      変身SBが失敗するのは稀釈コストが高いから。0〜1枠で機能する干渉手段（Thoughtseize等）ならメインプランを守りながら枠を温存できる。<br>
+      <span style="font-size:12px;color:#534AB7;font-weight:500">→ 「サイド芸人」はキーパーツが多いデッキでやることではない</span>
+    </div>
+  </div>
+
+  <div class="row-item">
+    <span class="row-num">?</span>
+    <div class="row-body">
+      <strong style="color:#888">未解決：エネーブラー枚数の最適解</strong><br>
+      コンボデッキとして設計するなら、エネーブラーは「安定して同ターン着地できる最小枚数」であるべき。多すぎれば「バリューデッキ」に近づいていく。KWドナーの種類・枚数と連動して変わる——ここが構築の中心変数。
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

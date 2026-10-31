@@ -1,0 +1,146 @@
+name,mana_cost,cmc,type_line,power,toughness,colors,color_identity,keywords,oracle_text,face2_name,face2_mana_cost,face2_type_line,face2_oracle_text,face2_power,face2_toughness,category,meta_pct,soulflayer_note,pioneer_legal
+Abrade,{1}{R},2,Instant,,,R,R,,"Choose one —
+• Abrade deals 3 damage to target creature.
+• Destroy target artifact.",,,,,,,除去,24%,記念碑やCori-Steel Cutterも割れるモード選択,legal
+Abrupt Decay,{B}{G},2,Instant,,,B|G,B|G,,"This spell can't be countered.
+Destroy target nonland permanent with mana value 3 or less.",,,,,,,除去,16%,打消し不可。魂剥ぎには効かない(CMC6)が記念碑(3)やClass(2)に有効,legal
+Academic Dispute,{R},1,Instant,,,R,R,Learn,"Target creature blocks this turn if able. You may have it gain reach until end of turn.
+Learn.",,,,,,,UR Cutter,20%,Learnでサイドからレッスン取得。格闘強制+reach付与,legal
+Archon of Emeria,{2}{W},3,Creature — Archon,2,3,W,W,Flying,"Flying
+Each player can't cast more than one spell each turn.
+Nonbasic lands your opponents control enter tapped.",,,,,,,その他汎用,3%,1ターン1呪文制限。掘り呪文の連打不可。非基本タップイン,legal
+Arclight Phoenix,{3}{R},4,Creature — Phoenix,3,2,R,R,Flying|Haste,"Flying, haste
+At the beginning of combat on your turn, if you've cast three or more instant and sorcery spells this turn, return this card from your graveyard to the battlefield.",,,,,,,Phoenix,5%,墓地から無限再帰する飛行速攻。呪禁飛行魂剥ぎでもレースが必要,legal
+"Beza, the Bounding Spring",{2}{W}{W},4,Legendary Creature — Elemental Elk,4,5,W,W,Treasure,"When Beza enters, create a Treasure token if an opponent controls more lands than you. You gain 4 life if two or more opponents control more nonland permanents than you. Draw a card if you're not ahead in life total.",,,,,,,UW Control,13%,ETBで複数リソース獲得。UWのフィニッシャー兼アドバンテージ源,legal
+Bloodletter of Aclazotz,{1}{B}{B}{B},4,Creature — Vampire Demon,2,4,B,B,Flying,"Flying
+If an opponent would lose life during your turn, they lose twice that much life instead.",,,,,,,Mono Black Demons,,ライフロス倍増。別室のドレインも倍。デーモンなので別室条件を満たす,legal
+Boomerang Basics,{U},1,Sorcery — Lesson,,,U,U,,"Return target nonland permanent to its owner's hand. If you controlled that permanent, draw a card.",,,,,,,除去・バウンス,20%,Learn経由で取得。着地した魂剥ぎをバウンス。再キャストにはDelveコスト再確保が必要,legal
+Brazen Borrower,{1}{U}{U},3,Creature — Faerie Rogue,3,1,U,U,Flying|Flash,"Flash
+Flying
+(Note: This side represents Brazen Borrower. See Petty Theft for Adventure side.)",Petty Theft,,Instant — Adventure,Return target nonland permanent an opponent controls to its owner's hand.,,,除去・バウンス,8%,Adventure側でバウンス。呪禁なら不可。本体3/1飛行フラッシュ,legal
+Burst Lightning,{R},1,Instant,,,R,R,Kicker,"Kicker {4}
+Deals 2 damage to any target. If kicked, 4 damage instead.",,,,,,,UR Cutter,24%,序盤2点、終盤4点。魂剥ぎのタフネス4にキッカーで致死,legal
+Can't Stay Away,{W}{B},2,Sorcery,,,W|B,W|B,Flashback,"Return target creature card with mana value 3 or less from your graveyard to the battlefield. It gains 'If this creature would die, exile it instead.'
+Flashback {3}{W}{B}",,,,,,,Greasefang,,Greasefangリアニメイト。CMC3以下限定,legal
+Carnage Tyrant,{4}{G}{G},6,Creature — Dinosaur,7,6,G,G,Hexproof|Trample,"This spell can't be countered.
+Trample, hexproof",,,,,,,その他汎用,7%,打消し不可+呪禁+トランプル。ミラー的存在。除去困難,legal
+Collected Company,{3}{G},4,Instant,,,G,G,,Look at the top six cards of your library. Put up to two creature cards with mana value 3 or less from among them onto the battlefield.,,,,,,,Selesnya,,インスタントで2体展開。相手ターンに展開されると対応困難,legal
+Cori-Steel Cutter,{1}{R},2,Artifact — Equipment,,,R,R,Flurry|Equip,"Equipped creature gets +1/+1 and has trample and haste.
+Flurry — Whenever you cast your second spell each turn, create a 1/1 white Monk token with prowess. Attach this to it.
+Equip {1}{R}",,,,,,,UR Cutter,26%,メタ最大デッキのキーカード。毎ターントークン+装備で横展開,legal
+Dark Petition,{3}{B}{B},5,Sorcery,,,B,B,Spell mastery,"Search your library for a card, put that card into your hand, then shuffle.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, add {B}{B}{B}.",,,,,,,Lotus Field,,Lotus Fieldのチューター,legal
+Emberheart Challenger,{1}{R},2,Creature — Mouse Warrior,2,2,R,R,Prowess|Valiant|Haste,"Haste
+Prowess
+Valiant — Whenever this creature becomes the target of a spell or ability you control for the first time each turn, exile the top card of your library. Until end of turn, you may play that card.",,,,,,,UR Cutter,32%,速攻+果敢+Valiant。UR Cutterの主力2ドロップ,legal
+Emergent Ultimatum,{B}{B}{G}{G}{G}{U}{U},7,Sorcery,,,B|G|U,B|G|U,,Search your library for up to three monocolored cards with different names and exile them. An opponent chooses one... You may cast the other cards without paying their mana costs.,,,,,,,Lotus Field,,Lotus Fieldの勝ち手段。解決で2枚踏み倒し,legal
+Enduring Innocence,{1}{W}{W},3,Enchantment Creature — Sheep Glimmer,2,1,W,W,Lifelink,"Lifelink
+Whenever one or more other creatures you control with power 2 or less enter, draw a card. This ability triggers only once each turn.
+When Enduring Innocence dies, if it was a creature, return it to the battlefield...",,,,,,,その他汎用,3%,白系アグロのドローエンジン。死亡→エンチャントとして残る,legal
+Farewell,{4}{W}{W},6,Sorcery,,,W,W,,"Choose one or more —
+• Exile all artifacts.
+• Exile all creatures.
+• Exile all enchantments.
+• Exile all graveyards.",,,,,,,除去・全体除去,,最重要カード。クリーチャー追放+墓地追放の同時選択で魂剥ぎプラン壊滅,legal
+Firebending Lesson,{R},1,Instant — Lesson,,,R,R,Kicker,"Kicker {4}
+Deals 2 damage to target creature. If kicked, 5 damage instead.",,,,,,,UR Cutter,21%,Learn経由で取得。キッカーで5点は魂剥ぎのタフネス4を超過,legal
+Fleeting Spirit,{1}{W},2,Creature — Spirit,3,1,W,W,,"{W}, Exile three cards from your graveyard: gains first strike until end of turn.
+Discard a card: Exile this creature. Return it to the battlefield at the beginning of the next end step.",,,,,,,Selesnya,14%,自己退避能力。除去を空振りさせる。3/1で先制攻撃付与可能,legal
+Go Blank,{2}{B},3,Sorcery,,,B,B,,Target player discards two cards. Then exile that player's graveyard.,,,,,,,墓地対策,23%,手札2枚ハンデス+墓地全追放。Soulflayerに対する2面攻撃,legal
+Grafdigger's Cage,{1},1,Artifact,,,,,,"Creature cards in graveyards and libraries can't enter the battlefield.
+Players can't cast spells from graveyards or libraries.",,,,,,,墓地対策,,墓地からの着地禁止。魂剥ぎの探査には直接影響なし（手札からキャスト）が、Greasefang等を止める,legal
+Graveyard Trespasser,{2}{B},3,Creature — Human Werewolf,3,3,B,B,Daybound|Ward|Nightbound,"Ward—Discard a card.
+Whenever this creature enters or attacks, exile up to one target card from a graveyard... (Daybound/Nightbound mechanics apply)",Graveyard Glutton,,Creature — Werewolf,"Nightbound. (Attacks each turn if able.)
+Whenever this creature enters or attacks, exile up to one target card from a graveyard...",4,4,墓地対策,,メイン墓地対策。毎ターン攻撃で1-2枚追放+ライフ差。Ward付きで除去しにくい,legal
+"Greasefang, Okiba Boss",{1}{W}{B},3,Legendary Creature — Rat Pilot,4,3,W|B,W|B,,"At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste.",,,,,,,Greasefang,22%,T3 Greasefang→Parhelion IIで13点ワンショット。速度でSoulflayerを上回る,legal
+Guardian of New Benalia,{1}{W},2,Creature — Human Soldier,2,2,W,W,Scry|Enlist,"Enlist
+Whenever this creature enlists a creature, scry 2.
+Discard a card: gains indestructible until end of turn. Tap it.",,,,,,,Selesnya,15%,自己破壊不能。Enlist+Scryでリソース管理,legal
+Hallowed Moonlight,{1}{W},2,Instant,,,W,W,,"Until end of turn, if a creature would enter and it wasn't cast, exile it instead.
+Draw a card.",,,,,,,墓地対策,,キャストせずに場に出るクリーチャーを追放。魂剥ぎは手札からキャストなので影響なし。Greasefang対策,legal
+Hardened Scales,{G},1,Enchantment,,,G,G,,"If one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",,,,,,,Selesnya,,カウンター系デッキのエンジン。1マナで設置、長期的に圧倒的アドバンテージ,legal
+Hidden Strings,{1}{U},2,Sorcery,,,U,U,Cipher,"You may tap or untap target permanent, then you may tap or untap another target permanent.
+Cipher",,,,,,,Lotus Field,,Lotus Fieldアンタップ連鎖のコアカード,legal
+High Noon,{1}{W},2,Enchantment,,,W,W|R,,"Each player can't cast more than one spell each turn.
+{4}{R}, Sacrifice: deals 5 damage to any target.",,,,,,,その他汎用,26%,1ターン1呪文制限。掘り呪文連打不可。赤系SBで頻出。起動で5点除去にもなる,legal
+Iron-Shield Elf,{1}{B},2,Creature — Elf Warrior,3,1,B,B,,Discard a card: gains indestructible until end of turn. Tap it.,,,,,,,Selesnya,16%,自己破壊不能持ち3/1。除去を弾く,legal
+"Klothys, God of Destiny",{1}{R}{G},3,Legendary Enchantment Creature — God,4,5,G|R,G|R,Indestructible,"Indestructible
+As long as your devotion to red and green is less than seven, Klothys isn't a creature.
+At the beginning of your first main phase, exile target card from a graveyard. If land, add {R} or {G}. Otherwise, gain 2 life and deal 2 damage.",,,,,,,墓地対策,,毎ターン墓地1枚追放+2点。破壊不能で除去困難。長期戦で墓地を枯らされる,legal
+Knight of Autumn,{1}{G}{W},3,Creature — Dryad Knight,2,1,G|W,G|W,,"When this creature enters, choose one —
+• Put two +1/+1 counters.
+• Destroy target artifact or enchantment.
+• You gain 4 life.",,,,,,,Selesnya,5%,モード選択。記念碑やUnholy Annexを割れる,legal
+Kumano Faces Kakkazan,{R},1,Enchantment — Saga,,,R,R,Transform|Haste,I — 1 damage to each opponent and PW. II — next creature gets +1/+1 counter. III — Transform.,Etching of Kumano,,Enchantment Creature — Human Shaman,"Haste. If a creature dealt damage this turn by a source you controlled would die, exile it instead.",2,2,Red Deck Wins,16%,変身後のEtching面が重要：ダメージを与えたクリーチャーが死ぬと墓地でなく追放される,legal
+Ledger Shredder,{1}{U},2,Creature — Bird Advisor,1,3,U,U,Flying|Connive,"Flying
+Whenever a player casts their second spell each turn, connive.",,,,,,,Phoenix,3%,2発目呪文でConnive。Phoenix系で墓地肥やし+カード選択,legal
+Leyline of the Void,{2}{B}{B},4,Enchantment,,,B,B,,"If this card is in your opening hand, you may begin the game with it on the battlefield.
+If a card would be put into an opponent's graveyard from anywhere, exile it instead.",,,,,,,墓地対策,,最も致命的な墓地対策。T0で置かれると墓地にカードが一切貯まらない。段階3変身必須,legal
+Lightning Axe,{R},1,Instant,,,R,R,,"As an additional cost, discard a card or pay {5}.
+Deals 5 damage to target creature.",,,,,,,Phoenix,,5点除去。魂剥ぎのタフネス4を超過。Phoenix系でディスカードシナジー,legal
+Liliana of the Veil,{1}{B}{B},3,Legendary Planeswalker — Liliana,,,B,B,,"+1: Each player discards a card.
+−2: Target player sacrifices a creature.
+−6: Separate all permanents...",,,,,,,除去,,-2の布告が呪禁を突破。+1の全体ディスカードも手札を削る,legal
+Llanowar Elves,{G},1,Creature — Elf Druid,1,1,G,G,,{T}: Add {G}.,,,,,,,Selesnya,12%,1マナ加速。T2 CoCo/Knight of Autumn等を前倒し,legal
+Lotus Field,,0,Land,,,,,Hexproof,"Hexproof
+This land enters tapped.
+When this land enters, sacrifice two lands.
+{T}: Add three mana of any one color.",,,,,,,Lotus Field,,コンボデッキの基盤。呪禁で触れない,legal
+Magebane Lizard,{1}{R},2,Creature — Lizard,1,4,R,R,,"Whenever a player casts a noncreature spell, deals damage to that player equal to the number of noncreature spells they've cast this turn.",,,,,,,Red Deck Wins,14%,非クリーチャー呪文に加速的ペナルティ。掘り呪文連打でライフが急減,legal
+March of Otherworldly Light,{X}{W},1,Instant,,,W,W,,"As an additional cost, exile any number of white cards from hand. Costs {2} less per card exiled.
+Exile target artifact, creature, or enchantment with mana value X or less.",,,,,,,除去,,追放除去。手札から白カード追放でコスト軽減。魂剥ぎ(CMC6)にはX=6必要だが可能,legal
+Monastery Swiftspear,{R},1,Creature — Human Monk,1,2,R,R,Prowess|Haste,"Haste
+Prowess",,,,,,,UR Cutter,32%,フォーマット最頻出クリーチャー。T1から殴り始める速攻果敢,legal
+Monstrous Rage,{R},1,Instant,,,R,R,Role token,Target creature gets +2/+0 until end of turn. Create a Monster Role token attached to it.,,,,,,,Red Deck Wins,21%,+2/+0一時+永続+1/+1トランプル。赤系のコンバットトリック,legal
+Octopus Form,{U},1,Instant — Lesson,,,U,U,,Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it.,,,,,,,UR Cutter,16%,Learn経由取得。自軍を守る呪禁付与。こちらの除去を空振りさせる,legal
+Parhelion II,{6}{W}{W},8,Legendary Artifact — Vehicle,5,5,W,W,Flying|Vigilance|First strike|Crew,"Flying, first strike, vigilance
+Whenever Parhelion II attacks, create two 4/4 white Angel creature tokens with flying and vigilance that are attacking.
+Crew 4",,,,,,,Greasefang,22%,Greasefangから攻撃時13点+天使2体。ワンショットキル圏内,legal
+Pest Control,{W}{B},2,Sorcery,,,W|B,W|B,Cycling,"Destroy all nonland permanents with mana value 1 or less.
+Cycling {2}",,,,,,,除去・全体除去,27%,CMC1以下全破壊。Soul-Guide Lantern等を巻き込む。サイクリング付きで腐らない,legal
+Pyroclasm,{1}{R},2,Sorcery,,,R,R,,Deals 2 damage to each creature.,,,,,,,除去・全体除去,34%,全体2点。魂剥ぎには効かないが序盤のKWドナー展開を壊滅,legal
+Reckless Rage,{R},1,Instant,,,R,R,,Deals 4 damage to target creature you don't control and 2 damage to target creature you control.,,,,,,,除去,32%,1マナ4点除去。魂剥ぎのタフネス4にちょうど致死。UR Cutterで果敢トリガーにもなる,legal
+Redcap Melee,{R},1,Instant,,,R,R,,"Deals 4 damage to target creature or PW. If a nonred permanent is dealt damage this way, you sacrifice a land.",,,,,,,除去,20%,1マナ4点。魂剥ぎに致死。非赤に使うとland犠牲だが赤系対策としてSBに多い,legal
+Rest in Peace,{1}{W},2,Enchantment,,,W,W,,"When this enchantment enters, exile all graveyards.
+If a card or token would be put into a graveyard from anywhere, exile it instead.",,,,,,,墓地対策,14%,最強墓地封鎖。着地で既存墓地追放+以後墓地に行かない。段階3変身必須,legal
+Screaming Nemesis,{2}{R},3,Creature — Spirit,3,3,R,R,Haste,"Haste
+Whenever this creature is dealt damage, it deals that much damage to any other target. If a player is dealt damage this way, they can't gain life for the rest of the game.",,,,,,,Red Deck Wins,21%,ダメージ反射+永久ライフゲイン封印。ブロックすると自分にダメージが飛ぶ,legal
+Skyclave Apparition,{1}{W}{W},3,Creature — Kor Spirit,2,2,W,W,,"When this creature enters, exile up to one target nonland, nontoken permanent you don't control with mana value 4 or less.",,,,,,,除去,5%,CMC4以下追放。記念碑(3)、Unholy Annex(3)に有効。魂剥ぎはCMC6で対象外,legal
+"Skysovereign, Consul Flagship",{5},5,Legendary Artifact — Vehicle,6,5,,,Flying|Crew,"Flying
+Whenever Skysovereign enters or attacks, deals 3 damage to target creature or PW an opponent controls.
+Crew 3",,,,,,,Greasefang,,Greasefangのサブプラン。ETB/攻撃時3点除去付き飛行,legal
+Soul-Guide Lantern,{1},1,Artifact,,,,,,"When this artifact enters, exile target card from a graveyard.
+{T}, Sacrifice: Exile each opponent's graveyard.
+{1}, {T}, Sacrifice: Draw a card.",,,,,,,墓地対策,43%,フォーマット最頻出カード。1マナで設置、起動で墓地全追放。ドローモードもあり腐らない,legal
+Soul-Scar Mage,{R},1,Creature — Human Wizard,1,2,R,R,Prowess,"Prowess
+If a source you control would deal noncombat damage to a creature an opponent controls, put that many -1/-1 counters on that creature instead.",,,,,,,UR Cutter,32%,非戦闘ダメージを-1/-1カウンターに変換。火力で魂剥ぎが永続的に縮む,legal
+Spell Pierce,{U},1,Instant,,,U,U,,Counter target noncreature spell unless its controller pays {2}.,,,,,,,カウンター,23%,1マナカウンター。序盤の掘り呪文を止められる,legal
+Stitcher's Supplier,{B},1,Creature — Zombie,1,1,B,B,Mill,"When this creature enters or dies, mill three cards.",,,,,,,Greasefang,,1マナで自己ミル6枚。Greasefangの最速キーカード,legal
+Stormchaser's Talent,{U},1,Enchantment — Class,,,U,U,,"When this Class enters, create a 1/1 blue and red Otter creature token with prowess.
+{2}{U}: Level 2
+{4}{U}{U}: Level 3 (further levels return spell from GY and make more tokens)",,,,,,,UR Cutter,19%,1マナで果敢トークン生成。Level2でスペル回収、Level3で毎スペルトークン,legal
+Sunspine Lynx,{2}{R}{R},4,Creature — Elemental Cat,5,4,R,R,,"Players can't gain life.
+Damage can't be prevented.
+When this creature enters, deals damage to each player equal to the number of nonbasic lands that player controls.",,,,,,,Red Deck Wins,13%,ライフゲイン+ダメージ軽減封印。非基本土地ペナルティ。絆魂の魂剥ぎを無力化,legal
+"Teferi, Hero of Dominaria",{3}{W}{U},5,Legendary Planeswalker — Teferi,,,W|U,W|U,,"+1: Draw a card. At the beginning of the next end step, untap up to two lands.
+−3: Put target nonland permanent into its owner's library third from the top.
+−8: You get an emblem...",,,,,,,UW Control,,-3でライブラリに戻す。追放でも破壊でもないため呪禁を突破しないが、対象を取る。+1でアドバンテージ,legal
+The Legend of Roku,{2}{R}{R},4,Enchantment — Saga,,,R,R,Transform|Firebending,"I — Exile top three, play until next turn. II — Add one mana. III — Transform.",Avatar Roku,,Legendary Creature — Avatar,Firebending 4. {8}: Create 4/4 dragon with flying and firebending 4.,4,4,Red Deck Wins,13%,TMNT系。衝動ドロー→変身後は攻撃時{R}x4生成。長期的に火力を連打,legal
+The Meathook Massacre,{X}{B}{B},2,Legendary Enchantment,,,B,B,,"When enters, each creature gets -X/-X until end of turn.
+Whenever a creature you control dies, each opponent loses 1 life.
+Whenever a creature an opponent controls dies, you gain 1 life.",,,,,,,除去・全体除去,,X=-4以上で魂剥ぎ致死。対象を取らない全体除去で呪禁突破。常在能力でライフ差拡大,legal
+The Wandering Emperor,{2}{W}{W},4,Legendary Planeswalker,,,W,W,Flash,"Flash
++1: Put a +1/+1 counter on up to one target creature. It gains first strike.
+−1: Create a 2/2 white Samurai token with vigilance.
+−2: Exile target tapped creature. You gain 2 life.",,,,,,,UW Control,,-2でタップ状態の魂剥ぎを追放。フラッシュでインスタントタイミング。攻撃後に飛んでくる,legal
+Thespian's Stage,,0,Land,,,,,,"{T}: Add {C}.
+{2}, {T}: This land becomes a copy of target land, except it has this ability.",,,,,,,Lotus Field,,Lotus Fieldコピーでマナ倍増,legal
+Thing in the Ice,{1}{U},2,Creature — Horror,0,4,U,U,Transform|Defender,"Defender. Enters with four ice counters. Whenever you cast an instant or sorcery, remove one. When zero, transform.",Awoken Horror,,Creature — Kraken Horror,"When this creature transforms, return all non-Horror creatures to their owners' hands.",7,8,Phoenix,,変身時に全非ホラーをバウンス。魂剥ぎも手札に戻される。7/8は戦闘でも脅威,legal
+Treasure Cruise,{7}{U},8,Sorcery,,,U,U,Delve,"Delve
+Draw three cards.",,,,,,,Phoenix,,探査で1マナ3ドロー。Phoenix系のリソース補充。墓地を共有リソースとして競合,legal
+Unlicensed Hearse,{2},2,Artifact — Vehicle,,,,,Crew,"{T}: Exile up to two target cards from a single graveyard.
+Power and toughness are equal to number of cards exiled with it.
+Crew 2",,,,,,,墓地対策,20%,繰り返し墓地追放+成長するクロック。2マナで設置。KWドナーを1枚ずつ抜かれる,legal
+Unstoppable Slasher,{2}{B},3,Creature — Zombie Assassin,2,3,B,B,Deathtouch,"Deathtouch
+Whenever this creature deals combat damage to a player, they lose half their life, rounded up.
+When this creature dies, if it had no counters on it, return it to the battlefield tapped under its owner's control with two stun counters on it.",,,,,,,Mono Black Demons,,接死+戦闘ダメージでライフ半減。死亡しても自己蘇生。除去しても帰ってくる,legal
