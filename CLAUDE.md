@@ -35,6 +35,7 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 - Claudeの推論だけに基づく価値判断は「仮説」と明記する。`decks/` や `notes/` に記録するときも同じ
 - 根拠の重みは、ユーザーの実戦経験と戦績DB、出典のある大会結果、Claudeの推論の順に置く。Claudeの推論は、ほかの2つと食い違ったら取り下げる
 - ユーザーに価値判断の誤りを指摘されたら、`notes/play_learnings.md` の「デッキ設計の原則」に原則として記録する
+- 判断の手順と根拠の基準は `notes/decision_criteria.md` に書く
 - 戦略記録の根拠の棚卸しの結果は `notes/strategy_inventory.md` に置く（2026-10-31時点で作成中）
 
 ## 文章の書き方
@@ -68,6 +69,7 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 |---|---|
 | 現行デッキの一覧 | `CURRENT_DECKS.md` |
 | Archfiend Alterationのリスト・SBプラン・対面傾向 | `decks/archfiend_alteration_v0.md` |
+| 判断基準（根拠の重み、試合数と結論の強さ、層ごとの基準） | `notes/decision_criteria.md`（デッキ選択・構築・SB・振り返りの前に読む） |
 | プレイ原則と対戦から得た知見 | `notes/play_learnings.md`（振り返り前に読む） |
 | プロジェクトの現状と未処理タスク | `notes/project_status.md` |
 | Notion戦績登録のテンプレート | `guides/match_log_entry_guide.md`（登録のたびに読む） |
