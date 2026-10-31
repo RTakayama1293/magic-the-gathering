@@ -47,6 +47,16 @@ Choose target spell or permanent that's red or green. Its owner puts it on their
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/m20/42/aether-gust
 
+## 無効（Annul）
+
+{U}　Instant
+
+```
+Counter target artifact or enchantment spell.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/eoe/46/annul
+
 ## ドロスの魔神（Archfiend of the Dross）
 
 {2}{B}{B}　Creature — Phyrexian Demon　6/6
@@ -103,7 +113,7 @@ Spells and abilities your opponents control can't cause their controller to sear
 −1: Target player mills four cards. Then exile each opponent's graveyard.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/war/228/ashiok-dream-render
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/war/228/ashiok-dream-render
 
 ## 再点火、アシュリング // 凍炎縛り、アシュリング（Ashling, Rekindled // Ashling, Rimebound）
 
@@ -118,6 +128,17 @@ At the beginning of your first main phase, you may pay {R}. If you do, transform
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/ecl/124/ashling-rekindled-ashling-rimebound
+
+## 偉大なる統一者、アトラクサ（Atraxa, Grand Unifier）
+
+{3}{G}{W}{U}{B}　Legendary Creature — Phyrexian Angel　7/7
+
+```
+Flying, vigilance, deathtouch, lifelink
+When Atraxa enters, reveal the top ten cards of your library. For each card type, you may put a card of that type from among the revealed cards into your hand. Put the rest on the bottom of your library in a random order. (Artifact, battle, creature, enchantment, instant, land, planeswalker, and sorcery are card types.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/one/196/atraxa-grand-unifier
 
 ## アナグマモグラの仔（Badgermole Cub）
 
@@ -150,6 +171,17 @@ When Beza enters, create a Treasure token if an opponent controls more lands tha
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/blb/2/beza-the-bounding-spring
+
+## 苦々しい勝利（Bitter Triumph）
+
+{1}{B}　Instant
+
+```
+As an additional cost to cast this spell, discard a card or pay 3 life.
+Destroy target creature or planeswalker.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/trc/445/bitter-triumph
 
 ## 黒割れの崖（Blackcleave Cliffs）
 
@@ -283,7 +315,7 @@ Exile target card from a graveyard. If it was a creature card, you gain 3 life. 
 Escape—{3}{B}, Exile five other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/thb/87/cling-to-dust
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v6　https://scryfall.com/card/thb/87/cling-to-dust
 
 ## 集合した中隊（Collected Company）
 
@@ -294,6 +326,17 @@ Look at the top six cards of your library. Put up to two creature cards with man
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dtk/177/collected-company
+
+## 秘密の中庭（Concealed Courtyard）
+
+　Land
+
+```
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {W} or {B}.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/otj/268/concealed-courtyard
 
 ## コーリ鋼の短刀（Cori-Steel Cutter）
 
@@ -359,7 +402,7 @@ This land enters tapped unless you control two or fewer other lands.
 {T}: Add {U} or {B}.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/otc/281/darkslick-shores
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/otc/281/darkslick-shores
 
 ## 耳の痛い静寂（Deafening Silence）
 
@@ -392,7 +435,7 @@ Flying, lifelink
 When this creature enters, look at target opponent's hand. You may exile a nonland card from it until this creature leaves the battlefield.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/lci/102/deep-cavern-bat
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v6　https://scryfall.com/card/lci/102/deep-cavern-bat
 
 ## バグベアの居住地（Den of the Bugbear）
 
@@ -416,6 +459,32 @@ Search your library for a creature card, reveal it, put it into your hand or gra
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/184/dinas-guidance
 
+## メカの天才（Does Machines）
+
+{1}{U}　Enchantment — Class
+
+```
+(Gain the next level as a sorcery to add its ability.)
+When this Class enters, mill two cards, draw two cards, then discard two cards.
+{1}{U}: Level 2
+When this Class becomes level 2, return up to two target artifact cards from your graveyard to your hand.
+{4}{U}: Level 3
+At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/tmt/34/does-machines
+
+## ドビンの拒否権（Dovin's Veto）
+
+{W}{U}　Instant
+
+```
+This spell can't be countered.
+Counter target noncreature spell.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/war/193/dovins-veto
+
 ## 強迫（Duress）
 
 {B}　Sorcery
@@ -424,7 +493,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://
 Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/fdn/606/duress
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/fdn/606/duress
 
 ## 皇国の地、永岩城（Eiganjo, Seat of the Empire）
 
@@ -562,6 +631,17 @@ Reflection of Kiki-Jiki: {1}, {T}: Create a token that's a copy of another targe
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki
 
+## Faithful Mending
+
+{W}{U}　Instant
+
+```
+You gain 2 life, draw two cards, then discard two cards.
+Flashback {1}{W}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/trc/473/faithful-mending
+
 ## 告別（Farewell）
 
 {4}{W}{W}　Sorcery
@@ -585,7 +665,7 @@ Destroy target creature if it has mana value 2 or less.
 Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/2xm/93/fatal-push
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/2xm/93/fatal-push
 
 ## 火の技の修行（Firebending Lesson）
 
@@ -661,6 +741,17 @@ Destroy target nonartifact creature.
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/moc/250/go-for-the-throat
 
+## 神無き祭殿（Godless Shrine）
+
+　Land — Plains Swamp
+
+```
+({T}: Add {W} or {B}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/trk/285/godless-shrine
+
 ## 墓掘りの檻（Grafdigger's Cage）
 
 {1}　Artifact
@@ -721,6 +812,17 @@ Discard a card: This creature gains indestructible until end of turn. Tap it.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dmu/19/guardian-of-new-benalia
+
+## 神聖なる泉（Hallowed Fountain）
+
+　Land — Plains Island
+
+```
+({T}: Add {W} or {U}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/trk/286/hallowed-fountain
 
 ## 神聖なる月光（Hallowed Moonlight）
 
@@ -846,6 +948,18 @@ Each other planeswalker you control has the loyalty abilities of Kasmina.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/stx/196/kasmina-enigma-sage
 
+## 新たな夜明け、ケトラモーズ（Ketramose, the New Dawn）
+
+{1}{W}{B}　Legendary Creature — God　4/4
+
+```
+Menace, lifelink, indestructible
+Ketramose can't attack or block unless there are seven or more cards in exile.
+Whenever one or more cards are put into exile from graveyards and/or the battlefield during your turn, you draw a card and lose 1 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/dft/209/ketramose-the-new-dawn
+
 ## 運命の神、クローティス（Klothys, God of Destiny）
 
 {1}{R}{G}　Legendary Enchantment Creature — God　4/5
@@ -884,6 +998,17 @@ Choose two —
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/2x2/239/kolaghans-command
+
+## ユートロムの武人、クランゲ（Krang, Utrom Warlord）
+
+{9}　Legendary Artifact Creature — Utrom Robot　9/9
+
+```
+Flying, trample, indestructible, haste
+Other artifact creatures you control have flying, trample, indestructible, and haste.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/tmt/175/krang-utrom-warlord
 
 ## 熊野と渇苛斬の対峙 // 熊野の食刻（Kumano Faces Kakkazan // Etching of Kumano）
 
@@ -978,6 +1103,19 @@ Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scry
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/fdn/227/llanowar-elves
 
+## 開拓者、おたから（Loot, the Pathfinder）
+
+{2}{G}{U}{R}　Legendary Creature — Beast Noble　2/4
+
+```
+Double strike, vigilance, haste
+Exhaust — {G}, {T}: Add three mana of any one color. (Activate each exhaust ability only once.)
+Exhaust — {U}, {T}: Draw three cards.
+Exhaust — {R}, {T}: Loot deals 3 damage to any target.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/dft/212/loot-the-pathfinder
+
 ## ロアホールドの魔除け（Lorehold Charm）
 
 {R}{W}　Instant
@@ -1024,6 +1162,16 @@ Whenever a player casts a noncreature spell, they lose 2 life.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/tla/109/mai-scornful-striker
+
+## マナの合流点（Mana Confluence）
+
+　Land
+
+```
+{T}, Pay 1 life: Add one mana of any color.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/jou/163/mana-confluence
 
 ## マナ成形（Mana Sculpt）
 
@@ -1090,6 +1238,19 @@ Target creature gets +2/+0 until end of turn. Create a Monster Role token attach
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/woe/142/monstrous-rage
+
+## 忍耐の記念碑（Monument to Endurance）
+
+{3}　Artifact
+
+```
+Whenever you discard a card, choose one that hasn't been chosen this turn —
+• Draw a card.
+• Create a Treasure token.
+• Each opponent loses 3 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/dft/237/monument-to-endurance
 
 ## 月回路のハッカー（Moon-Circuit Hacker）
 
@@ -1179,7 +1340,7 @@ Surveil 3. (Look at the top three cards of your library, then put any number of 
 Flashback {1}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/dsc/122/otherworldly-gaze
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v6　https://scryfall.com/card/dsc/122/otherworldly-gaze
 
 ## パルヘリオンⅡ（Parhelion II）
 
@@ -1216,6 +1377,17 @@ Choose one —
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/mkm/170/pick-your-poison
+
+## ピナクルの星檻（Pinnacle Starcage）
+
+{1}{W}{W}　Artifact
+
+```
+When this artifact enters, exile all artifacts and creatures with mana value 2 or less until this artifact leaves the battlefield.
+{6}{W}{W}: Put each card exiled with this artifact into its owner's graveyard, then create a 2/2 colorless Robot artifact creature token for each card put into a graveyard this way. Sacrifice this artifact.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/eoe/27/pinnacle-starcage
 
 ## 真髄の針（Pithing Needle）
 
@@ -1404,6 +1576,17 @@ Whenever this creature is dealt damage, it deals that much damage to any other t
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dsk/157/screaming-nemesis
 
+## 金属海の沿岸（Seachrome Coast）
+
+　Land
+
+```
+This land enters tapped unless you control two or fewer other lands.
+{T}: Add {W} or {U}.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/one/258/seachrome-coast
+
 ## 黙示録、シェオルドレッド（Sheoldred, the Apocalypse）
 
 {2}{B}{B}　Legendary Creature — Phyrexian Praetor　4/5
@@ -1414,7 +1597,7 @@ Whenever you draw a card, you gain 2 life.
 Whenever an opponent draws a card, they lose 2 life.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/dmu/107/sheoldred-the-apocalypse
 
 ## 難破船の湿地（Shipwreck Marsh）
 
@@ -1508,6 +1691,17 @@ If a source you control would deal noncombat damage to a creature an opponent co
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/akh/148/soul-scar-mage
 
+## 魂剥ぎ（Soulflayer）
+
+{4}{B}{B}　Creature — Demon　4/4
+
+```
+Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
+If a creature card with flying was exiled with this creature's delve ability, this creature has flying. The same is true for first strike, double strike, deathtouch, haste, hexproof, indestructible, lifelink, reach, trample, and vigilance.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/c20/138/soulflayer
+
 ## 呪文貫き（Spell Pierce）
 
 {U}　Instant
@@ -1539,7 +1733,7 @@ This land enters tapped unless it's your first, second, or third turn of the gam
 {T}, Pay 1 life: Add one mana of any color.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/fin/289/starting-town
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/fin/289/starting-town
 
 ## 蒸気孔（Steam Vents）
 
@@ -1587,6 +1781,28 @@ Whenever you cast an instant or sorcery spell, create a 1/1 blue and red Otter c
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/blb/75/stormchasers-talent
 
+## 縞カワヘビ（Striped Riverwinder）
+
+{6}{U}　Creature — Serpent　5/5
+
+```
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Cycling {U} ({U}, Discard this card: Draw a card.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/hou/48/striped-riverwinder
+
+## 頑固な否認（Stubborn Denial）
+
+{U}　Instant
+
+```
+Counter target noncreature spell unless its controller pays {1}.
+Ferocious — If you control a creature with power 4 or greater, counter that spell instead.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/ktk/56/stubborn-denial
+
 ## 硫黄泉（Sulfurous Springs）
 
 　Land
@@ -1619,7 +1835,7 @@ This spell can't be countered.
 Destroy all creatures.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/trc/480/supreme-verdict
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v6　https://scryfall.com/card/trc/480/supreme-verdict
 
 ## 沼（Swamp）
 
@@ -1642,6 +1858,16 @@ When this artifact enters, mill a card. You may play that card this turn. (To mi
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/sos/132/tablet-of-discovery
+
+## 染みついた耽溺（Tainted Indulgence）
+
+{U}{B}　Instant
+
+```
+Draw two cards. Then discard a card unless there are five or more mana values among cards in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/snc/227/tainted-indulgence
 
 ## 見捨てられたぬかるみ、竹沼（Takenuma, Abandoned Mire）
 
@@ -1774,7 +2000,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryf
 Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/2xm/109/thoughtseize
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/2xm/109/thoughtseize
 
 ## トーモッドの墓所（Tormod's Crypt）
 
@@ -1847,6 +2073,26 @@ When this creature dies, if it had no counters on it, return it to the battlefie
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dsk/119/unstoppable-slasher
 
+## ヨーグモスの墳墓、アーボーグ（Urborg, Tomb of Yawgmoth）
+
+　Legendary Land
+
+```
+Each land is a Swamp in addition to its other land types.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth
+
+## 消失の詩句（Vanishing Verse）
+
+{W}{B}　Instant
+
+```
+Exile target monocolored permanent.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/soc/335/vanishing-verse
+
 ## 鮮麗（Vibrance）
 
 {3}{R/G}{R/G}　Creature — Elemental Incarnation　4/4
@@ -1878,7 +2124,7 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0�
 As this land enters, you may pay 2 life. If you don't, it enters tapped.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/trk/306/watery-grave
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6　https://scryfall.com/card/trk/306/watery-grave
 
 ## 幽愁（Wistfulness）
 

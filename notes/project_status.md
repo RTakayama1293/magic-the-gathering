@@ -4,8 +4,8 @@
 
 ## ラダーの状況
 
-- 2026-09時点: プラチナ帯。直近のラダーセッションで18勝6敗
-- Notion戦績DBの最新はMatch #113（vs ボロスバーン①、2026-05-16）。Archfiend Alterationでの登録は18マッチ9勝9敗（2026-05-06〜05-16）。5月17日以降の試合が登録されていない可能性があり、ユーザーに確認中
+- 2026-05時点: プラチナ帯。2026-06〜10は休止していた
+- Notion戦績DBの最新はMatch #113（vs ボロスバーン①、2026-05-16）。Archfiend Alterationでの登録は18マッチ9勝9敗（2026-05-06〜05-16）。2026-06〜09は試合をしていない（2026-10-31にユーザーに確認）
 - 登録前には必ずNotion DBで最新値を確認する
 - Soulflayer単独特化（約1年）から、2026-05に複数デッキ並行テストへ方針を変えた
 
@@ -13,7 +13,8 @@
 
 - Notion戦績DBの `SB Depth` の選択肢がSoulflayer時代のまま（変身なし / 部分変身 / 全変身 / 偶察）。Archfiend Alteration用に選択肢を足すか、プロパティを使わないままにするかを決める
 - `match_log_entry_guide.md` はSoulflayer V6時代の版。Archfiend Alteration用のSB Depthの扱いが決まったら書き直す
-- Notion戦績DBのSoulflayer時代の102件（2026-02〜03）は `使用デッキ` が空欄。「Soulflayer」を一括で入れるかをユーザーに確認する
+- Notion戦績DBのSoulflayer時代の102件（2026-02〜03）の `使用デッキ` に「Soulflayer」を入れる（2026-10-31にユーザーが依頼）
+- 再開デッキの選択: Archfiend Alterationに戻るか、Soulflayerを再開するか
 - `meta/2026-10_metagame.md` の分析をもとに、Archfiend Alterationを今の環境に持ち込むかを議論する（イゼット果敢・赤単果敢・ジャンド・サクリファイスへのSBプランが無い）
 - 次の禁止改定の発表（2026-11-30）の後に、`.claude/skills/meta-update/SKILL.md` の手順でメタを調べ直す
 
