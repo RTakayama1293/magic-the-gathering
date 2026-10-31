@@ -28,4 +28,5 @@
 
 - claude.aiプロジェクト上で同じ名前のファイルが2つずつあったもの（`soulflayer_v6_decklist.md`、`match_log_entry_guide.md`、`soulflayer_v4_12_decklist.md`）は、取得できた片方だけを移した
 - `oracle_core.json` / `oracle_opponents.json` は廃止済みのため移していない。CSV版も2026-10-31に `ARCHIVE/oracle_old/` へ移し、`oracle/cards.csv` に置き換えた
+- `soulflayer_deck_analysis_v3_1.md` は文字コードが壊れていたため機械的に復元した。日本語の一部に誤字が残っている可能性がある
 - claude.aiの旧INDEX（Soulflayer V6用）は `ARCHIVE/index_soulflayer_v6.md`、2026-04のCowork移管メモは `ARCHIVE/cowork_migration_memo.md` に置いた
