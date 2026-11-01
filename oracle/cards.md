@@ -1296,6 +1296,19 @@ If you control two or more other lands, this land enters tapped.
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/afr/258/hive-of-the-eye-tyrant
 
+## アモンケットへの侵攻 // ラゾテプの改宗者（Invasion of Amonkhet // Lazotep Convert）
+
+{1}{U}{B}　Battle — Siege // Creature — Zombie　4/4
+
+```
+Invasion of Amonkhet: (As a Siege enters, choose an opponent to protect it. You and others can attack it. When it's defeated, exile it, then cast it transformed.)
+When this Siege enters, each player mills three cards, then each opponent discards a card and you draw a card. (To mill three cards, a player puts the top three cards of their library into their graveyard.)
+//
+Lazotep Convert: You may have this creature enter as a copy of any creature card in a graveyard, except it's a 4/4 black Zombie in addition to its other colors and types.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/mom/231/invasion-of-amonkhet-lazotep-convert
+
 ## 絶望招来（Invoke Despair）
 
 {1}{B}{B}{B}{B}　Sorcery
