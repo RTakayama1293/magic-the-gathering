@@ -29,7 +29,7 @@ BLANK = ['PU', 'X']
 # DG ダイナの導き / BT 苦々しい勝利 / PU 致命的な一押し / X 何もしないカード
 
 
-def run(deck, play=True, seed=1):
+def run(deck, play=True, seed=1, maxt=5, mull=False, stats=None):
     rng = random.Random(seed)
     keys = ['SSM_BR', 'SSM_good', 'SF_hex', 'any']
     res = {k: [0, 0, 0] for k in keys}
@@ -37,6 +37,19 @@ def run(deck, play=True, seed=1):
         lib = deck[:]
         rng.shuffle(lib)
         hand, lib = lib[:7], lib[7:]
+        if mull:
+            # ロンドン・マリガン。土地2〜5枚ならキープ。2回目（5枚）は必ずキープ
+            for bottom in (1, 2):
+                if 2 <= hand.count('L') <= 5:
+                    break
+                lib = deck[:]; rng.shuffle(lib); hand, lib = lib[:7], lib[7:]
+                for _ in range(bottom):
+                    c = 'L' if hand.count('L') > 3 else next((x for x in BLANK + ['BT', 'GZ', 'RW', 'L'] if x in hand), hand[0])
+                    hand.remove(c); lib.append(c)
+                if stats is not None:
+                    stats['mull'] = stats.get('mull', 0) + 1
+                if bottom == 2 or 2 <= hand.count('L') <= 5:
+                    break
         yard, lands = [], 0
         got = {k: None for k in keys}
 
@@ -57,7 +70,7 @@ def run(deck, play=True, seed=1):
             for c in ['SF', 'SSM']:
                 if hand.count(c) >= 2:
                     hand.remove(c); yard.append(c); return
-            for c in BLANK + ['GZ', 'BT', 'TC', 'SW', 'GR', 'DG', 'MA', 'L', 'SF', 'SSM']:
+            for c in BLANK + ['GZ', 'BT', 'TC', 'SW', 'GR', 'DG', 'CRY', 'MA', 'L', 'SF', 'SSM']:
                 if c in hand:
                     hand.remove(c); yard.append(c); return
 
@@ -79,7 +92,7 @@ def run(deck, play=True, seed=1):
                 rev.remove(take); hand.append(take)
             yard.extend(rev)
 
-        for t in range(1, 6):
+        for t in range(1, maxt + 1):
             if t > 1 or not play:
                 draw()
             if 'L' in hand:
@@ -106,6 +119,9 @@ def run(deck, play=True, seed=1):
                 if 'GR' in hand and mana >= 2:
                     hand.remove('GR'); yard.append('GR'); mana -= 2
                     rev = lib[:5]; del lib[:5]; dig(rev); progress = True; continue
+                if 'CRY' in hand and mana >= 3:
+                    # 歴戦の冷術士: 2枚引いて2枚捨てる（相手のクリーチャーを止める効果はこの計算では数えない）
+                    hand.remove('CRY'); mana -= 3; draw(2); discard_one(); discard_one(); progress = True; continue
                 if 'SW' in hand and mana >= 2:
                     hand.remove('SW'); yard.append('SW'); mana -= 2
                     rev = lib[:4]; del lib[:4]; dig(rev); progress = True; continue
@@ -131,6 +147,16 @@ def run(deck, play=True, seed=1):
                     hand.remove(c); yard.append(c); progress = True; continue
             if t >= 3:
                 check(mana, t)
+            if stats is not None:
+                if t == 3 and lands < 3:
+                    stats['screw3'] = stats.get('screw3', 0) + 1
+                if t == 4 and lands < 4:
+                    stats['screw4'] = stats.get('screw4', 0) + 1
+                if t == maxt and lands + hand.count('L') >= maxt + 1 and len([c for c in hand if c != 'L']) <= 1:
+                    stats['flood'] = stats.get('flood', 0) + 1
+        if stats is not None:
+            stats['never'] = stats.get('never', 0) + (got['any'] is None)
+            stats['turnsum'] = stats.get('turnsum', 0) + (got['any'] or maxt + 1)
         for k in keys:
             for i, T in enumerate((3, 4, 5)):
                 res[k][i] += got[k] is not None and got[k] <= T

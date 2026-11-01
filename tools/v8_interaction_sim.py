@@ -105,7 +105,11 @@ def opp_turn(o, me, kill_window):
     else:
         o.draw()
     for c in o.board:
-        c['sick'] = False
+        if c.get('stun'):
+            # 麻痺カウンター: アンタップする代わりにカウンターを取り除く。このターンは攻撃できない
+            c['stun'] = False; c['sick'] = True
+        else:
+            c['sick'] = False
     # 熊野の章
     if o.saga is not None:
         o.saga += 1
@@ -226,7 +230,7 @@ class Me:
         for c in ['SF', 'SSM']:
             if h.count(c) >= 2:
                 h.remove(c); self.yard.append(c); return
-        for c in list(INTERACTION) + ['DMM', 'SWS', 'DG', 'GZ', 'GR', 'MA', 'L', 'SF', 'SSM']:
+        for c in list(INTERACTION) + ['DMM', 'SWS', 'CRY', 'DG', 'GZ', 'GR', 'MA', 'L', 'SF', 'SSM']:
             if c in h:
                 h.remove(c); self.yard.append(c); return
 
@@ -317,9 +321,17 @@ class Me:
                 if take:
                     rev.remove(take); h.append(take)
                 y += rev; progress = True
+            elif 'CRY' in h and mana >= 3:
+                # 歴戦の冷術士（Seasoned Cryomancer）: 2枚引いて2枚捨てる。土地でないカードを捨てた枚数だけ、相手のクリーチャーをタップして麻痺カウンターを置く
+                h.remove('CRY'); mana -= 3; self.draw(2)
+                before = len(y); self.discard_one(); self.discard_one()
+                nonland = sum(1 for c in y[before:] if c != 'L')
+                for c in sorted(self.opp.board, key=lambda c: -self.opp.threat(c))[:nonland]:
+                    c['stun'] = True
+                self.cry_on_board = True; progress = True
             elif 'SWS' in h and mana >= 2:
-                # 救う価値あり（Something Worth Saving）: 切削4、パーマネント・カードを1枚手札へ
-                h.remove('SWS'); y.append('SWS'); mana -= 2
+                # 救う価値あり（Something Worth Saving）: 切削4、パーマネント・カードを1枚手札へ、1点回復
+                h.remove('SWS'); y.append('SWS'); mana -= 2; self.opp.dmg -= 1
                 rev = lib[:4]; del lib[:4]
                 wants = (['SSM'] if 'SSM' not in h else []) + (['SF'] if 'SF' not in h else []) \
                     + (['L'] if self.need_land() else [])
