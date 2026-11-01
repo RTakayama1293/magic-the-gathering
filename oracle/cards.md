@@ -24,7 +24,7 @@ Choose one —
 • Destroy target artifact.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/trc/449/abrade
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/trc/449/abrade
 
 ## 突然の衰微（Abrupt Decay）
 
@@ -56,7 +56,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryf
 Choose target spell or permanent that's red or green. Its owner puts it on their choice of the top or bottom of their library.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/m20/42/aether-gust
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:referenced　https://scryfall.com/card/m20/42/aether-gust
 
 ## アイノクの旅人（Ainok Wayfarer）
 
@@ -123,7 +123,7 @@ Flying, haste
 At the beginning of combat on your turn, if you've cast three or more instant and sorcery spells this turn, return this card from your graveyard to the battlefield.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/rvr/100/arclight-phoenix
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/rvr/100/arclight-phoenix
 
 ## 死花の植物学者、アルニン（Arnyn, Deathbloom Botanist）
 
@@ -135,6 +135,21 @@ Whenever a creature you control with power or toughness 1 or less dies, target o
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/74/arnyn-deathbloom-botanist
+
+## 美術家の才能（Artist's Talent）
+
+{1}{R}　Enchantment — Class
+
+```
+(Gain the next level as a sorcery to add its ability.)
+Whenever you cast a noncreature spell, you may discard a card. If you do, draw a card.
+{2}{R}: Level 2
+Noncreature spells you cast cost {1} less to cast.
+{2}{R}: Level 3
+If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/blb/124/artists-talent
 
 ## 夢を引き裂く者、アショク（Ashiok, Dream Render）
 
@@ -357,7 +372,7 @@ This creature can block only creatures with flying.
 Petty Theft: Return target nonland permanent an opponent controls to its owner's hand.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/190/brazen-borrower-petty-theft
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/soc/190/brazen-borrower-petty-theft
 
 ## 繁殖池（Breeding Pool）
 
@@ -489,6 +504,17 @@ Choose one —
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/hob/35/confusticate-and-bebother
+
+## 考慮（Consider）
+
+{U}　Instant
+
+```
+Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)
+Draw a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/tle/157/consider
 
 ## コーリ鋼の短刀（Cori-Steel Cutter）
 
@@ -683,6 +709,16 @@ Search your library for a creature card, reveal it, put it into your hand or gra
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:sos_candidates;list:soulflayer_v8_pool　https://scryfall.com/card/sos/184/dinas-guidance
+
+## 軽蔑的な一撃（Disdainful Stroke）
+
+{1}{U}　Instant
+
+```
+Counter target spell with mana value 4 or greater.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/woe/47/disdainful-stroke
 
 ## メカの天才（Does Machines）
 
@@ -982,6 +1018,17 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　http
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/moc/400/field-of-ruin
 
+## 焦熱の衝動（Fiery Impulse）
+
+{R}　Instant
+
+```
+Fiery Impulse deals 2 damage to target creature.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, Fiery Impulse deals 3 damage instead.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/ori/145/fiery-impulse
+
 ## 最後の別れ（Final Parting）
 
 {3}{B}{B}　Sorcery
@@ -1002,6 +1049,16 @@ Firebending Lesson deals 2 damage to target creature. If this spell was kicked, 
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/tla/138/firebending-lesson
+
+## フラッシュバック（Flashback）
+
+{R}　Instant
+
+```
+Target instant or sorcery card in your graveyard gains flashback until end of turn. The flashback cost is equal to its mana cost. (You may cast that card from your graveyard for its flashback cost. Then exile it.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/sos/115/flashback
 
 ## 束の間の霊魂（Fleeting Spirit）
 
@@ -1361,6 +1418,17 @@ Destroy X target artifacts and/or creatures. For each permanent destroyed this w
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/aer/85/indomitable-creativity
 
+## 洪水の大口へ（Into the Flood Maw）
+
+{U}　Instant
+
+```
+Gift a tapped Fish (You may promise an opponent a gift as you cast this spell. If you do, they create a tapped 1/1 blue Fish creature token before its other effects.)
+Return target creature an opponent controls to its owner's hand. If the gift was promised, instead return target nonland permanent an opponent controls to its owner's hand.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/blb/52/into-the-flood-maw
+
 ## アモンケットへの侵攻 // ラゾテプの改宗者（Invasion of Amonkhet // Lazotep Convert）
 
 {1}{U}{B}　Battle — Siege // Creature — Zombie　4/4
@@ -1581,7 +1649,7 @@ Flying
 Whenever a player casts their second spell each turn, this creature connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/snc/46/ledger-shredder
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/snc/46/ledger-shredder
 
 ## 虚空の力線（Leyline of the Void）
 
@@ -1929,7 +1997,7 @@ This spell costs {2} less to cast if it targets a blue spell.
 Counter target spell unless its controller pays {3}.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/eld/58/mystical-dispute
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:referenced　https://scryfall.com/card/eld/58/mystical-dispute
 
 ## 否認（Negate）
 
@@ -1962,6 +2030,17 @@ Target creature you control gets +1/+1 and gains hexproof until end of turn. Unt
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/tla/66/octopus-form
 
+## 選択（Opt）
+
+{U}　Instant
+
+```
+Scry 1. (Look at the top card of your library. You may put that card on the bottom.)
+Draw a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/tdc/158/opt
+
 ## オズコープ社（Oscorp Industries）
 
 　Land
@@ -1984,7 +2063,7 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0�
 Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/neo/271/otawara-soaring-city
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:referenced　https://scryfall.com/card/neo/271/otawara-soaring-city
 
 ## 異世界の凝視（Otherworldly Gaze）
 
@@ -2066,6 +2145,18 @@ Choose one —
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/mkm/170/pick-your-poison
 
+## 錠前破りのいたずら屋 // フェイの解放（Picklock Prankster // Free the Fae）
+
+{1}{U} // {1}{U}　Creature — Faerie Rogue // Instant — Adventure　1/3
+
+```
+Picklock Prankster: Flying, vigilance
+//
+Free the Fae: Mill four cards. Then put an instant, sorcery, or Faerie card from among the milled cards into your hand.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/woe/64/picklock-prankster-free-the-fae
+
 ## ピナクルの星檻（Pinnacle Starcage）
 
 {1}{W}{W}　Artifact
@@ -2137,6 +2228,20 @@ Choose one —
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/211/prismari-charm
 
+## プリズマリの命令（Prismari Command）
+
+{1}{U}{R}　Instant
+
+```
+Choose two —
+• Prismari Command deals 2 damage to any target.
+• Target player draws two cards, then discards two cards.
+• Target player creates a Treasure token.
+• Destroy target artifact.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/soc/323/prismari-command
+
 ## デリアン・フェル教授（Professor Dellian Fel）
 
 {2}{B}{G}　Legendary Planeswalker — Dellian　忠誠5
@@ -2159,6 +2264,18 @@ When this creature enters, learn. (You may reveal a Lesson card you own from out
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/stx/24/professor-of-symbology
+
+## プロフトの映像記憶（Proft's Eidetic Memory）
+
+{1}{U}　Legendary Enchantment
+
+```
+When Proft's Eidetic Memory enters, draw a card.
+You have no maximum hand size.
+At the beginning of combat on your turn, if you've drawn more than one card this turn, put X +1/+1 counters on target creature you control, where X is the number of cards you've drawn this turn minus one.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/mkm/67/profts-eidetic-memory
 
 ## 紅蓮地獄（Pyroclasm）
 
@@ -2259,7 +2376,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryf
 Redcap Melee deals 4 damage to target creature or planeswalker. If a nonred permanent is dealt damage this way, you sacrifice a land.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/eld/135/redcap-melee
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/eld/135/redcap-melee
 
 ## 報いの呪詛（Requiting Hex）
 
@@ -2550,6 +2667,16 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/nec/159/skysovereign-consul-flagship
+
+## 手練（Sleight of Hand）
+
+{U}　Sorcery
+
+```
+Look at the top two cards of your library. Put one of them into your hand and the other on the bottom of your library.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix　https://scryfall.com/card/woe/67/sleight-of-hand
 
 ## 精鋭射手団の目立ちたがり（Slickshot Show-Off）
 
@@ -3109,7 +3236,7 @@ Delve (Each card you exile from your graveyard while casting this spell pays for
 Draw three cards.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/205/treasure-cruise
+Pioneer: legal / Arena収録: yes　出どころ: list:izzet_phoenix;list:opponents　https://scryfall.com/card/soc/205/treasure-cruise
 
 ## 黄昏の占者（Twilight Diviner）
 
