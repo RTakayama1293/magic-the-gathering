@@ -70,7 +70,7 @@ INTERACTION = {
     'TS': (1, 'discard', None),                      # 思考囲い
     'BAT': (2, 'bat', None),                          # 大洞窟のコウモリ
 }
-DISCARD_FIRST = ['BR', 'CO', 'AT', 'RW']
+DISCARD_FIRST = ['BR', 'ZE', 'CO', 'AT', 'RW']
 
 
 class Opp:
@@ -226,7 +226,7 @@ class Me:
         for c in ['SF', 'SSM']:
             if h.count(c) >= 2:
                 h.remove(c); self.yard.append(c); return
-        for c in list(INTERACTION) + ['DMM', 'SWS', 'GZ', 'GR', 'MA', 'L', 'SF', 'SSM']:
+        for c in list(INTERACTION) + ['DMM', 'SWS', 'DG', 'GZ', 'GR', 'MA', 'L', 'SF', 'SSM']:
             if c in h:
                 h.remove(c); self.yard.append(c); return
 
@@ -234,7 +234,7 @@ class Me:
         if self.goal:
             return
         h, y = self.hand, self.yard
-        ssm = 'SSM' in h and mana >= 4 and any(x in y for x in ['BR', 'AT', 'CO'])
+        ssm = 'SSM' in h and mana >= 4 and any(x in y for x in ['BR', 'AT', 'CO', 'ZE'])
         sf = 'SF' in h and mana >= 2 + max(0, 4 - len(y)) and 'RW' in y
         if ssm or sf:
             self.goal = t
@@ -259,7 +259,7 @@ class Me:
                 self.hand.remove(name); self.yard.append(name); self.casts += 1
                 o.board.remove(tgt)
                 if name == 'BT':
-                    if any(x in self.hand for x in ['BR', 'CO', 'AT', 'RW']):
+                    if any(x in self.hand for x in ['BR', 'ZE', 'CO', 'AT', 'RW']):
                         self.discard_one()
                     else:
                         o.dmg += 3
@@ -297,7 +297,15 @@ class Me:
         while progress and not self.goal:
             progress = False
             h, y, lib = self.hand, self.yard, self.lib
-            if 'MA' in h and mana >= 2:
+            if 'DG' in h and mana >= 3 and (('BR' not in y and 'BR' in lib) or ('SSM' not in h and 'SSM' in lib and any(x in y for x in ['BR', 'AT', 'CO', 'ZE']))):
+                # ダイナの導き: 運び手が墓地に無ければ墓地へ、あればスーペリア・スパイダーマンを手札へ
+                h.remove('DG'); y.append('DG'); mana -= 3
+                if 'BR' not in y and 'BR' in lib:
+                    lib.remove('BR'); y.append('BR')
+                else:
+                    lib.remove('SSM'); h.append('SSM')
+                self.rng.shuffle(lib); progress = True
+            elif 'MA' in h and mana >= 2:
                 h.remove('MA'); mana -= 2
                 y += lib[:2]; del lib[:2]; self.draw(2); self.discard_one(); self.discard_one(); progress = True
             elif 'GR' in h and mana >= 2:
@@ -369,8 +377,8 @@ def game(my_deck, opp_deck, seed, use, policy, on_play):
     return (kill or MAXT + 1), (me.goal or MAXT + 1), me.casts
 
 
-def mk(extra):
-    d = dict(CORE)
+def mk(extra, core=None):
+    d = dict(core or CORE)
     for k, v in extra.items():
         d[k] = d.get(k, 0) + v
     deck = [k for k, v in d.items() for _ in range(v)]
