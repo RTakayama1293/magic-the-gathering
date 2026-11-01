@@ -639,7 +639,7 @@ When this creature enters, if {B}{B} was spent to cast it, target opponent revea
 Evoke {U/B}{U/B}
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/ecl/212/deceit
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/ecl/212/deceit
 
 ## 大洞窟のコウモリ（Deep-Cavern Bat）
 
@@ -888,6 +888,16 @@ Destroy target creature or planeswalker. Its controller may search their library
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/15/erode
 
+## 絶滅の契機（Extinction Event）
+
+{3}{B}　Sorcery
+
+```
+Choose odd or even. Exile each creature with mana value of the chosen quality. (Zero is even.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/iko/88/extinction-event
+
 ## 鏡割りの寓話 // キキジキの鏡像（Fable of the Mirror-Breaker // Reflection of Kiki-Jiki）
 
 {2}{R}　Enchantment — Saga // Enchantment Creature — Goblin Shaman　2/2
@@ -948,6 +958,17 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;l
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/bro/179/fauna-shaman
+
+## 廃墟の地（Field of Ruin）
+
+　Land
+
+```
+{T}: Add {C}.
+{2}, {T}, Sacrifice this land: Destroy target nonbasic land an opponent controls. Each player searches their library for a basic land card, puts it onto the battlefield, then shuffles.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/moc/400/field-of-ruin
 
 ## 最後の別れ（Final Parting）
 
@@ -1159,7 +1180,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer
 At the beginning of combat on your turn, return target Vehicle card from your graveyard to the battlefield. It gains haste. Return it to its owner's hand at the beginning of your next end step.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/neo/220/greasefang-okiba-boss
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/neo/220/greasefang-okiba-boss
 
 ## 忌まわしい回収（Grisly Salvage）
 
@@ -1307,6 +1328,16 @@ If you control two or more other lands, this land enters tapped.
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/afr/258/hive-of-the-eye-tyrant
 
+## 不屈の独創力（Indomitable Creativity）
+
+{X}{R}{R}{R}　Sorcery
+
+```
+Destroy X target artifacts and/or creatures. For each permanent destroyed this way, its controller reveals cards from the top of their library until an artifact or creature card is revealed and exiles that card. Those players put the exiled cards onto the battlefield, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/aer/85/indomitable-creativity
+
 ## アモンケットへの侵攻 // ラゾテプの改宗者（Invasion of Amonkhet // Lazotep Convert）
 
 {1}{U}{B}　Battle — Siege // Creature — Zombie　4/4
@@ -1328,7 +1359,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　http
 Target opponent sacrifices a creature of their choice. If they can't, they lose 2 life and you draw a card. Then repeat this process for an enchantment and a planeswalker.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/neo/101/invoke-despair
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v8_pool　https://scryfall.com/card/neo/101/invoke-despair
 
 ## 鉄盾のエルフ（Iron-Shield Elf）
 
@@ -1339,6 +1370,16 @@ Discard a card: This creature gains indestructible until end of turn. Tap it. (D
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/ecl/108/iron-shield-elf
+
+## 島（Island）
+
+　Basic Land — Island
+
+```
+({T}: Add {U}.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/mdd/294/island
 
 ## ジェイスの策謀（Jace's Machinations）
 
@@ -1360,6 +1401,17 @@ Search your library for up to two creature cards and reveal them. Put one into y
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/rtr/175/jarads-orders
+
+## ジェスカイの隆盛（Jeskai Ascendancy）
+
+{U}{R}{W}　Enchantment
+
+```
+Whenever you cast a noncreature spell, creatures you control get +1/+1 until end of turn. Untap those creatures.
+Whenever you cast a noncreature spell, you may draw a card. If you do, discard a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/2x2/231/jeskai-ascendancy
 
 ## 悪夢滅ぼし、魁渡（Kaito, Bane of Nightmares）
 
@@ -1931,7 +1983,7 @@ Whenever Parhelion II attacks, create two 4/4 white Angel creature tokens with f
 Crew 4 (Tap any number of creatures you control with total power 4 or more: This Vehicle becomes an artifact creature until end of turn.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/nec/87/parhelion-ii
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/nec/87/parhelion-ii
 
 ## 害獣駆除（Pest Control）
 
@@ -2208,6 +2260,16 @@ When this creature enters, reveal the top four cards of your library. You may pu
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/trc/469/satyr-wayfinder
 
+## 風景の変容（Scapeshift）
+
+{2}{G}{G}　Sorcery
+
+```
+Sacrifice any number of lands. Search your library for up to that many land cards, put them onto the battlefield tapped, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/m19/201/scapeshift
+
 ## 傷刃の斥候（Scarblade Scout）
 
 {1}{B}　Creature — Elf Scout　2/2
@@ -2441,7 +2503,7 @@ When this artifact enters, exile target card from a graveyard.
 {1}, {T}, Sacrifice this artifact: Draw a card.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/eoc/143/soul-guide-lantern
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/eoc/143/soul-guide-lantern
 
 ## 損魂魔道士（Soul-Scar Mage）
 
@@ -2921,6 +2983,16 @@ Infusion — At the beginning of your end step, sacrifice a permanent unless you
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/102/tragedy-feaster
 
+## 異形化（Transmogrify）
+
+{3}{R}　Sorcery
+
+```
+Exile target creature. That creature's controller reveals cards from the top of their library until they reveal a creature card. That player puts that card onto the battlefield, then shuffles the rest into their library.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/m21/167/transmogrify
+
 ## 宝船の巡航（Treasure Cruise）
 
 {7}{U}　Sorcery
@@ -3157,7 +3229,7 @@ When this creature enters, if {U}{U} was spent to cast it, draw two cards, then 
 Evoke {G/U}{G/U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/ecl/252/wistfulness
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/ecl/252/wistfulness
 
 ## 魔女のかまど（Witch's Oven）
 
@@ -3239,3 +3311,13 @@ Flying, double strike, vigilance, trample, indestructible
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdc/142/zetalpa-primal-dawn
+
+## ゾンビ化（Zombify）
+
+{3}{B}　Sorcery
+
+```
+Return target creature card from your graveyard to the battlefield.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/187/zombify
