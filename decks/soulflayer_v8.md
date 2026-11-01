@@ -1,6 +1,6 @@
-# 魂剥ぎV8（リビエン型）の75枚
+# 魂剥ぎV8（リビエン型）
 
-作成: 2026-11-01。`notes/soulflayer_v8_proposal.md` の第7版のメインと、第8版のサイドボード（ゴルガリ戦のプランは `notes/soulflayer_v8_matchup_sim.md` の計算で直したもの）をまとめた。まだ実戦で使っていないので、すべて検証前の構築として扱う。75枚のカードはすべてパイオニアで使え、Arenaにある（Scryfall、2026-11-01に確認）。
+作成: 2026-11-01。2026-11-01に現行デッキとして登録した。`notes/soulflayer_v8_proposal.md` の第7版のメインと、第8版のサイドボード（ゴルガリ戦のプランは `notes/soulflayer_v8_matchup_sim.md` の計算で直したもの）をまとめた。まだ実戦で使っていないので、すべて検証前の構築として扱う。75枚のカードはすべてパイオニアで使え、Arenaにある（Scryfall、2026-11-01に確認）。
 
 ## メイン60枚
 
@@ -45,14 +45,14 @@
 | 2 | 突然の衰微（Abrupt Decay） | マナ総量3以下の土地でないパーマネントの破壊 |
 | 1 | 魂標ランタン（Soul-Guide Lantern） | 相手の墓地だけを追放する |
 
-## Arena形式
+## リスト（カード名はScryfallの英語名）
 
-スーペリア・スパイダーマンは、Arenaでは「Kavaero, Mind-Bitten」と表示される。
+`tools/fetch_oracle.py` はこのコードブロックからカードを拾う。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` にある（スーペリア・スパイダーマンだけArenaでの名前が違う）。
 
 ```
 Deck
 4 Soulflayer
-4 Kavaero, Mind-Bitten
+4 Superior Spider-Man
 4 Striped Riverwinder
 3 Samut, Voice of Dissent
 2 Bringer of the Last Gift

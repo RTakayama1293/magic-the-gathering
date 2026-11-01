@@ -1,6 +1,6 @@
 # 魂剥ぎV8（リビエン型）の構築案
 
-作成: 2026-11-01。まとめた75枚は `notes/soulflayer_v8_75.md` にある。役割別の候補は `notes/soulflayer_v8_card_pool.md`、妨害の計算は `notes/soulflayer_v8_interaction_sim.md` にある。この2つを見て、この案を直す予定。まだ1試合も使っていない構築案なので、カードの採否と枚数はすべて検証前の案として扱う。判断の手順は `notes/decision_criteria.md`、知見は `notes/knowledge_layers.md` に従った。
+作成: 2026-11-01。まとめた75枚は `decks/soulflayer_v8.md` にある（2026-11-01に現行デッキとして登録）。役割別の候補は `notes/soulflayer_v8_card_pool.md`、妨害の計算は `notes/soulflayer_v8_interaction_sim.md` にある。この2つを見て、この案を直す予定。まだ1試合も使っていない構築案なので、カードの採否と枚数はすべて検証前の案として扱う。判断の手順は `notes/decision_criteria.md`、知見は `notes/knowledge_layers.md` に従った。
 
 根拠の表記は次のとおり。
 

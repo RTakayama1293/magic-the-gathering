@@ -15,7 +15,7 @@
 - `match_log_entry_guide.md` はSoulflayer V6時代の版。Archfiend Alteration用のSB Depthの扱いが決まったら書き直す
 - （完了）Notion戦績DBのSoulflayer時代の102件に `使用デッキ` =「Soulflayer」を入れた。2026-10-31にDBを読み戻し、空欄0件、Soulflayer 102件（37勝65敗）、Archfiend Alteration 18件（9勝9敗）を確認した
 - 再開デッキの選択: Archfiend Alterationに戻るか、Soulflayerを再開するか
-- 魂剥ぎV8（スーペリア・スパイダーマン＋最後の贈り物の運び手＋魂剥ぎのスゥルタイ）の構築案を `notes/soulflayer_v8_proposal.md` に書いた（2026-11-01）。現行デッキとして `decks/` に登録するかは未決
+- 魂剥ぎV8（スーペリア・スパイダーマン＋最後の贈り物の運び手＋魂剥ぎのスゥルタイ）を2026-11-01に現行デッキとして登録した（`decks/soulflayer_v8.md`）。実戦で確かめることは同じファイルの末尾にある
 - `meta/2026-10_metagame.md` の分析をもとに、Archfiend Alterationを今の環境に持ち込むかを議論する（イゼット果敢・赤単果敢・ジャンド・サクリファイスへのSBプランが無い）
 - 次の禁止改定の発表（2026-11-30）の後に、`.claude/skills/meta-update/SKILL.md` の手順でメタを調べ直す
 
