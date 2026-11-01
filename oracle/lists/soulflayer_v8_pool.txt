@@ -62,3 +62,22 @@ Heritage Reclamation
 Seedship Impact
 Quandrix Charm
 Twilight Diviner
+# 2026-11-01 Scryfall Taggerのタグで検索し直して見つかった候補
+Pick Your Poison
+Devour Flesh
+Deadly Brew
+Bile Blight
+Winter's Intervention
+Multiply by Zero
+Eaten by Piranhas
+Dina's Guidance
+Jarad's Orders
+Vile Entomber
+Lotuslight Dancers
+Final Parting
+Gravebreaker Lamia
+Fauna Shaman
+Formidable Speaker
+Uldaros Theorix
+Macabre Waltz
+Liliana of the Veil

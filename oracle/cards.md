@@ -237,6 +237,16 @@ When Beza enters, create a Treasure token if an opponent controls more lands tha
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/blb/2/beza-the-bounding-spring
 
+## 胆汁病（Bile Blight）
+
+{B}{B}　Instant
+
+```
+Target creature and all other creatures with the same name as that creature get -3/-3 until end of turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/bng/61/bile-blight
+
 ## 苦々しい勝利（Bitter Triumph）
 
 {1}{B}　Instant
@@ -578,6 +588,16 @@ This land enters tapped unless you control two or fewer other lands.
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/otc/281/darkslick-shores
 
+## 死に至る醸造（Deadly Brew）
+
+{B}{G}　Sorcery
+
+```
+Each player sacrifices a creature or planeswalker of their choice. If you sacrificed a permanent this way, you may return another permanent card from your graveyard to your hand.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/soc/303/deadly-brew
+
 ## 耳の痛い静寂（Deafening Silence）
 
 {W}　Enchantment
@@ -633,6 +653,16 @@ If you control two or more other lands, this land enters tapped.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/afr/254/den-of-the-bugbear
 
+## 肉貪り（Devour Flesh）
+
+{1}{B}　Instant
+
+```
+Target player sacrifices a creature of their choice, then gains life equal to that creature's toughness.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/gtc/63/devour-flesh
+
 ## ダイナの導き（Dina's Guidance）
 
 {1}{B}{G}　Instant
@@ -641,7 +671,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scry
 Search your library for a creature card, reveal it, put it into your hand or graveyard, then shuffle.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/184/dinas-guidance
+Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates;list:soulflayer_v8_pool　https://scryfall.com/card/sos/184/dinas-guidance
 
 ## メカの天才（Does Machines）
 
@@ -713,6 +743,18 @@ Target opponent reveals their hand. You choose a noncreature, nonland card from 
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/fdn/606/duress
+
+## ピラニアによる摂食（Eaten by Piranhas）
+
+{1}{U}　Enchantment — Aura
+
+```
+Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature loses all abilities and is a black Skeleton creature with base power and toughness 1/1. (It loses all other colors, card types, and creature types.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/507/eaten-by-piranhas
 
 ## 皇国の地、永岩城（Eiganjo, Seat of the Empire）
 
@@ -886,6 +928,26 @@ Revolt — Destroy that creature if it has mana value 4 or less instead if a per
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/2xm/93/fatal-push
 
+## 獣相のシャーマン（Fauna Shaman）
+
+{1}{G}　Creature — Elf Shaman　2/2
+
+```
+{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/bro/179/fauna-shaman
+
+## 最後の別れ（Final Parting）
+
+{3}{B}{B}　Sorcery
+
+```
+Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/cmm/160/final-parting
+
 ## 火の技の修行（Firebending Lesson）
 
 {R}　Instant — Lesson
@@ -917,6 +979,17 @@ Look at the top three cards of your library. Put one of them into your hand and 
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/sos/49/flow-state
+
+## 並外れた語り部（Formidable Speaker）
+
+{2}{G}　Creature — Elf Druid　2/4
+
+```
+When this creature enters, you may discard a card. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.
+{1}, {T}: Untap another target permanent.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/176/formidable-speaker
 
 ## 群れの結集（Gather the Pack）
 
@@ -1038,6 +1111,18 @@ Reanimate: Put target creature card from a graveyard onto the battlefield under 
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/85/grave-researcher-reanimate
+
+## 墓破りのラミア（Gravebreaker Lamia）
+
+{4}{B}　Enchantment Creature — Snake Lamia　4/4
+
+```
+Lifelink
+When this creature enters, search your library for a card, put it into your graveyard, then shuffle.
+Spells you cast from your graveyard cost {1} less to cast.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/thb/98/gravebreaker-lamia
 
 ## 墓地の侵入者 // 墓地の大食い（Graveyard Trespasser // Graveyard Glutton）
 
@@ -1242,6 +1327,16 @@ Empower Jace 8. (Put eight loyalty counters on a Jace token you control. If you 
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/fra/32/jaces-machinations
 
+## ジャラドの命令（Jarad's Orders）
+
+{2}{B}{G}　Sorcery
+
+```
+Search your library for up to two creature cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/rtr/175/jarads-orders
+
 ## 悪夢滅ぼし、魁渡（Kaito, Bane of Nightmares）
 
 {2}{U}{B}　Legendary Planeswalker — Kaito　忠誠4
@@ -1421,7 +1516,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryf
 −6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/inr/475/liliana-of-the-veil
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/inr/475/liliana-of-the-veil
 
 ## 悔いし者、リリアナ（Liliana the Repentant）
 
@@ -1517,6 +1612,27 @@ When this land enters, sacrifice two lands.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/385/lotus-field
+
+## 睡蓮光の舞踊団（Lotuslight Dancers）
+
+{2}{B}{G}{U}　Creature — Zombie Bard　3/6
+
+```
+Lifelink
+When this creature enters, search your library for a black card, a green card, and a blue card. Put those cards into your graveyard, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdm/204/lotuslight-dancers
+
+## 死の円舞曲（Macabre Waltz）
+
+{1}{B}　Sorcery
+
+```
+Return up to two target creature cards from your graveyard to your hand, then discard a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/177/macabre-waltz
 
 ## 魔道士封じのトカゲ（Magebane Lizard）
 
@@ -1660,6 +1776,16 @@ Infusion — At the beginning of your end step, if you gained life this turn, re
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/91/moseo-veins-new-dean
+
+## ゼロ乗算（Multiply by Zero）
+
+{1}{B}　Instant
+
+```
+Target creature has base power and toughness 0/0 until end of turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/58/multiply-by-zero
 
 ## 変わり谷（Mutavault）
 
@@ -1805,7 +1931,7 @@ Choose one —
 • Each opponent sacrifices a creature with flying of their choice.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/mkm/170/pick-your-poison
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/mkm/170/pick-your-poison
 
 ## ピナクルの星檻（Pinnacle Starcage）
 
@@ -2769,6 +2895,17 @@ Whenever one or more other creatures you control enter, if they entered or were 
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/122/twilight-diviner
 
+## ウルダロス・セオリクス（Uldaros Theorix）
+
+{3}{U}{B}{B}　Legendary Creature — Elder Sphinx　5/5
+
+```
+Flying
+When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/159/uldaros-theorix
+
 ## 地底街の密告人（Undercity Informer）
 
 {2}{B}　Creature — Human Rogue　2/3
@@ -2895,6 +3032,17 @@ Evoke {R/G}{R/G}
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/ecl/249/vibrance
 
+## 不快な納墓役（Vile Entomber）
+
+{2}{B}{B}　Creature — Zombie Warlock　2/2
+
+```
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+When this creature enters, search your library for a card, put that card into your graveyard, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/616/vile-entomber
+
 ## 悪性の疫病（Virulent Plague）
 
 {2}{B}　Enchantment
@@ -2940,6 +3088,16 @@ As this land enters, you may pay 2 life. If you don't, it enters tapped.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/trk/306/watery-grave
+
+## ウィンターの介入（Winter's Intervention）
+
+{1}{B}　Instant
+
+```
+Winter's Intervention deals 2 damage to target creature. You gain 2 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dsk/123/winters-intervention
 
 ## 幽愁（Wistfulness）
 

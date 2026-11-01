@@ -44,6 +44,7 @@ Bassara Tower Archer,バサーラ塔の弓兵,,{G}{G},2.0,Creature — Human Arc
 Beseech the Mirror,鏡に願いを,,{1}{B}{B}{B},4.0,Sorcery,,"Bargain (You may sacrifice an artifact, enchantment, or token as you cast this spell.)
 Search your library for a card, exile it face down, then shuffle. If this spell was bargained, you may cast the exiled card without paying its mana cost if that spell's mana value is 4 or less. Put the exiled card into your hand if it wasn't cast this way.",legal,yes,WOE,2023-09-08,deck:archfiend_alteration_v0,https://scryfall.com/card/woe/82/beseech-the-mirror,2026-11-01
 "Beza, the Bounding Spring",跳ねる春、ベーザ,,{2}{W}{W},4.0,Legendary Creature — Elemental Elk,4/5,"When Beza enters, create a Treasure token if an opponent controls more lands than you. You gain 4 life if an opponent has more life than you. Create two 1/1 blue Fish creature tokens if an opponent controls more creatures than you. Draw a card if an opponent has more cards in hand than you.",legal,yes,BLB,2024-08-02,list:opponents,https://scryfall.com/card/blb/2/beza-the-bounding-spring,2026-11-01
+Bile Blight,胆汁病,,{B}{B},2.0,Instant,,Target creature and all other creatures with the same name as that creature get -3/-3 until end of turn.,legal,yes,BNG,2014-02-07,list:soulflayer_v8_pool,https://scryfall.com/card/bng/61/bile-blight,2026-11-01
 Bitter Triumph,苦々しい勝利,,{1}{B},2.0,Instant,,"As an additional cost to cast this spell, discard a card or pay 3 life.
 Destroy target creature or planeswalker.",legal,yes,TRC,2026-11-13,list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/trc/445/bitter-triumph,2026-11-01
 Blackcleave Cliffs,黒割れの崖,,,0.0,Land,,"This land enters tapped unless you control two or fewer other lands.
@@ -106,6 +107,7 @@ Darklight Phoenix,夜光のフェニックス,,{3}{B},4.0,Creature — Phoenix,3
 At the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",legal,yes,FRA,2026-10-02,list:meta_2026-10,https://scryfall.com/card/fra/53/darklight-phoenix,2026-11-01
 Darkslick Shores,闇滑りの岸,,,0.0,Land,,"This land enters tapped unless you control two or fewer other lands.
 {T}: Add {U} or {B}.",legal,yes,OTC,2024-04-19,deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/otc/281/darkslick-shores,2026-11-01
+Deadly Brew,死に至る醸造,,{B}{G},2.0,Sorcery,,"Each player sacrifices a creature or planeswalker of their choice. If you sacrificed a permanent this way, you may return another permanent card from your graveyard to your hand.",legal,yes,SOC,2026-04-24,list:soulflayer_v8_pool,https://scryfall.com/card/soc/303/deadly-brew,2026-11-01
 Deafening Silence,耳の痛い静寂,,{W},1.0,Enchantment,,Each player can't cast more than one noncreature spell each turn.,legal,yes,ELD,2019-10-04,list:referenced,https://scryfall.com/card/eld/10/deafening-silence,2026-11-01
 Death in the Family,家族との死別,,{1}{B},2.0,Instant,,Exile target creature with mana value 3 or less.,legal,yes,TMT,2026-03-06,list:soulflayer_v8_pool,https://scryfall.com/card/tmt/61/death-in-the-family,2026-11-01
 Deceit,欺瞞,,{4}{U/B}{U/B},6.0,Creature — Elemental Incarnation,5/5,"When this creature enters, if {U}{U} was spent to cast it, return up to one other target nonland permanent to its owner's hand.
@@ -116,7 +118,8 @@ When this creature enters, look at target opponent's hand. You may exile a nonla
 Den of the Bugbear,バグベアの居住地,,,0.0,Land,,"If you control two or more other lands, this land enters tapped.
 {T}: Add {R}.
 {3}{R}: Until end of turn, this land becomes a 3/2 red Goblin creature with ""Whenever this creature attacks, create a 1/1 red Goblin creature token that's tapped and attacking."" It's still a land.",legal,yes,AFR,2021-07-23,list:referenced,https://scryfall.com/card/afr/254/den-of-the-bugbear,2026-11-01
-Dina's Guidance,ダイナの導き,,{1}{B}{G},3.0,Instant,,"Search your library for a creature card, reveal it, put it into your hand or graveyard, then shuffle.",legal,yes,SOS,2026-04-24,list:sos_candidates,https://scryfall.com/card/sos/184/dinas-guidance,2026-11-01
+Devour Flesh,肉貪り,,{1}{B},2.0,Instant,,"Target player sacrifices a creature of their choice, then gains life equal to that creature's toughness.",legal,yes,GTC,2013-02-01,list:soulflayer_v8_pool,https://scryfall.com/card/gtc/63/devour-flesh,2026-11-01
+Dina's Guidance,ダイナの導き,,{1}{B}{G},3.0,Instant,,"Search your library for a creature card, reveal it, put it into your hand or graveyard, then shuffle.",legal,yes,SOS,2026-04-24,list:sos_candidates;list:soulflayer_v8_pool,https://scryfall.com/card/sos/184/dinas-guidance,2026-11-01
 Does Machines,メカの天才,,{1}{U},2.0,Enchantment — Class,,"(Gain the next level as a sorcery to add its ability.)
 When this Class enters, mill two cards, draw two cards, then discard two cards.
 {1}{U}: Level 2
@@ -134,6 +137,9 @@ Double strike (This creature deals both first-strike and regular combat damage.)
 Lifelink (Damage dealt by this creature also causes you to gain that much life.)
 Whenever you gain life, draw a card.",legal,yes,FDN,2024-11-15,list:soulflayer_v8_pool,https://scryfall.com/card/fdn/655/drogskol-reaver,2026-11-01
 Duress,強迫,,{B},1.0,Sorcery,,"Target opponent reveals their hand. You choose a noncreature, nonland card from it. That player discards that card.",legal,yes,FDN,2024-11-15,deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/fdn/606/duress,2026-11-01
+Eaten by Piranhas,ピラニアによる摂食,,{1}{U},2.0,Enchantment — Aura,,"Flash (You may cast this spell any time you could cast an instant.)
+Enchant creature
+Enchanted creature loses all abilities and is a black Skeleton creature with base power and toughness 1/1. (It loses all other colors, card types, and creature types.)",legal,yes,FDN,2024-11-15,list:soulflayer_v8_pool,https://scryfall.com/card/fdn/507/eaten-by-piranhas,2026-11-01
 "Eiganjo, Seat of the Empire",皇国の地、永岩城,,,0.0,Legendary Land,,"{T}: Add {W}.
 Channel — {2}{W}, Discard this card: It deals 4 damage to target attacking or blocking creature. This ability costs {1} less to activate for each legendary creature you control.",legal,yes,NEO,2022-02-18,list:referenced,https://scryfall.com/card/neo/268/eiganjo-seat-of-the-empire,2026-11-01
 Emberheart Challenger,熾火心の挑戦者,,{1}{R},2.0,Creature — Mouse Warrior,2/2,"Haste
@@ -180,11 +186,15 @@ Farewell,告別,,{4}{W}{W},6.0,Sorcery,,"Choose one or more —
 • Exile all graveyards.",legal,yes,MKC,2024-02-09,list:opponents,https://scryfall.com/card/mkc/64/farewell,2026-11-01
 Fatal Push,致命的な一押し,,{B},1.0,Instant,,"Destroy target creature if it has mana value 2 or less.
 Revolt — Destroy that creature if it has mana value 4 or less instead if a permanent left the battlefield under your control this turn.",legal,yes,2XM,2020-08-07,deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/2xm/93/fatal-push,2026-11-01
+Fauna Shaman,獣相のシャーマン,,{1}{G},2.0,Creature — Elf Shaman,2/2,"{G}, {T}, Discard a creature card: Search your library for a creature card, reveal it, put it into your hand, then shuffle.",legal,yes,BRO,2022-11-18,list:soulflayer_v8_pool,https://scryfall.com/card/bro/179/fauna-shaman,2026-11-01
+Final Parting,最後の別れ,,{3}{B}{B},5.0,Sorcery,,Search your library for two cards. Put one into your hand and the other into your graveyard. Then shuffle.,legal,yes,CMM,2023-08-04,list:soulflayer_v8_pool,https://scryfall.com/card/cmm/160/final-parting,2026-11-01
 Firebending Lesson,火の技の修行,,{R},1.0,Instant — Lesson,,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
 Firebending Lesson deals 2 damage to target creature. If this spell was kicked, it deals 5 damage to that creature instead.",legal,yes,TLA,2025-11-21,list:opponents,https://scryfall.com/card/tla/138/firebending-lesson,2026-11-01
 Fleeting Spirit,束の間の霊魂,,{1}{W},2.0,Creature — Spirit,3/1,"{W}, Exile three cards from your graveyard: This creature gains first strike until end of turn.
 Discard a card: Exile this creature. Return it to the battlefield under its owner's control at the beginning of the next end step.",legal,yes,VOW,2021-11-19,list:opponents,https://scryfall.com/card/vow/14/fleeting-spirit,2026-11-01
 Flow State,没頭,,{1}{U},2.0,Sorcery,,"Look at the top three cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order. If there is an instant card and a sorcery card in your graveyard, instead put two of them into your hand and the rest on the bottom of your library in any order.",legal,yes,SOS,2026-04-24,list:meta_2026-10,https://scryfall.com/card/sos/49/flow-state,2026-11-01
+Formidable Speaker,並外れた語り部,,{2}{G},3.0,Creature — Elf Druid,2/4,"When this creature enters, you may discard a card. If you do, search your library for a creature card, reveal it, put it into your hand, then shuffle.
+{1}, {T}: Untap another target permanent.",legal,yes,ECL,2026-01-23,list:soulflayer_v8_pool,https://scryfall.com/card/ecl/176/formidable-speaker,2026-11-01
 Gather the Pack,群れの結集,,{1}{G},2.0,Sorcery,,"Reveal the top five cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
 Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, put up to two creature cards from among the revealed cards into your hand instead of one.",legal,yes,ORI,2015-07-17,list:soulflayer_v8_pool,https://scryfall.com/card/ori/178/gather-the-pack,2026-11-01
 Germination Practicum,発芽の実習,,{3}{G}{G},5.0,Sorcery — Lesson,,"Put two +1/+1 counters on each creature you control.
@@ -207,6 +217,9 @@ Players can't cast spells from graveyards or libraries.",legal,yes,M20,2019-07-1
 Grave Researcher // Reanimate,墓場の研究者,Grave Researcher // Reanimate,{2}{B} // {B},3.0,Creature — Troll Warlock // Sorcery,3/3,"Grave Researcher: At the beginning of your upkeep, surveil 1. Then if there are three or more creature cards in your graveyard, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
 //
 Reanimate: Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",legal,yes,SOS,2026-04-24,list:sos_candidates,https://scryfall.com/card/sos/85/grave-researcher-reanimate,2026-11-01
+Gravebreaker Lamia,墓破りのラミア,,{4}{B},5.0,Enchantment Creature — Snake Lamia,4/4,"Lifelink
+When this creature enters, search your library for a card, put it into your graveyard, then shuffle.
+Spells you cast from your graveyard cost {1} less to cast.",legal,yes,THB,2020-01-24,list:soulflayer_v8_pool,https://scryfall.com/card/thb/98/gravebreaker-lamia,2026-11-01
 Graveyard Trespasser // Graveyard Glutton,墓地の侵入者 // 墓地の大食い,,{2}{B},3.0,Creature — Human Werewolf // Creature — Werewolf,3/3 // 4/4,"Graveyard Trespasser: Ward—Discard a card.
 Whenever this creature enters or attacks, exile up to one target card from a graveyard. If a creature card was exiled this way, each opponent loses 1 life and you gain 1 life.
 Daybound (If a player casts no spells during their own turn, it becomes night next turn.)
@@ -248,6 +261,7 @@ Invoke Despair,絶望招来,,{1}{B}{B}{B}{B},5.0,Sorcery,,"Target opponent sacri
 Iron-Shield Elf,鉄盾のエルフ,,{1}{B},2.0,Creature — Elf Warrior,3/1,"Discard a card: This creature gains indestructible until end of turn. Tap it. (Damage and effects that say ""destroy"" don't destroy it. If its toughness is 0 or less, it still dies.)",legal,yes,ECL,2026-01-23,list:opponents,https://scryfall.com/card/ecl/108/iron-shield-elf,2026-11-01
 Jace's Machinations,ジェイスの策謀,,{2}{U},3.0,Instant,,"Until end of turn, you may activate loyalty abilities of Jace planeswalkers you control on any player's turn any time you could cast an instant.
 Empower Jace 8. (Put eight loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with ""[−1]: Surveil 1"" and ""[−3]: Draw a card."")",legal,yes,FRA,2026-10-02,list:meta_2026-10,https://scryfall.com/card/fra/32/jaces-machinations,2026-11-01
+Jarad's Orders,ジャラドの命令,,{2}{B}{G},4.0,Sorcery,,Search your library for up to two creature cards and reveal them. Put one into your hand and the other into your graveyard. Then shuffle.,legal,yes,RTR,2012-10-05,list:soulflayer_v8_pool,https://scryfall.com/card/rtr/175/jarads-orders,2026-11-01
 "Kaito, Bane of Nightmares",悪夢滅ぼし、魁渡,,{2}{U}{B},4.0,Legendary Planeswalker — Kaito,忠誠4,"Ninjutsu {1}{U}{B} ({1}{U}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
 During your turn, as long as Kaito has one or more loyalty counters on him, he's a 3/4 Ninja creature and has hexproof.
 +1: You get an emblem with ""Ninjas you control get +1/+1.""
@@ -293,7 +307,7 @@ Lightning Axe,稲妻の斧,,{R},1.0,Instant,,"As an additional cost to cast this
 Lightning Axe deals 5 damage to target creature.",legal,yes,INR,2025-01-24,list:opponents,https://scryfall.com/card/inr/162/lightning-axe,2026-11-01
 Liliana of the Veil,ヴェールのリリアナ,,{1}{B}{B},3.0,Legendary Planeswalker — Liliana,忠誠3,"+1: Each player discards a card.
 −2: Target player sacrifices a creature.
-−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.",legal,yes,INR,2025-01-24,list:opponents,https://scryfall.com/card/inr/475/liliana-of-the-veil,2026-11-01
+−6: Separate all permanents target player controls into two piles. That player sacrifices all permanents in the pile of their choice.",legal,yes,INR,2025-01-24,list:opponents;list:soulflayer_v8_pool,https://scryfall.com/card/inr/475/liliana-of-the-veil,2026-11-01
 Liliana the Repentant,悔いし者、リリアナ,,{1}{B},2.0,Legendary Creature — Human Warlock,2/2,"Whenever another creature or planeswalker you control enters, mill two cards.
 Exhaust — {5}{B}: Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter on Liliana. Activate only as a sorcery. (Activate each exhaust ability only once.)",legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/231/liliana-the-repentant,2026-11-01
 Lion Sash,獅子の飾緒,,{1}{W},2.0,Artifact Creature — Equipment Cat,1/1,"{W}: Exile target card from a graveyard. If it was a permanent card, put a +1/+1 counter on this permanent.
@@ -317,6 +331,9 @@ Lotus Field,睡蓮の原野,,,0.0,Land,,"Hexproof
 This land enters tapped.
 When this land enters, sacrifice two lands.
 {T}: Add three mana of any one color.",legal,yes,SOC,2026-04-24,list:opponents,https://scryfall.com/card/soc/385/lotus-field,2026-11-01
+Lotuslight Dancers,睡蓮光の舞踊団,,{2}{B}{G}{U},5.0,Creature — Zombie Bard,3/6,"Lifelink
+When this creature enters, search your library for a black card, a green card, and a blue card. Put those cards into your graveyard, then shuffle.",legal,yes,TDM,2025-04-11,list:soulflayer_v8_pool,https://scryfall.com/card/tdm/204/lotuslight-dancers,2026-11-01
+Macabre Waltz,死の円舞曲,,{1}{B},2.0,Sorcery,,"Return up to two target creature cards from your graveyard to your hand, then discard a card.",legal,yes,FDN,2024-11-15,list:soulflayer_v8_pool,https://scryfall.com/card/fdn/177/macabre-waltz,2026-11-01
 Magebane Lizard,魔道士封じのトカゲ,,{1}{R},2.0,Creature — Lizard,1/4,"Whenever a player casts a noncreature spell, this creature deals damage to that player equal to the number of noncreature spells they've cast this turn.",legal,yes,OTJ,2024-04-19,list:opponents,https://scryfall.com/card/otj/134/magebane-lizard,2026-11-01
 "Mai, Scornful Striker",見下す高手、メイ,,{1}{B},2.0,Legendary Creature — Human Noble Ally,2/2,"First strike
 Whenever a player casts a noncreature spell, they lose 2 life.",legal,yes,TLA,2025-11-21,deck:archfiend_alteration_v0,https://scryfall.com/card/tla/109/mai-scornful-striker,2026-11-01
@@ -343,6 +360,7 @@ Whenever this creature deals combat damage to a player, you may draw a card. If 
 "Moseo, Vein's New Dean",脈の新学部長、モセオ,,{2}{B},3.0,Legendary Creature — Bird Skeleton Warlock,2/1,"Flying
 When Moseo enters, create a 1/1 black and green Pest creature token with ""Whenever this token attacks, you gain 1 life.""
 Infusion — At the beginning of your end step, if you gained life this turn, return up to one target creature card with mana value X or less from your graveyard to the battlefield, where X is the amount of life you gained this turn.",legal,yes,SOS,2026-04-24,list:sos_candidates,https://scryfall.com/card/sos/91/moseo-veins-new-dean,2026-11-01
+Multiply by Zero,ゼロ乗算,,{1}{B},2.0,Instant,,Target creature has base power and toughness 0/0 until end of turn.,legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/58/multiply-by-zero,2026-11-01
 Mutavault,変わり谷,,,0.0,Land,,"{T}: Add {C}.
 {1}: This land becomes a 2/2 creature with all creature types until end of turn. It's still a land.",legal,yes,TRC,2026-11-13,list:referenced,https://scryfall.com/card/trc/542/mutavault,2026-11-01
 Mystical Dispute,神秘の論争,,{2}{U},3.0,Instant,,"This spell costs {2} less to cast if it targets a blue spell.
@@ -371,7 +389,7 @@ Cycling {2} ({2}, Discard this card: Draw a card.)",legal,yes,TRC,2026-11-13,lis
 Pick Your Poison,毒を選べ,,{G},1.0,Sorcery,,"Choose one —
 • Each opponent sacrifices an artifact of their choice.
 • Each opponent sacrifices an enchantment of their choice.
-• Each opponent sacrifices a creature with flying of their choice.",legal,yes,MKM,2024-02-09,list:referenced,https://scryfall.com/card/mkm/170/pick-your-poison,2026-11-01
+• Each opponent sacrifices a creature with flying of their choice.",legal,yes,MKM,2024-02-09,list:referenced;list:soulflayer_v8_pool,https://scryfall.com/card/mkm/170/pick-your-poison,2026-11-01
 Pinnacle Starcage,ピナクルの星檻,,{1}{W}{W},3.0,Artifact,,"When this artifact enters, exile all artifacts and creatures with mana value 2 or less until this artifact leaves the battlefield.
 {6}{W}{W}: Put each card exiled with this artifact into its owner's graveyard, then create a 2/2 colorless Robot artifact creature token for each card put into a graveyard this way. Sacrifice this artifact.",legal,yes,EOE,2025-08-01,list:soulflayer_v6,https://scryfall.com/card/eoe/27/pinnacle-starcage,2026-11-01
 Pithing Needle,真髄の針,,{1},1.0,Artifact,,"As this artifact enters, choose a card name.
@@ -569,6 +587,8 @@ Treasure Cruise,宝船の巡航,,{7}{U},8.0,Sorcery,,"Delve (Each card you exile
 Draw three cards.",legal,yes,SOC,2026-04-24,list:opponents,https://scryfall.com/card/soc/205/treasure-cruise,2026-11-01
 Twilight Diviner,黄昏の占者,,{2}{B},3.0,Creature — Elf Cleric,3/3,"When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn.",legal,yes,ECL,2026-01-23,list:soulflayer_v8_pool,https://scryfall.com/card/ecl/122/twilight-diviner,2026-11-01
+Uldaros Theorix,ウルダロス・セオリクス,,{3}{U}{B}{B},6.0,Legendary Creature — Elder Sphinx,5/5,"Flying
+When Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)",legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/159/uldaros-theorix,2026-11-01
 Undercity Informer,地底街の密告人,,{2}{B},3.0,Creature — Human Rogue,2/3,"{1}, Sacrifice a creature: Target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.",banned,no,GTC,2013-02-01,list:referenced,https://scryfall.com/card/gtc/82/undercity-informer,2026-11-01
 Undercity Sewers,地底街の下水道,,,0.0,Land — Island Swamp,,"({T}: Add {U} or {B}.)
 This land enters tapped.
@@ -596,6 +616,8 @@ Vat Emergence,槽の出現,,{4}{B},5.0,Sorcery,,"Put target creature card from a
 Vibrance,鮮麗,,{3}{R/G}{R/G},5.0,Creature — Elemental Incarnation,4/4,"When this creature enters, if {R}{R} was spent to cast it, this creature deals 3 damage to any target.
 When this creature enters, if {G}{G} was spent to cast it, search your library for a land card, reveal it, put it into your hand, then shuffle. You gain 2 life.
 Evoke {R/G}{R/G}",legal,yes,ECL,2026-01-23,list:referenced,https://scryfall.com/card/ecl/249/vibrance,2026-11-01
+Vile Entomber,不快な納墓役,,{2}{B}{B},4.0,Creature — Zombie Warlock,2/2,"Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+When this creature enters, search your library for a card, put that card into your graveyard, then shuffle.",legal,yes,FDN,2024-11-15,list:soulflayer_v8_pool,https://scryfall.com/card/fdn/616/vile-entomber,2026-11-01
 Virulent Plague,悪性の疫病,,{2}{B},3.0,Enchantment,,Creature tokens get -2/-2.,legal,yes,DTK,2015-03-27,deck:archfiend_alteration_v0,https://scryfall.com/card/dtk/125/virulent-plague,2026-11-01
 Void Extrapolator // Omit Variables,虚空の外挿者,,{1}{B} // {U/B},2.0,Creature — Aetherborn Warlock // Sorcery,2/2,"Void Extrapolator: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
 Threshold — This creature gets +1/+1 as long as there are seven or more cards in your graveyard.
@@ -606,6 +628,7 @@ Vraska's Final Mercy,ヴラスカの最後の慈悲,,{B}{B},2.0,Sorcery,,"Choose
 • You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with ""[−1]: Surveil 1"" and ""[−3]: Draw a card."")",legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/71/vraskas-final-mercy,2026-11-01
 Watery Grave,湿った墓,,,0.0,Land — Island Swamp,,"({T}: Add {U} or {B}.)
 As this land enters, you may pay 2 life. If you don't, it enters tapped.",legal,yes,TRK,2026-11-13,deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/trk/306/watery-grave,2026-11-01
+Winter's Intervention,ウィンターの介入,,{1}{B},2.0,Instant,,Winter's Intervention deals 2 damage to target creature. You gain 2 life.,legal,yes,DSK,2024-09-27,list:soulflayer_v8_pool,https://scryfall.com/card/dsk/123/winters-intervention,2026-11-01
 Wistfulness,幽愁,,{3}{G/U}{G/U},5.0,Creature — Elemental Incarnation,6/5,"When this creature enters, if {G}{G} was spent to cast it, exile target artifact or enchantment an opponent controls.
 When this creature enters, if {U}{U} was spent to cast it, draw two cards, then discard a card.
 Evoke {G/U}{G/U} (You may cast this spell for its evoke cost. If you do, it's sacrificed when it enters.)",legal,yes,ECL,2026-01-23,list:referenced,https://scryfall.com/card/ecl/252/wistfulness,2026-11-01
