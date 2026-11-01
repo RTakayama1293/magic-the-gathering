@@ -888,6 +888,18 @@ Destroy target creature or planeswalker. Its controller may search their library
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/15/erode
 
+## エシカの戦車（Esika's Chariot）
+
+{3}{G}　Legendary Artifact — Vehicle　4/4
+
+```
+When Esika's Chariot enters, create two 2/2 green Cat creature tokens.
+Whenever Esika's Chariot attacks, create a token that's a copy of target token you control.
+Crew 4
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/khm/169/esikas-chariot
+
 ## 絶滅の契機（Extinction Event）
 
 {3}{B}　Sorcery
@@ -911,7 +923,7 @@ III — Exile this Saga, then return it to the battlefield transformed under you
 Reflection of Kiki-Jiki: {1}, {T}: Create a token that's a copy of another target nonlegendary creature you control, except it has haste. Sacrifice it at the beginning of the next end step.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v8　https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki
 
 ## Faithful Mending
 
@@ -1328,6 +1340,17 @@ If you control two or more other lands, this land enters tapped.
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/afr/258/hive-of-the-eye-tyrant
 
+## 検体探し（Hunt for Specimens）
+
+{1}{B}　Sorcery
+
+```
+Create a 1/1 black and green Pest creature token with "When this token dies, you gain 1 life."
+Learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/stx/73/hunt-for-specimens
+
 ## 不屈の独創力（Indomitable Creativity）
 
 {X}{R}{R}{R}　Sorcery
@@ -1580,7 +1603,7 @@ As an additional cost to cast this spell, discard a card or pay {5}.
 Lightning Axe deals 5 damage to target creature.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/inr/162/lightning-axe
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/inr/162/lightning-axe
 
 ## ヴェールのリリアナ（Liliana of the Veil）
 
@@ -1784,6 +1807,18 @@ Mill four cards, then you may return a permanent card from among them to your ha
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/ecl/182/midnight-tilling
 
+## ミレックス（Mirrex）
+
+　Land — Sphere
+
+```
+{T}: Add {C}.
+{T}: Add one mana of any color. Activate only if this land entered this turn.
+{3}, {T}: Create a 1/1 colorless Phyrexian Mite artifact creature token with toxic 1 and "This token can't block." (Players dealt combat damage by it also get a poison counter.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/one/254/mirrex
+
 ## 溶鉄の崩壊（Molten Collapse）
 
 {B}{R}　Sorcery
@@ -1863,6 +1898,17 @@ Target creature has base power and toughness 0/0 until end of turn.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/58/multiply-by-zero
 
+## マルチバースへの通り道（Multiversal Passage）
+
+　Land
+
+```
+As this land enters, choose a basic land type. Then you may pay 2 life. If you don't, it enters tapped.
+This land is the chosen type.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/spm/180/multiversal-passage
+
 ## 変わり谷（Mutavault）
 
 　Land
@@ -1872,7 +1918,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　http
 {1}: This land becomes a 2/2 creature with all creature types until end of turn. It's still a land.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/trc/542/mutavault
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/trc/542/mutavault
 
 ## 神秘の論争（Mystical Dispute）
 
@@ -1961,6 +2007,17 @@ As this land enters, you may pay 2 life. If you don't, it enters tapped.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/trk/289/overgrown-tomb
+
+## ベイルマークの大主（Overlord of the Balemurk）
+
+{3}{B}{B}　Enchantment Creature — Avatar Horror　5/5
+
+```
+Impending 5—{1}{B} (If you cast this spell for its impending cost, it enters with five time counters and isn't a creature until the last is removed. At the beginning of your end step, remove a time counter from it.)
+Whenever this permanent enters or attacks, mill four cards, then you may return a non-Avatar creature card or a planeswalker card from your graveyard to your hand.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dsk/113/overlord-of-the-balemurk
 
 ## パラミシア・コロニエックス（Paramecia Coloniex）
 
@@ -2093,6 +2150,16 @@ Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10;list:soulflayer_v8　https://scryfall.com/card/sos/214/professor-dellian-fel
 
+## 象徴学の教授（Professor of Symbology）
+
+{1}{W}　Creature — Kor Cleric　2/1
+
+```
+When this creature enters, learn. (You may reveal a Lesson card you own from outside the game and put it into your hand, or discard a card to draw a card.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/stx/24/professor-of-symbology
+
 ## 紅蓮地獄（Pyroclasm）
 
 {1}{R}　Sorcery
@@ -2172,7 +2239,7 @@ Trample, haste
 Whenever Raph & Mikey attack, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers
+Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10;list:soulflayer_v8_pool　https://scryfall.com/card/tmt/167/raph-&-mikey-troublemakers
 
 ## 無謀な怒り（Reckless Rage）
 
@@ -2226,6 +2293,19 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:referenced　https://scryfall.com/card/big/4/rest-in-peace
+
+## 眠らずの小屋（Restless Cottage）
+
+　Land
+
+```
+This land enters tapped.
+{T}: Add {B} or {G}.
+{2}{B}{G}: This land becomes a 4/4 black and green Horror creature until end of turn. It's still a land.
+Whenever this land attacks, create a Food token and exile up to one target card from a graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/woe/258/restless-cottage
 
 ## 墓場からの復活（Rise from the Grave）
 
@@ -2662,6 +2742,20 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://s
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/frc/85/sulfurous-springs
 
+## 召喚：バハムート（Summon: Bahamut）
+
+{9}　Enchantment Creature — Saga Dragon　9/9
+
+```
+(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)
+I, II — Destroy up to one target nonland permanent.
+III — Draw two cards.
+IV — Mega Flare — This creature deals damage equal to the total mana value of other permanents you control to each opponent.
+Flying
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fin/1/summon:-bahamut
+
 ## 沈んだ城塞（Sunken Citadel）
 
 　Land — Cave
@@ -2941,6 +3035,19 @@ Target player reveals their hand. You choose a nonland card from it. That player
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/2xm/109/thoughtseize
 
+## 轟雷のブルードワゴン（Thundering Broodwagon）
+
+{2}{B}{B}{G}{G}　Artifact — Vehicle　6/5
+
+```
+Reach, menace
+When this Vehicle enters, destroy target nonland permanent an opponent controls with mana value 4 or less.
+Crew 3
+Cycling {2} ({2}, Discard this card: Draw a card.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dft/225/thundering-broodwagon
+
 ## 秘本掃き（Tome Scour）
 
 {U}　Sorcery
@@ -3072,7 +3179,7 @@ Ritual Chamber: When you unlock this door, create a 6/6 black Demon creature tok
 (You may cast either half. That door unlocks on the battlefield. As a sorcery, you may pay the mana cost of a locked door to unlock it.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:referenced　https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/dsk/118/unholy-annex-ritual-chamber
 
 ## 未認可霊柩車（Unlicensed Hearse）
 
@@ -3107,6 +3214,19 @@ Each land is a Swamp in addition to its other land types.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth
+
+## 恐怖を喰うもの、ヴァルガヴォス（Valgavoth, Terror Eater）
+
+{6}{B}{B}{B}　Legendary Creature — Elder Demon　9/9
+
+```
+Flying, lifelink
+Ward—Sacrifice three nonland permanents.
+If a card you didn't control would be put into an opponent's graveyard from anywhere, exile it instead.
+During your turn, you may play cards exiled with Valgavoth. If you cast a spell this way, pay life equal to its mana value rather than pay its mana cost.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dsk/120/valgavoth-terror-eater
 
 ## 吸血鬼の夜鷲（Vampire Nighthawk）
 
