@@ -40,11 +40,11 @@
 ```
 Deck
 4 Soulflayer
-4 Kavaero, Mind-Bitten
+4 Superior Spider-Man
 4 Striped Riverwinder
 2 Bringer of the Last Gift
 1 Atraxa, Grand Unifier
-1 Scions of the Ur-Spider
+1 Cosmic Spider-Man
 1 Zetalpa, Primal Dawn
 4 Grisly Salvage
 4 Does Machines
@@ -441,16 +441,16 @@ Deck
 | 3 | 致命的な一押し（Fatal Push） | 序盤の除去 |
 | 24 | 土地 | 5章 |
 
-Arenaでは、スーペリア・スパイダーマンは「Kavaero, Mind-Bitten」、コズミック・スパイダーマンは「Scions of the Ur-Spider」という名前で表示される（旧V3のArena形式リストによる）。
+旧V3のArena形式リストでは、スーペリア・スパイダーマンは「Kavaero, Mind-Bitten」、コズミック・スパイダーマンは「Scions of the Ur-Spider」という名前だった。Arena専用のカード名は撤廃されたので、下のリストは英語名で書く（2026-11-01、ユーザー）。
 
 ```
 Deck
 4 Soulflayer
-4 Kavaero, Mind-Bitten
+4 Superior Spider-Man
 4 Striped Riverwinder
 2 Bringer of the Last Gift
 2 Atraxa, Grand Unifier
-1 Scions of the Ur-Spider
+1 Cosmic Spider-Man
 4 Otherworldly Gaze
 4 Grisly Salvage
 4 Does Machines

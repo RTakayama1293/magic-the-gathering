@@ -47,7 +47,7 @@
 
 ## リスト（カード名はScryfallの英語名）
 
-`tools/fetch_oracle.py` はこのコードブロックからカードを拾う。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` にある（スーペリア・スパイダーマンだけArenaでの名前が違う）。
+`tools/fetch_oracle.py` はこのコードブロックからカードを拾う。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` にあり、中身はこのコードブロックと同じ。Arena専用のカード名（Kavaero, Mind-Bitten など）は撤廃され、Arenaでも英語名はスーペリア・スパイダーマン（Superior Spider-Man）になった（2026-11-01、ユーザー）。
 
 ```
 Deck

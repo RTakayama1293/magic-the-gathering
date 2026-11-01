@@ -1962,7 +1962,7 @@ Target creature you control gets +1/+1 and gains hexproof until end of turn. Unt
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/tla/66/octopus-form
 
-## オズコープ社（Oscorp Industries）　別名: Exclusive Nightclub
+## オズコープ社（Oscorp Industries）
 
 　Land
 
@@ -1973,7 +1973,7 @@ When this land enters from a graveyard, you lose 2 life.
 Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/om1/179/oscorp-industries
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/spm/182/oscorp-industries
 
 ## 天上都市、大田原（Otawara, Soaring City）
 
