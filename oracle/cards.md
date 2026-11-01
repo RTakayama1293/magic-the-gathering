@@ -3,6 +3,17 @@
 `tools/fetch_oracle.py` が Scryfall から 2026-11-01 に取得した。手で編集しない（次の実行で上書きされる）。
 日本語名が空欄のカードは日本語版の印刷が無い。カード名を書くときは英語名だけを使う。
 
+## 口達者な一年生、アビゲール（Abigale, Eloquent First-Year）
+
+{W/B}{W/B}　Legendary Creature — Bird Bard　1/1
+
+```
+Flying, first strike, lifelink
+When Abigale enters, up to one other target creature loses all abilities. Put a flying counter, a first strike counter, and a lifelink counter on that creature.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/204/abigale-eloquent-first-year
+
 ## 削剥（Abrade）
 
 {1}{R}　Instant
@@ -46,6 +57,27 @@ Choose target spell or permanent that's red or green. Its owner puts it on their
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/m20/42/aether-gust
+
+## アイノクの旅人（Ainok Wayfarer）
+
+{1}{G}　Creature — Dog Scout　1/1
+
+```
+When this creature enters, mill three cards. You may put a land card from among them into your hand. If you don't, put a +1/+1 counter on this creature. (To mill three cards, put the top three cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdm/134/ainok-wayfarer
+
+## 夢追いの侍祭、アルファラエル（Alpharael, Dreaming Acolyte）
+
+{1}{U}{B}　Legendary Creature — Human Cleric　2/3
+
+```
+When Alpharael enters, draw two cards. Then discard two cards unless you discard an artifact card.
+During your turn, Alpharael has deathtouch.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/eoe/212/alpharael-dreaming-acolyte
 
 ## 無効（Annul）
 
@@ -140,6 +172,18 @@ When Atraxa enters, reveal the top ten cards of your library. For each card type
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/one/196/atraxa-grand-unifier
 
+## 婆の宣告（Auntie's Sentence）
+
+{1}{B}　Sorcery
+
+```
+Choose one —
+• Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.
+• Target creature gets -2/-2 until end of turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/85/aunties-sentence
+
 ## アナグマモグラの仔（Badgermole Cub）
 
 {1}{G}　Creature — Badger Mole　2/2
@@ -161,6 +205,16 @@ When this creature enters, target player reveals cards from the top of their lib
 ```
 
 Pioneer: banned / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/rvr/66/balustrade-spy
+
+## バサーラ塔の弓兵（Bassara Tower Archer）
+
+{G}{G}　Creature — Human Archer　2/1
+
+```
+Reach, hexproof
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/jou/117/bassara-tower-archer
 
 ## 鏡に願いを（Beseech the Mirror）
 
@@ -350,6 +404,17 @@ Sacrifice a Food: Return this card from your graveyard to the battlefield.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/jmp/216/cauldron-familiar
 
+## セファリッドの墨魔道士（Cephalid Inkmage）
+
+{2}{U}　Creature — Octopus Wizard　2/2
+
+```
+When this creature enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Threshold — This creature can't be blocked as long as there are seven or more cards in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/32/cephalid-inkmage
+
 ## 塵へのしがみつき（Cling to Dust）
 
 {B}　Instant
@@ -371,6 +436,16 @@ Look at the top six cards of your library. Put up to two creature cards with man
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dtk/177/collected-company
 
+## 神々との融和（Commune with the Gods）
+
+{1}{G}　Sorcery
+
+```
+Reveal the top five cards of your library. You may put a creature or enchantment card from among them into your hand. Put the rest into your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ema/162/commune-with-the-gods
+
 ## 秘密の中庭（Concealed Courtyard）
 
 　Land
@@ -381,6 +456,18 @@ This land enters tapped unless you control two or fewer other lands.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/otj/268/concealed-courtyard
+
+## ひっかきまわしのやっかい屋（Confusticate and Bebother）
+
+{2}{U}　Instant
+
+```
+Choose one —
+• Counter target spell unless its controller pays {4}.
+• Draw two cards, then discard a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/hob/35/confusticate-and-bebother
 
 ## コーリ鋼の短刀（Cori-Steel Cutter）
 
@@ -415,6 +502,17 @@ Destroy each nonland permanent with mana value 2 or less. Add {B} or {G} for eac
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v8　https://scryfall.com/card/soc/302/culling-ritual
 
+## 冷笑的な一匹狼（Cynical Loner）
+
+{1}{B}　Creature — Human Survivor　3/1
+
+```
+This creature can't be blocked by Glimmers.
+Survival — At the beginning of your second main phase, if this creature is tapped, you may search your library for a card, put it into your graveyard, then shuffle.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dsk/89/cynical-loner
+
 ## 減衰球（Damping Sphere）
 
 {2}　Artifact
@@ -425,6 +523,27 @@ Each spell a player casts costs {1} more to cast for each other spell that playe
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/dmr/219/damping-sphere
+
+## 邪悪なる行い（Dark Deed）
+
+{1}{B}　Instant
+
+```
+Target creature gets -4/-4 until end of turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/msh/93/dark-deed
+
+## 暗黒物質の操り手（Dark Matter Manipulator）
+
+{B}　Creature — Human Warlock　1/2
+
+```
+When this creature enters, mill three cards.
+This creature gets +2/+0 for every seven cards in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/52/dark-matter-manipulator
 
 ## 闇の誓願（Dark Petition）
 
@@ -468,6 +587,16 @@ Each player can't cast more than one noncreature spell each turn.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/eld/10/deafening-silence
+
+## 家族との死別（Death in the Family）
+
+{1}{B}　Instant
+
+```
+Exile target creature with mana value 3 or less.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tmt/61/death-in-the-family
 
 ## 欺瞞（Deceit）
 
@@ -529,6 +658,16 @@ At the beginning of combat on your turn, put three +1/+1 counters on target arti
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tmt/34/does-machines
 
+## 破滅の刃（Doom Blade）
+
+{1}{B}　Instant
+
+```
+Destroy target nonblack creature.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/msc/576/doom-blade
+
 ## ドビンの拒否権（Dovin's Veto）
 
 {W}{U}　Instant
@@ -539,6 +678,31 @@ Counter target noncreature spell.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/war/193/dovins-veto
+
+## 戦慄翼の掃除屋（Dreadwing Scavenger）
+
+{1}{U}{B}　Creature — Nightmare Bird　2/2
+
+```
+Flying
+Whenever this creature enters or attacks, draw a card, then discard a card.
+Threshold — This creature gets +1/+1 and has deathtouch as long as there are seven or more cards in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/118/dreadwing-scavenger
+
+## ドラグスコルの肉裂き（Drogskol Reaver）
+
+{5}{W}{U}　Creature — Spirit　3/5
+
+```
+Flying
+Double strike (This creature deals both first-strike and regular combat damage.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+Whenever you gain life, draw a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/655/drogskol-reaver
 
 ## 強迫（Duress）
 
@@ -754,6 +918,17 @@ Look at the top three cards of your library. Put one of them into your hand and 
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/sos/49/flow-state
 
+## 群れの結集（Gather the Pack）
+
+{1}{G}　Sorcery
+
+```
+Reveal the top five cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
+Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, put up to two creature cards from among the revealed cards into your hand instead of one.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ori/178/gather-the-pack
+
 ## 発芽の実習（Germination Practicum）
 
 {3}{G}{G}　Sorcery — Lesson
@@ -775,6 +950,40 @@ Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://sc
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/dsk/248/ghost-vacuum
+
+## 巨怪の大熊（Gigantic Big Bear）
+
+{5}{G}{G}　Creature — Bear　10/7
+
+```
+This spell can't be countered.
+Hexproof, haste
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/hob/126/gigantic-big-bear
+
+## 林間隠れの斥候（Gladecover Scout）
+
+{G}　Creature — Elf Scout　1/1
+
+```
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/m14/176/gladecover-scout
+
+## 栄光ある腐朽（Glorious Decay）
+
+{1}{G}　Instant
+
+```
+Choose one —
+• Destroy target artifact.
+• Glorious Decay deals 4 damage to target creature with flying.
+• Exile target card from a graveyard. Draw a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/sos/150/glorious-decay
 
 ## 真っ白（Go Blank）
 
@@ -878,6 +1087,16 @@ Discard a card: This creature gains indestructible until end of turn. Tap it.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dmu/19/guardian-of-new-benalia
 
+## グルマグの速翼（Gurmag Swiftwing）
+
+{1}{B}　Creature — Bat　1/2
+
+```
+Flying, first strike, haste
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/clu/113/gurmag-swiftwing
+
 ## 神聖なる泉（Hallowed Fountain）
 
 　Land — Plains Island
@@ -910,6 +1129,18 @@ If one or more +1/+1 counters would be put on a creature you control, that many 
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/272/hardened-scales
 
+## 無情な行動（Heartless Act）
+
+{1}{B}　Instant
+
+```
+Choose one —
+• Destroy target creature with no counters on it.
+• Remove up to three counters from target creature.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tla/103/heartless-act
+
 ## 迷路庭園（Hedge Maze）
 
 　Land — Forest Island
@@ -921,6 +1152,19 @@ When this land enters, surveil 1. (Look at the top card of your library. You may
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/mkm/262/hedge-maze
+
+## 受け継ぎし地の開墾（Heritage Reclamation）
+
+{1}{G}　Instant
+
+```
+Choose one —
+• Destroy target artifact.
+• Destroy target enchantment.
+• Exile up to one target card from a graveyard. Draw a card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdm/145/heritage-reclamation
 
 ## ヘクスヘイヴンの活性者（Hexhaven Invigorator）
 
@@ -1037,6 +1281,17 @@ Whenever one or more cards are put into exile from graveyards and/or the battlef
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/dft/209/ketramose-the-new-dawn
 
+## 上げ潮、キオーラ（Kiora, the Rising Tide）
+
+{2}{U}　Legendary Creature — Merfolk Noble　3/2
+
+```
+When Kiora enters, draw two cards, then discard two cards.
+Threshold — Whenever Kiora attacks, if there are seven or more cards in your graveyard, you may create Scion of the Deep, a legendary 8/8 blue Octopus creature token.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/45/kiora-the-rising-tide
+
 ## 運命の神、クローティス（Klothys, God of Destiny）
 
 {1}{R}{G}　Legendary Enchantment Creature — God　4/5
@@ -1085,7 +1340,7 @@ Flying, trample, indestructible, haste
 Other artifact creatures you control have flying, trample, indestructible, and haste.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/tmt/175/krang-utrom-warlord
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8_pool　https://scryfall.com/card/tmt/175/krang-utrom-warlord
 
 ## 熊野と渇苛斬の対峙 // 熊野の食刻（Kumano Faces Kakkazan // Etching of Kumano）
 
@@ -1112,6 +1367,16 @@ All creatures get -4/-4 until end of turn.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/hoc/187/languish
+
+## 最後の喘ぎ（Last Gasp）
+
+{1}{B}　Instant
+
+```
+Target creature gets -3/-3 until end of turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/trc/580/last-gasp
 
 ## 帳簿裂き（Ledger Shredder）
 
@@ -1158,6 +1423,17 @@ Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryf
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/inr/475/liliana-of-the-veil
 
+## 悔いし者、リリアナ（Liliana the Repentant）
+
+{1}{B}　Legendary Creature — Human Warlock　2/2
+
+```
+Whenever another creature or planeswalker you control enters, mill two cards.
+Exhaust — {5}{B}: Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter on Liliana. Activate only as a sorcery. (Activate each exhaust ability only once.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/231/liliana-the-repentant
+
 ## 獅子の飾緒（Lion Sash）
 
 {1}{W}　Artifact Creature — Equipment Cat　1/1
@@ -1192,6 +1468,17 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://s
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/fdn/227/llanowar-elves
 
+## 不完全な自然体、ルーウェン（Lluwen, Imperfect Naturalist）
+
+{B/G}{B/G}　Legendary Creature — Elf Druid　1/3
+
+```
+When Lluwen enters, mill four cards, then you may put a creature or land card from among the milled cards on top of your library.
+{2}{B/G}{B/G}{B/G}, {T}, Discard a land card: Create a 1/1 black and green Worm creature token for each land card in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/232/lluwen-imperfect-naturalist
+
 ## 開拓者、おたから（Loot, the Pathfinder）
 
 {2}{G}{U}{R}　Legendary Creature — Beast Noble　2/4
@@ -1203,7 +1490,7 @@ Exhaust — {U}, {T}: Draw three cards.
 Exhaust — {R}, {T}: Loot deals 3 damage to any target.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/dft/212/loot-the-pathfinder
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8_pool　https://scryfall.com/card/dft/212/loot-the-pathfinder
 
 ## ロアホールドの魔除け（Lorehold Charm）
 
@@ -1303,7 +1590,7 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0�
 Mill four cards, then you may return a permanent card from among them to your hand. (To mill four cards, put the top four cards of your library into your graveyard.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/ecl/182/midnight-tilling
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/ecl/182/midnight-tilling
 
 ## 溶鉄の崩壊（Molten Collapse）
 
@@ -1406,6 +1693,17 @@ Counter target noncreature spell.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/trc/439/negate
 
+## 夜帷の捕食者（Nightveil Predator）
+
+{U}{U}{B}{B}　Creature — Vampire　3/3
+
+```
+Flying, deathtouch
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/rvr/206/nightveil-predator
+
 ## タコの型（Octopus Form）
 
 {U}　Instant — Lesson
@@ -1461,6 +1759,17 @@ As this land enters, you may pay 2 life. If you don't, it enters tapped.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/trk/289/overgrown-tomb
+
+## パラミシア・コロニエックス（Paramecia Coloniex）
+
+{1}{B}　Creature — Zombie Worm　2/2
+
+```
+When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)
+When this creature dies, you may exile it. When you do, put target creature card from your graveyard on top of your library.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tmt/70/paramecia-coloniex
 
 ## パルヘリオンⅡ（Parhelion II）
 
@@ -1545,6 +1854,17 @@ Whenever this creature attacks, each opponent loses 1 life and you gain 1 life.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/93/postmortem-professor
 
+## 原初の魔女跡追い（Primal Witchstalker）
+
+{1}{B}{G}　Creature — Wolf　2/1
+
+```
+Menace (This creature can't be blocked except by two or more creatures.)
+When this creature enters, mill four cards. When you do, return target land card from your graveyard to the battlefield tapped. (To mill four cards, put the top four cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/144/primal-witchstalker
+
 ## プリズマリの魔除け（Prismari Charm）
 
 {U}{R}　Instant
@@ -1581,6 +1901,27 @@ Pyroclasm deals 2 damage to each creature.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dsk/149/pyroclasm
 
+## カルシの帰還者（Qarsi Revenant）
+
+{1}{B}{B}　Creature — Vampire　3/3
+
+```
+Flying, deathtouch, lifelink
+Renew — {2}{B}, Exile this card from your graveyard: Put a flying counter, a deathtouch counter, and a lifelink counter on target creature. Activate only as a sorcery.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdm/86/qarsi-revenant
+
+## 沼地の晩餐会（Quag Feast）
+
+{1}{B}　Sorcery
+
+```
+Choose target creature, planeswalker, or Vehicle. Mill two cards, then destroy the chosen permanent if its mana value is less than or equal to the number of cards in your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dft/100/quag-feast
+
 ## クアンドリクスの魔除け（Quandrix Charm）
 
 {G}{U}　Instant
@@ -1592,7 +1933,7 @@ Choose one —
 • Target creature has base power and toughness 5/5 until end of turn.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/217/quandrix-charm
+Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates;list:soulflayer_v8_pool　https://scryfall.com/card/sos/217/quandrix-charm
 
 ## 量子の謎かけ屋（Quantum Riddler）
 
@@ -1651,6 +1992,28 @@ Redcap Melee deals 4 damage to target creature or planeswalker. If a nonred perm
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/eld/135/redcap-melee
 
+## 報いの呪詛（Requiting Hex）
+
+{B}　Instant
+
+```
+As an additional cost to cast this spell, you may blight 1. (You may put a -1/-1 counter on a creature you control.)
+Destroy target creature with mana value 2 or less. If this spell's additional cost was paid, you gain 2 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/116/requiting-hex
+
+## 隠された真実（Resentful Revelation）
+
+{1}{B}　Sorcery
+
+```
+Look at the top three cards of your library. Put one of them into your hand and the rest into your graveyard.
+Flashback {6}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fin/114/resentful-revelation
+
 ## 安らかなる眠り（Rest in Peace）
 
 {1}{W}　Enchantment
@@ -1661,6 +2024,16 @@ If a card or token would be put into a graveyard from anywhere, exile it instead
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:referenced　https://scryfall.com/card/big/4/rest-in-peace
+
+## 墓場からの復活（Rise from the Grave）
+
+{4}{B}　Sorcery
+
+```
+Put target creature card from a graveyard onto the battlefield under your control. That creature is a black Zombie in addition to its other colors and types.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/znc/53/rise-from-the-grave
 
 ## 造反の代弁者、サムト（Samut, Voice of Dissent）
 
@@ -1674,6 +2047,27 @@ Other creatures you control have haste.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/akh/205/samut-voice-of-dissent
+
+## サテュロスの道探し（Satyr Wayfinder）
+
+{1}{G}　Creature — Satyr　1/1
+
+```
+When this creature enters, reveal the top four cards of your library. You may put a land card from among them into your hand. Put the rest into your graveyard.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/trc/469/satyr-wayfinder
+
+## 傷刃の斥候（Scarblade Scout）
+
+{1}{B}　Creature — Elf Scout　2/2
+
+```
+Lifelink
+When this creature enters, mill two cards. (Put the top two cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/118/scarblade-scout
 
 ## 漁る軟泥（Scavenging Ooze）
 
@@ -1709,6 +2103,17 @@ Whenever this creature is dealt damage, it deals that much damage to any other t
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dsk/157/screaming-nemesis
 
+## 久遠のたかり（Scrounge for Eternity）
+
+{2}{B}　Sorcery
+
+```
+As an additional cost to cast this spell, sacrifice an artifact or creature.
+Return target creature or Spacecraft card with mana value 5 or less from your graveyard to the battlefield. Then create a Lander token. (It's an artifact with "{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.")
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/eoe/114/scrounge-for-eternity
+
 ## 金属海の沿岸（Seachrome Coast）
 
 　Land
@@ -1719,6 +2124,38 @@ This land enters tapped unless you control two or fewer other lands.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/one/258/seachrome-coast
+
+## 歴戦の冷術士（Seasoned Cryomancer）
+
+{1}{U}{U}　Creature — Human Wizard　2/2
+
+```
+When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.
+{3}{U}{U}, Exile this card from your graveyard: Draw two cards.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/38/seasoned-cryomancer
+
+## シードシップの幼生御守り（Seedship Broodtender）
+
+{B}{G}　Creature — Insect Citizen　2/3
+
+```
+When this creature enters, mill three cards. (Put the top three cards of your library into your graveyard.)
+{3}{B}{G}, Sacrifice this creature: Return target creature or Spacecraft card from your graveyard to the battlefield. Activate only as a sorcery.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/eoe/227/seedship-broodtender
+
+## シードシップの衝突（Seedship Impact）
+
+{1}{G}　Instant
+
+```
+Destroy target artifact or enchantment. If its mana value was 2 or less, create a Lander token. (It's an artifact with "{2}, {T}, Sacrifice this token: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle.")
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/eoe/205/seedship-impact
 
 ## 名もなき都市の歩哨（Sentinel of the Nameless City）
 
@@ -1764,6 +2201,16 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0�
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/frc/83/shivan-reef
+
+## 百舌部隊（Shrike Force）
+
+{2}{W}　Creature — Bird Knight　1/3
+
+```
+Flying, double strike, vigilance
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/blb/31/shrike-force
 
 ## シルバークイルの魔除け（Silverquill Charm）
 
@@ -1812,6 +2259,16 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/nec/159/skysovereign-consul-flagship
 
+## 救う価値あり（Something Worth Saving）
+
+{1}{G}　Instant
+
+```
+Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/114/something-worth-saving
+
 ## 魂標ランタン（Soul-Guide Lantern）
 
 {1}　Artifact
@@ -1855,6 +2312,19 @@ Counter target noncreature spell unless its controller pays {2}.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dft/64/spell-pierce
+
+## 終止符のスフィンクス（Sphinx of the Final Word）
+
+{5}{U}{U}　Creature — Sphinx　5/5
+
+```
+This spell can't be countered.
+Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+Instant and sorcery spells you control can't be countered.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/747/sphinx-of-the-final-word
 
 ## 尖塔断の運河（Spirebluff Canal）
 
@@ -2001,6 +2471,18 @@ Destroy all creatures.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v6　https://scryfall.com/card/trc/480/supreme-verdict
 
+## 調査用メカン（Survey Mechan）
+
+{4}　Artifact Creature — Robot　1/3
+
+```
+Flying
+Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+{10}, Sacrifice this creature: It deals 3 damage to any target. Target player draws three cards and gains 3 life. This ability costs {X} less to activate, where X is the number of differently named lands you control.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/eoe/245/survey-mechan
+
 ## 沼（Swamp）
 
 　Basic Land — Swamp
@@ -2031,7 +2513,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://sc
 Draw two cards. Then discard a card unless there are five or more mana values among cards in your graveyard.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/snc/227/tainted-indulgence
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8_pool　https://scryfall.com/card/snc/227/tainted-indulgence
 
 ## 見捨てられたぬかるみ、竹沼（Takenuma, Abandoned Mire）
 
@@ -2076,6 +2558,16 @@ When this enchantment enters, exile each nonland permanent with mana value 2 or 
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/dmu/36/temporary-lockdown
+
+## 絶望的批評（Terminal Criticism）
+
+{1}{B}　Instant
+
+```
+Destroy target creature or planeswalker that's blue or red. You gain 1 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/68/terminal-criticism
 
 ## 夜明けのアルカイック（The Dawning Archaic）
 
@@ -2142,6 +2634,32 @@ As long as The Wandering Emperor entered this turn, you may activate her loyalty
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/neo/42/the-wandering-emperor
 
+## セオリクスの魔除け（Theorix Charm）
+
+{U}{B}　Instant
+
+```
+Choose one —
+• Counter target noncreature spell unless its controller pays {2}.
+• Target creature gets -2/-2 until end of turn.
+• Mill three cards, then draw a card. (To mill three cards, put the top three cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/155/theorix-charm
+
+## セオリクスの変転魔道士（Theorix Metamage // Omit Variables）
+
+{2}{U/B} // {U/B}　Creature — Shade Wizard // Sorcery　2/3
+
+```
+Theorix Metamage: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
+Threshold — This creature gets +1/+0 and has flying as long as there are seven or more cards in your graveyard.
+//
+Omit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/156/theorix-metamage-omit-variables
+
 ## 演劇の舞台（Thespian's Stage）
 
 　Land
@@ -2167,6 +2685,16 @@ Awoken Horror: When this creature transforms into Awoken Horror, return all non-
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/inr/91/thing-in-the-ice-awoken-horror
 
+## 個性の渇望（Thirst for Identity）
+
+{2}{U}　Instant
+
+```
+Draw three cards. Then discard two cards unless you discard a creature card.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/79/thirst-for-identity
+
 ## 思考囲い（Thoughtseize）
 
 {B}　Sorcery
@@ -2177,6 +2705,16 @@ Target player reveals their hand. You choose a nonland card from it. That player
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/2xm/109/thoughtseize
 
+## 秘本掃き（Tome Scour）
+
+{U}　Sorcery
+
+```
+Target player mills five cards.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/m14/75/tome-scour
+
 ## トーモッドの墓所（Tormod's Crypt）
 
 {0}　Artifact
@@ -2186,6 +2724,16 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;l
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/dmr/235/tormods-crypt
+
+## 町の歓迎者（Town Greeter）
+
+{1}{G}　Creature — Human Citizen　1/1
+
+```
+When this creature enters, mill four cards. You may put a land card from among them into your hand. If you put a Town card into your hand this way, you gain 2 life. (To mill four cards, a player puts the top four cards of their library into their graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fin/209/town-greeter
 
 ## 悲劇をむさぼる者（Tragedy Feaster）
 
@@ -2209,6 +2757,17 @@ Draw three cards.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/205/treasure-cruise
+
+## 黄昏の占者（Twilight Diviner）
+
+{2}{B}　Creature — Elf Cleric　3/3
+
+```
+When this creature enters, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+Whenever one or more other creatures you control enter, if they entered or were cast from a graveyard, create a token that's a copy of one of them. This ability triggers only once each turn.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ecl/122/twilight-diviner
 
 ## 地底街の密告人（Undercity Informer）
 
@@ -2292,6 +2851,18 @@ Each land is a Swamp in addition to its other land types.
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tsr/287/urborg-tomb-of-yawgmoth
 
+## 吸血鬼の夜鷲（Vampire Nighthawk）
+
+{1}{B}{B}　Creature — Vampire Shaman　2/3
+
+```
+Flying
+Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)
+Lifelink (Damage dealt by this creature also causes you to gain that much life.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fdn/757/vampire-nighthawk
+
 ## 消失の詩句（Vanishing Verse）
 
 {W}{B}　Instant
@@ -2301,6 +2872,16 @@ Exile target monocolored permanent.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://scryfall.com/card/soc/335/vanishing-verse
+
+## 槽の出現（Vat Emergence）
+
+{4}{B}　Sorcery
+
+```
+Put target creature card from a graveyard onto the battlefield under your control. Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/one/112/vat-emergence
 
 ## 鮮麗（Vibrance）
 
@@ -2323,6 +2904,31 @@ Creature tokens get -2/-2.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/dtk/125/virulent-plague
+
+## 虚空の外挿者（Void Extrapolator // Omit Variables）
+
+{1}{B} // {U/B}　Creature — Aetherborn Warlock // Sorcery　2/2
+
+```
+Void Extrapolator: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)
+Threshold — This creature gets +1/+1 as long as there are seven or more cards in your graveyard.
+//
+Omit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/70/void-extrapolator-omit-variables
+
+## ヴラスカの最後の慈悲（Vraska's Final Mercy）
+
+{B}{B}　Sorcery
+
+```
+Choose one —
+• You lose 2 life. Destroy target creature or planeswalker.
+• You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with "[−1]: Surveil 1" and "[−3]: Draw a card.")
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/71/vraskas-final-mercy
 
 ## 湿った墓（Watery Grave）
 
@@ -2368,7 +2974,7 @@ Choose one —
 • Destroy target nonland permanent with mana value 2 or less.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates　https://scryfall.com/card/sos/244/witherbloom-charm
+Pioneer: legal / Arena収録: yes　出どころ: list:sos_candidates;list:soulflayer_v8_pool　https://scryfall.com/card/sos/244/witherbloom-charm
 
 ## 均衡を保つもの、ウィザーブルーム（Witherbloom, the Balancer）
 
@@ -2404,3 +3010,26 @@ Cycling {3} ({3}, Discard this card: Draw a card.)
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/snc/260/xanders-lounge
+
+## 影からの希望、百合子（Yuriko, Hope from the Shadows）
+
+{U}　Legendary Creature — Human Ninja　1/1
+
+```
+Flash
+When Yuriko enters, choose one —
+• Target creature gets -X/-0 until end of turn, where X is the number of cards in your graveyard.
+• Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/226/yuriko-hope-from-the-shadows
+
+## 原初の夜明け、ゼタルパ（Zetalpa, Primal Dawn）
+
+{6}{W}{W}　Legendary Creature — Elder Dinosaur　4/8
+
+```
+Flying, double strike, vigilance, trample, indestructible
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/tdc/142/zetalpa-primal-dawn
