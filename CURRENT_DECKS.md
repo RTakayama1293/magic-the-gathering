@@ -1,16 +1,16 @@
 # 現行デッキ一覧
 
-最終更新: 2026-10-31
+最終更新: 2026-11-01
 
 | デッキ | 色 | 状態 | 詳細ファイル |
 |---|---|---|---|
 | Archfiend Alteration v0 | Grixis（UBR） | メイン使用。Arenaラダーで使用中 | `decks/archfiend_alteration_v0.md` |
+| 魂剥ぎ（Soulflayer）V8 リビエン型 | Sultai（UBG） | 2026-11-01に登録。実戦未使用。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` | `decks/soulflayer_v8.md` |
 
 ## 引退済み（ARCHIVE/）
 
-- Soulflayer（魂剥ぎ）V3〜V8。約1年使用したのち2026-05に引退
+- Soulflayer（魂剥ぎ）V3〜V7。約1年使用したのち2026-05に引退。2026-11-01にV8として再開した（上の表）
   - V6 Esper（WUB）が最終確定版。リストは `ARCHIVE/soulflayer_v6_decklist.md`
-  - V8 Sultai（SSM + Bringer of the Last Gift + 魂剥ぎ）は構想段階で中断。発展元は `ARCHIVE/soulflayer_v7_design_notes.md`
 - ユーザーが明示的に頼んだときだけ参照する
 
 ## デッキを追加・引退するとき

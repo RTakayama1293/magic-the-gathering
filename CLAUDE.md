@@ -69,6 +69,8 @@ Claudeの戦略の価値判断（どのカードが強い・弱い、どの対�
 |---|---|
 | 現行デッキの一覧 | `CURRENT_DECKS.md` |
 | Archfiend Alterationのリスト・SBプラン・対面傾向 | `decks/archfiend_alteration_v0.md` |
+| 魂剥ぎV8（リビエン型）のリスト・SBプラン | `decks/soulflayer_v8.md`（Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt`） |
+| 魂剥ぎV8の構築案、役割別の候補カード、妨害と対面別の計算 | `notes/soulflayer_v8_proposal.md`、`notes/soulflayer_v8_card_pool.md`、`notes/soulflayer_v8_interaction_sim.md`、`notes/soulflayer_v8_matchup_sim.md`（計算は `tools/soulflayer_v8_sim.py`、`tools/v8_build_sim.py`、`tools/v8_interaction_sim.py`、`tools/v8_golgari_sim.py`、`tools/v8_unfair_sim.py`） |
 | 判断基準（根拠の重み、試合数と結論の強さ、層ごとの基準） | `notes/decision_criteria.md`（デッキ選択・構築・SB・振り返りの前に読む） |
 | 判断の層ごとの知見（全層を1ファイルに集約。「使える知見」と「アーカイブ」に分け、出典一覧付き） | `notes/knowledge_layers.md`（デッキ選択・構築・SB・対戦の振り返りの前に読む） |
 | 知見の元になった調査の記録（トッププロの発言の詳細、Geminiの結果） | `notes/sources/`（`pro_thinking.md` は上の層、`pro_thinking_lower.md` は下の層、`gemini_dengeki_2026-10-31.md`） |

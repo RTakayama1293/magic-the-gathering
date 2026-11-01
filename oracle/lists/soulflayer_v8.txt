@@ -1,3 +1,42 @@
 # Soulflayer V8（Sultai）構想のカード。2026-10-31に追加
 Superior Spider-Man
 Bringer of the Last Gift
+# 2026-11-01 V8提案（notes/soulflayer_v8_proposal.md）で使うカード
+Soulflayer
+Striped Riverwinder
+Atraxa, Grand Unifier
+Cosmic Spider-Man
+Otherworldly Gaze
+Grisly Salvage
+Does Machines
+Bitter Triumph
+Fatal Push
+Lively Dirge
+Grave Researcher
+Stitcher's Supplier
+Midnight Tilling
+Tear Asunder
+Abrupt Decay
+Sheoldred, the Apocalypse
+Thoughtseize
+Duress
+Deep-Cavern Bat
+Strategic Betrayal
+Go Blank
+Graveyard Trespasser
+Unlicensed Hearse
+Professor Dellian Fel
+Culling Ritual
+Watery Grave
+Darkslick Shores
+Overgrown Tomb
+Blooming Marsh
+Undercity Sewers
+Underground Mortuary
+Hedge Maze
+Botanical Sanctum
+Starting Town
+Urborg, Tomb of Yawgmoth
+Fable of the Mirror-Breaker
+Samut, Voice of Dissent
+Breeding Pool
