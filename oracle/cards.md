@@ -423,7 +423,7 @@ When this creature enters, each opponent loses 1 life and you gain 1 life.
 Sacrifice a Food: Return this card from your graveyard to the battlefield.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/jmp/216/cauldron-familiar
+Pioneer: legal / Arena収録: yes　出どころ: list:referenced;list:soulflayer_v8_pool　https://scryfall.com/card/jmp/216/cauldron-familiar
 
 ## セファリッドの墨魔道士（Cephalid Inkmage）
 
@@ -2409,6 +2409,18 @@ Crew 3 (Tap any number of creatures you control with total power 3 or more: This
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/nec/159/skysovereign-consul-flagship
 
+## 精鋭射手団の目立ちたがり（Slickshot Show-Off）
+
+{1}{R}　Creature — Bird Wizard　1/2
+
+```
+Flying, haste
+Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.
+Plot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/otj/146/slickshot-show-off
+
 ## 救う価値あり（Something Worth Saving）
 
 {1}{G}　Instant
@@ -2587,6 +2599,18 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6　https://s
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/frc/85/sulfurous-springs
+
+## 沈んだ城塞（Sunken Citadel）
+
+　Land — Cave
+
+```
+This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/lci/285/sunken-citadel
 
 ## 陽背骨のオオヤマネコ（Sunspine Lynx）
 

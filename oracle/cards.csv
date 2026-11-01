@@ -78,7 +78,7 @@ Flashback {3}{W}{B} (You may cast this card from your graveyard for its flashbac
 Carnage Tyrant,殺戮の暴君,,{4}{G}{G},6.0,Creature — Dinosaur,7/6,"This spell can't be countered.
 Trample, hexproof",legal,yes,XLN,2017-09-29,list:opponents,https://scryfall.com/card/xln/179/carnage-tyrant,2026-11-01
 Cauldron Familiar,大釜の使い魔,,{B},1.0,Creature — Cat,1/1,"When this creature enters, each opponent loses 1 life and you gain 1 life.
-Sacrifice a Food: Return this card from your graveyard to the battlefield.",legal,yes,JMP,2020-07-17,list:referenced,https://scryfall.com/card/jmp/216/cauldron-familiar,2026-11-01
+Sacrifice a Food: Return this card from your graveyard to the battlefield.",legal,yes,JMP,2020-07-17,list:referenced;list:soulflayer_v8_pool,https://scryfall.com/card/jmp/216/cauldron-familiar,2026-11-01
 Cephalid Inkmage,セファリッドの墨魔道士,,{2}{U},3.0,Creature — Octopus Wizard,2/2,"When this creature enters, surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)
 Threshold — This creature can't be blocked as long as there are seven or more cards in your graveyard.",legal,yes,FDN,2024-11-15,list:soulflayer_v8_pool,https://scryfall.com/card/fdn/32/cephalid-inkmage,2026-11-01
 Cling to Dust,塵へのしがみつき,,{B},1.0,Instant,,"Exile target card from a graveyard. If it was a creature card, you gain 3 life. Otherwise, you draw a card.
@@ -488,6 +488,9 @@ When this creature leaves the battlefield, the exiled card's owner creates an X/
 "Skysovereign, Consul Flagship",領事の旗艦、スカイソブリン,,{5},5.0,Legendary Artifact — Vehicle,6/5,"Flying
 Whenever Skysovereign enters or attacks, it deals 3 damage to target creature or planeswalker an opponent controls.
 Crew 3 (Tap any number of creatures you control with total power 3 or more: This Vehicle becomes an artifact creature until end of turn.)",legal,yes,NEC,2022-02-18,list:opponents,https://scryfall.com/card/nec/159/skysovereign-consul-flagship,2026-11-01
+Slickshot Show-Off,精鋭射手団の目立ちたがり,,{1}{R},2.0,Creature — Bird Wizard,1/2,"Flying, haste
+Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.
+Plot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)",legal,yes,OTJ,2024-04-19,list:soulflayer_v8_pool,https://scryfall.com/card/otj/146/slickshot-show-off,2026-11-01
 Something Worth Saving,救う価値あり,,{1}{G},2.0,Instant,,"Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)",legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/114/something-worth-saving,2026-11-01
 Soul-Guide Lantern,魂標ランタン,,{1},1.0,Artifact,,"When this artifact enters, exile target card from a graveyard.
 {T}, Sacrifice this artifact: Exile each opponent's graveyard.
@@ -523,6 +526,9 @@ Stubborn Denial,頑固な否認,,{U},1.0,Instant,,"Counter target noncreature sp
 Ferocious — If you control a creature with power 4 or greater, counter that spell instead.",legal,yes,KTK,2014-09-26,list:soulflayer_v6,https://scryfall.com/card/ktk/56/stubborn-denial,2026-11-01
 Sulfurous Springs,硫黄泉,,,0.0,Land,,"{T}: Add {C}.
 {T}: Add {B} or {R}. This land deals 1 damage to you.",legal,yes,FRC,2026-10-02,deck:archfiend_alteration_v0,https://scryfall.com/card/frc/85/sulfurous-springs,2026-11-01
+Sunken Citadel,沈んだ城塞,,,0.0,Land — Cave,,"This land enters tapped. As it enters, choose a color.
+{T}: Add one mana of the chosen color.
+{T}: Add two mana of the chosen color. Spend this mana only to activate abilities of land sources.",legal,yes,LCI,2023-11-17,list:soulflayer_v8_pool,https://scryfall.com/card/lci/285/sunken-citadel,2026-11-01
 Sunspine Lynx,陽背骨のオオヤマネコ,,{2}{R}{R},4.0,Creature — Elemental Cat,5/4,"Players can't gain life.
 Damage can't be prevented.
 When this creature enters, it deals damage to each player equal to the number of nonbasic lands that player controls.",legal,yes,BLB,2024-08-02,list:opponents,https://scryfall.com/card/blb/155/sunspine-lynx,2026-11-01
