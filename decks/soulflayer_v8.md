@@ -1,6 +1,15 @@
-# 魂剥ぎV8（リビエン型）
+# 魂剥ぎV8.1（リビエン型）
 
-作成: 2026-11-01。2026-11-01に現行デッキとして登録した。`notes/soulflayer_v8_proposal.md` の第7版のメインと、第8版のサイドボード（ゴルガリ戦のプランは `notes/soulflayer_v8_matchup_sim.md` の計算で直したもの）をまとめた。まだ実戦で使っていないので、すべて検証前の構築として扱う。75枚のカードはすべてパイオニアで使え、Arenaにある（Scryfall、2026-11-01に確認）。
+作成: 2026-11-01。2026-11-01に現行デッキとして登録した。
+
+## 変更履歴
+
+| 版 | 日付 | 変更 | 理由 |
+|---|---|---|---|
+| 8.0 | 2026-11-01 | 登録 | 下の段落のとおり |
+| 8.1 | 2026-11-01 | メカの天才4→2、異世界の凝視1→3 | 1ターン目に墓地を肥やせる手札（異世界の凝視か縞カワヘビ）が、先手で47.5%から60.1%に増える（数学）。ゴールドフィッシュでは、勝ち筋が成立する速さはどの配分でも差が1ポイント以内だった（`tools/v8_build_sim.py`）。メカの天才と幽愁を2枚ずつに分け、手札の墓地用クリーチャーを捨てる手段と、置物への回答の両方を残す（ユーザーの提案） |
+
+8.0の内容: `notes/soulflayer_v8_proposal.md` の第7版のメインと、第8版のサイドボード（ゴルガリ戦のプランは `notes/soulflayer_v8_matchup_sim.md` の計算で直したもの）をまとめた。まだ実戦で使っていないので、すべて検証前の構築として扱う。75枚のカードはすべてパイオニアで使え、Arenaにある（Scryfall、2026-11-01に確認）。
 
 ## メイン60枚
 
@@ -13,10 +22,10 @@
 | 2 | 最後の贈り物の運び手（Bringer of the Last Gift） | スーペリア・スパイダーマンのコピー先。飛行を渡す |
 | 2 | 偉大なる統一者、アトラクサ（Atraxa, Grand Unifier） | コピー先（手札を増やす）。飛行・絆魂などを渡す |
 | 4 | 忌まわしい回収（Grisly Salvage） | 墓地を肥やす。勝ち筋のカードか土地を手札に入れる |
-| 4 | メカの天才（Does Machines） | 墓地を肥やす。手札の墓地用クリーチャーを捨てる |
+| 2 | メカの天才（Does Machines） | 墓地を肥やす。手札の墓地用クリーチャーを2枚捨てる |
 | 2 | 幽愁（Wistfulness） | 想起で墓地を肥やすか、アーティファクト・エンチャントを追放する |
 | 2 | ダイナの導き（Dina's Guidance） | 運び手を墓地に置くか、スーペリア・スパイダーマンを手札に入れる |
-| 1 | 異世界の凝視（Otherworldly Gaze） | 墓地を肥やす |
+| 3 | 異世界の凝視（Otherworldly Gaze） | 墓地を肥やす。1ターン目から使える |
 | 3 | 苦々しい勝利（Bitter Triumph） | 除去。追加コストで墓地用クリーチャーを捨てる |
 | 3 | 致命的な一押し（Fatal Push） | 1マナの除去 |
 | 4 | 湿った墓（Watery Grave） | 土地 |
@@ -58,10 +67,10 @@ Deck
 2 Bringer of the Last Gift
 2 Atraxa, Grand Unifier
 4 Grisly Salvage
-4 Does Machines
+2 Does Machines
 2 Wistfulness
 2 Dina's Guidance
-1 Otherworldly Gaze
+3 Otherworldly Gaze
 3 Bitter Triumph
 3 Fatal Push
 4 Watery Grave

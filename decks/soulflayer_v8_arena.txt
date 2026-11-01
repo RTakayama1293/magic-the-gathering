@@ -6,10 +6,10 @@ Deck
 2 Bringer of the Last Gift
 2 Atraxa, Grand Unifier
 4 Grisly Salvage
-4 Does Machines
+2 Does Machines
 2 Wistfulness
 2 Dina's Guidance
-1 Otherworldly Gaze
+3 Otherworldly Gaze
 3 Bitter Triumph
 3 Fatal Push
 4 Watery Grave
