@@ -392,10 +392,10 @@ Negate,否認,,{1}{U},2.0,Instant,,Counter target noncreature spell.,legal,yes,T
 Nightveil Predator,夜帷の捕食者,,{U}{U}{B}{B},4.0,Creature — Vampire,3/3,"Flying, deathtouch
 Hexproof (This creature can't be the target of spells or abilities your opponents control.)",legal,yes,RVR,2024-01-12,list:soulflayer_v8_pool,https://scryfall.com/card/rvr/206/nightveil-predator,2026-11-01
 Octopus Form,タコの型,,{U},1.0,Instant — Lesson,,Target creature you control gets +1/+1 and gains hexproof until end of turn. Untap it. (It can't be the target of spells or abilities your opponents control.),legal,yes,TLA,2025-11-21,list:opponents,https://scryfall.com/card/tla/66/octopus-form,2026-11-01
-Oscorp Industries,オズコープ社,Exclusive Nightclub,,0.0,Land,,"This land enters tapped.
+Oscorp Industries,オズコープ社,,,0.0,Land,,"This land enters tapped.
 When this land enters from a graveyard, you lose 2 life.
 {T}: Add {U}, {B}, or {R}.
-Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)",legal,yes,OM1,2025-09-23,deck:archfiend_alteration_v0,https://scryfall.com/card/om1/179/oscorp-industries,2026-11-01
+Mayhem (You may play this card from your graveyard if you discarded it this turn. Timing rules still apply.)",legal,yes,SPM,2025-09-26,deck:archfiend_alteration_v0,https://scryfall.com/card/spm/182/oscorp-industries,2026-11-01
 "Otawara, Soaring City",天上都市、大田原,,,0.0,Legendary Land,,"{T}: Add {U}.
 Channel — {3}{U}, Discard this card: Return target artifact, creature, enchantment, or planeswalker to its owner's hand. This ability costs {1} less to activate for each legendary creature you control.",legal,yes,NEO,2022-02-18,list:referenced,https://scryfall.com/card/neo/271/otawara-soaring-city,2026-11-01
 Otherworldly Gaze,異世界の凝視,,{U},1.0,Instant,,"Surveil 3. (Look at the top three cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)

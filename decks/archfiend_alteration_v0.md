@@ -25,7 +25,7 @@ LANDS (25)
 1 Darkslick Shores
 1 Hive of the Eye Tyrant
 1 Xander's Lounge
-1 Exclusive Nightclub
+1 Oscorp Industries
 2 Starting Town
 1 Swamp
 
