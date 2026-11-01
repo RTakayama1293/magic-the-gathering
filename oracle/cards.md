@@ -359,6 +359,17 @@ Petty Theft: Return target nonland permanent an opponent controls to its owner's
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/soc/190/brazen-borrower-petty-theft
 
+## 繁殖池（Breeding Pool）
+
+　Land — Forest Island
+
+```
+({T}: Add {G} or {U}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8　https://scryfall.com/card/trk/279/breeding-pool
+
 ## 最後の贈り物の運び手（Bringer of the Last Gift）
 
 {6}{B}{B}　Creature — Vampire Demon　6/6

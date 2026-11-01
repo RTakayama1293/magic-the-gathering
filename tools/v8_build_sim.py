@@ -17,6 +17,16 @@ tools/soulflayer_v8_sim.py を広げ、notes/soulflayer_v8_card_pool.md の候�
 """
 import random
 
+
+class Land(str):
+    """土地のカード。文字列としては 'L' と等しく、kind に種類を持つ。
+    S: 諜報ランド（タップインで諜報1） / F: ファストランド（3枚目までアンタップ） / H: ショックランド（2点払ってアンタップ）
+    T: 始まりの町（3ターン目までアンタップ、色マナで1点） / C: マナの合流点（色マナで1点） / B: 基本土地などアンタップで出る土地"""
+    def __new__(cls, kind='B'):
+        obj = str.__new__(cls, 'L')
+        obj.kind = kind
+        return obj
+
 N = 60000
 OPP_CREATURE = 0.6
 COPY_TARGETS = ['BR', 'AT', 'CO', 'ZE']
@@ -45,12 +55,14 @@ def run(deck, play=True, seed=1, maxt=5, mull=False, stats=None):
                 lib = deck[:]; rng.shuffle(lib); hand, lib = lib[:7], lib[7:]
                 for _ in range(bottom):
                     c = 'L' if hand.count('L') > 3 else next((x for x in BLANK + ['BT', 'GZ', 'RW', 'L'] if x in hand), hand[0])
-                    hand.remove(c); lib.append(c)
+                    lib.append(hand.pop(hand.index(c)))
                 if stats is not None:
                     stats['mull'] = stats.get('mull', 0) + 1
                 if bottom == 2 or 2 <= hand.count('L') <= 5:
                     break
         yard, lands = [], 0
+        life_paid = 0
+        in_play = []
         got = {k: None for k in keys}
 
         def draw(n=1):
@@ -89,15 +101,40 @@ def run(deck, play=True, seed=1, maxt=5, mull=False, stats=None):
                 + (['L'] if need_land() and take_land else []) + ['SSM', 'SF']
             take = next((c for c in wants if c in rev), None)
             if take:
-                rev.remove(take); hand.append(take)
+                i = rev.index(take); hand.append(rev.pop(i))
             yard.extend(rev)
 
         for t in range(1, maxt + 1):
             if t > 1 or not play:
                 draw()
-            if 'L' in hand:
-                hand.remove('L'); lands += 1
             mana = lands
+            land_cards = [c for c in hand if c == 'L']
+            if land_cards:
+                n = len(in_play)
+
+                def untapped(c):
+                    k = getattr(c, 'kind', 'B')
+                    return k in 'BHC' or (k == 'F' and n <= 2) or (k == 'T' and t <= 3)
+                if t == 1:
+                    # 1ターン目はマナを使わないので、タップインの土地を先に置く
+                    order = sorted(land_cards, key=lambda c: (untapped(c), getattr(c, 'kind', 'B') == 'H'))
+                else:
+                    order = sorted(land_cards, key=lambda c: (not untapped(c), getattr(c, 'kind', 'B') in 'HC'))
+                c = order[0]
+                del hand[next(i for i, x in enumerate(hand) if x is c)]  # 同じ 'L' でも、選んだ土地そのものを取り除く
+                in_play.append(c); lands += 1
+                k = getattr(c, 'kind', 'B')
+                tapped_in = (k == 'S') or (k == 'F' and n > 2) or (k == 'T' and t > 3) or (k == 'H' and t == 1)
+                if k == 'H' and t > 1:
+                    life_paid += 2
+                mana = lands - (1 if tapped_in else 0)
+                if k == 'S' and lib:
+                    top = lib[0]
+                    keep = (top == 'SSM' and 'SSM' not in hand) or (top == 'SF' and 'SF' not in hand) or (top == 'L' and need_land())
+                    if not keep:
+                        yard.append(lib.pop(0))
+            life_paid += sum(1 for x in in_play if getattr(x, 'kind', 'B') == 'C')
+            life_paid += sum(1 for x in in_play if getattr(x, 'kind', 'B') == 'T') * 0.5
             if t >= 3:
                 check(mana, t)
             progress = True
@@ -155,6 +192,7 @@ def run(deck, play=True, seed=1, maxt=5, mull=False, stats=None):
                 if t == maxt and lands + hand.count('L') >= maxt + 1 and len([c for c in hand if c != 'L']) <= 1:
                     stats['flood'] = stats.get('flood', 0) + 1
         if stats is not None:
+            stats['life'] = stats.get('life', 0) + life_paid
             stats['never'] = stats.get('never', 0) + (got['any'] is None)
             stats['turnsum'] = stats.get('turnsum', 0) + (got['any'] or maxt + 1)
         for k in keys:
@@ -163,8 +201,15 @@ def run(deck, play=True, seed=1, maxt=5, mull=False, stats=None):
     return {k: tuple(round(100 * x / N, 1) for x in v) for k, v in res.items()}
 
 
-def mk(d):
+def mk(d, lands=None):
+    """lands に {'S': 6, 'F': 7, ...} を渡すと、土地を種類つきで作る。渡さなければ d['L'] 枚の基本土地"""
+    d = dict(d)
+    if lands:
+        assert sum(lands.values()) == d.get('L', 0), (lands, d.get('L'))
+        d.pop('L')
     deck = [k for k, v in d.items() for _ in range(v) if v]
+    if lands:
+        deck += [Land(k) for k, v in lands.items() for _ in range(v)]
     assert len(deck) == 60, (len(deck), d)
     return deck
 

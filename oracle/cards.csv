@@ -67,6 +67,8 @@ Flying
 This creature can block only creatures with flying.
 //
 Petty Theft: Return target nonland permanent an opponent controls to its owner's hand.",legal,yes,SOC,2026-04-24,list:opponents,https://scryfall.com/card/soc/190/brazen-borrower-petty-theft,2026-11-01
+Breeding Pool,繁殖池,,,0.0,Land — Forest Island,,"({T}: Add {G} or {U}.)
+As this land enters, you may pay 2 life. If you don't, it enters tapped.",legal,yes,TRK,2026-11-13,list:soulflayer_v8,https://scryfall.com/card/trk/279/breeding-pool,2026-11-01
 Bringer of the Last Gift,最後の贈り物の運び手,,{6}{B}{B},8.0,Creature — Vampire Demon,6/6,"Flying
 When this creature enters, if you cast it, each player sacrifices all other creatures they control. Then each player returns all creature cards from their graveyard that weren't put there this way to the battlefield.",legal,yes,LCI,2023-11-17,list:soulflayer_v8,https://scryfall.com/card/lci/94/bringer-of-the-last-gift,2026-11-01
 Burst Lightning,噴出の稲妻,,{R},1.0,Instant,,"Kicker {4} (You may pay an additional {4} as you cast this spell.)
