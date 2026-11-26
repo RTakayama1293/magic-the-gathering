@@ -1,6 +1,6 @@
 # カードテキスト一覧
 
-`tools/fetch_oracle.py` が Scryfall から 2026-11-01 に取得した。手で編集しない（次の実行で上書きされる）。
+`tools/fetch_oracle.py` が Scryfall から 2026-11-26 に取得した。手で編集しない（次の実行で上書きされる）。
 日本語名が空欄のカードは日本語版の印刷が無い。カード名を書くときは英語名だけを使う。
 
 ## 口達者な一年生、アビゲール（Abigale, Eloquent First-Year）
@@ -219,7 +219,7 @@ Flying
 When this creature enters, target player reveals cards from the top of their library until they reveal a land card, then puts those cards into their graveyard.
 ```
 
-Pioneer: banned / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/rvr/66/balustrade-spy
+Pioneer: banned / Arena収録: yes　出どころ: list:referenced　https://scryfall.com/card/j25/402/balustrade-spy
 
 ## バサーラ塔の弓兵（Bassara Tower Archer）
 
@@ -471,6 +471,20 @@ Look at the top six cards of your library. Put up to two creature cards with man
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents　https://scryfall.com/card/dtk/177/collected-company
+
+## 集団的蛮行（Collective Brutality）
+
+{1}{B}　Sorcery
+
+```
+Escalate—Discard a card. (Pay this cost for each mode chosen beyond the first.)
+Choose one or more —
+• Target opponent reveals their hand. You choose an instant or sorcery card from it. That player discards that card.
+• Target creature gets -2/-2 until end of turn.
+• Target opponent loses 2 life and you gain 2 life.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/inr/101/collective-brutality
 
 ## 神々との融和（Commune with the Gods）
 
@@ -733,7 +747,7 @@ When this Class becomes level 2, return up to two target artifact cards from you
 At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tmt/34/does-machines
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tmt/34/does-machines
 
 ## 破滅の刃（Doom Blade）
 
@@ -961,7 +975,7 @@ Reflection of Kiki-Jiki: {1}, {T}: Create a token that's a copy of another targe
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;list:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/neo/141/fable-of-the-mirror-breaker-reflection-of-kiki-jiki
 
-## Faithful Mending
+## 信仰の繕い（Faithful Mending）
 
 {W}{U}　Instant
 
@@ -1177,7 +1191,7 @@ Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0;d
 Destroy target nonartifact creature.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/moc/250/go-for-the-throat
+Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/j25/447/go-for-the-throat
 
 ## 神無き祭殿（Godless Shrine）
 
@@ -1483,6 +1497,20 @@ Empower Jace 8. (Put eight loyalty counters on a Jace token you control. If you 
 
 Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/fra/32/jaces-machinations
 
+## ヴリンの神童、ジェイス // 束縛なきテレパス、ジェイス（Jace, Vryn's Prodigy // Jace, Telepath Unbound）
+
+{1}{U}　Legendary Creature — Human Wizard // Legendary Planeswalker — Jace　0/2 // 忠誠5
+
+```
+Jace, Vryn's Prodigy: {T}: Draw a card, then discard a card. If there are five or more cards in your graveyard, exile Jace, then return him to the battlefield transformed under his owner's control.
+//
+Jace, Telepath Unbound: +1: Up to one target creature gets -2/-0 until your next turn.
+−3: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead.
+−9: You get an emblem with "Whenever you cast a spell, target opponent mills five cards."
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/ori/60/jace-vryns-prodigy-jace-telepath-unbound
+
 ## ジャラドの命令（Jarad's Orders）
 
 {2}{B}{G}　Sorcery
@@ -1672,6 +1700,18 @@ Lightning Axe deals 5 damage to target creature.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/inr/162/lightning-axe
+
+## 似姿の物あさり（Likeness Looter）
+
+{U}{B}　Creature — Faerie Shapeshifter　1/1
+
+```
+Flying
+{T}: Draw a card, then discard a card.
+{X}: This creature becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/woe/208/likeness-looter
 
 ## ヴェールのリリアナ（Liliana of the Veil）
 
@@ -1942,7 +1982,7 @@ Ninjutsu {U} ({U}, Return an unblocked attacker you control to hand: Put this ca
 Whenever this creature deals combat damage to a player, you may draw a card. If you do, discard a card unless this creature entered this turn.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/neo/67/moon-circuit-hacker
+Pioneer: legal / Arena収録: yes　出どころ: list:meta_2026-10　https://scryfall.com/card/j25/327/moon-circuit-hacker
 
 ## 脈の新学部長、モセオ（Moseo, Vein's New Dean）
 
@@ -2698,7 +2738,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　http
 Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/114/something-worth-saving
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/fra/114/something-worth-saving
 
 ## 魂標ランタン（Soul-Guide Lantern）
 
@@ -2710,7 +2750,7 @@ When this artifact enters, exile target card from a graveyard.
 {1}, {T}, Sacrifice this artifact: Draw a card.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/eoc/143/soul-guide-lantern
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/eoc/143/soul-guide-lantern
 
 ## 損魂魔道士（Soul-Scar Mage）
 
@@ -3025,6 +3065,18 @@ Destroy target creature or planeswalker that's blue or red. You gain 1 life.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/68/terminal-criticism
+
+## 度胸の試練（Test of Courage）
+
+{G}　Instant
+
+```
+Choose one —
+• Alter the Past — Exile target card from a graveyard. You gain 2 life.
+• Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/trk/220/test-of-courage
 
 ## 夜明けのアルカイック（The Dawning Archaic）
 
@@ -3419,6 +3471,17 @@ Creature tokens get -2/-2.
 ```
 
 Pioneer: legal / Arena収録: yes　出どころ: deck:archfiend_alteration_v0　https://scryfall.com/card/dtk/125/virulent-plague
+
+## ヴォーデイリアの冒涜者、ヴォハー（Vohar, Vodalian Desecrator）
+
+{U}{B}　Legendary Creature — Phyrexian Merfolk Wizard　1/2
+
+```
+{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.
+{2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery.
+```
+
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/dmu/226/vohar-vodalian-desecrator
 
 ## 虚空の外挿者（Void Extrapolator // Omit Variables）
 
