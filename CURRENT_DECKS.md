@@ -1,11 +1,11 @@
 # 現行デッキ一覧
 
-最終更新: 2026-11-01
+最終更新: 2026-11-26
 
 | デッキ | 色 | 状態 | 詳細ファイル |
 |---|---|---|---|
 | Archfiend Alteration v0 | Grixis（UBR） | メイン使用。Arenaラダーで使用中 | `decks/archfiend_alteration_v0.md` |
-| 魂剥ぎ（Soulflayer）V8.1 リビエン型 | Sultai（UBG） | 2026-11-01に登録。実戦未使用。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` | `decks/soulflayer_v8.md` |
+| 魂剥ぎ（Soulflayer）V8.2 リビエン型 | Sultai（UBG） | 2026-11-01に登録。テスト版で10〜15マッチ（戦績DBに未登録）を使い、2026-11-26にv8.2に更新。Arenaに取り込むリストは `decks/soulflayer_v8_arena.txt` | `decks/soulflayer_v8.md` |
 
 ## 引退済み（ARCHIVE/）
 

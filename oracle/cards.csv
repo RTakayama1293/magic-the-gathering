@@ -94,7 +94,7 @@ Collective Brutality,集団的蛮行,,{1}{B},2.0,Sorcery,,"Escalate—Discard a 
 Choose one or more —
 • Target opponent reveals their hand. You choose an instant or sorcery card from it. That player discards that card.
 • Target creature gets -2/-2 until end of turn.
-• Target opponent loses 2 life and you gain 2 life.",legal,yes,INR,2025-01-24,list:soulflayer_v8_pool,https://scryfall.com/card/inr/101/collective-brutality,2026-11-26
+• Target opponent loses 2 life and you gain 2 life.",legal,yes,INR,2025-01-24,deck:soulflayer_v8;list:soulflayer_v8_pool,https://scryfall.com/card/inr/101/collective-brutality,2026-11-26
 Commune with the Gods,神々との融和,,{1}{G},2.0,Sorcery,,Reveal the top five cards of your library. You may put a creature or enchantment card from among them into your hand. Put the rest into your graveyard.,legal,yes,EMA,2016-06-10,list:soulflayer_v8_pool,https://scryfall.com/card/ema/162/commune-with-the-gods,2026-11-26
 Concealed Courtyard,秘密の中庭,,,0.0,Land,,"This land enters tapped unless you control two or fewer other lands.
 {T}: Add {W} or {B}.",legal,yes,OTJ,2024-04-19,list:soulflayer_v6,https://scryfall.com/card/otj/268/concealed-courtyard,2026-11-26
@@ -141,7 +141,7 @@ When this Class enters, mill two cards, draw two cards, then discard two cards.
 {1}{U}: Level 2
 When this Class becomes level 2, return up to two target artifact cards from your graveyard to your hand.
 {4}{U}: Level 3
-At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.",legal,yes,TMT,2026-03-06,deck:soulflayer_v8;list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/tmt/34/does-machines,2026-11-26
+At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.",legal,yes,TMT,2026-03-06,list:soulflayer_v6;list:soulflayer_v8,https://scryfall.com/card/tmt/34/does-machines,2026-11-26
 Doom Blade,破滅の刃,,{1}{B},2.0,Instant,,Destroy target nonblack creature.,legal,yes,MSC,2026-06-26,list:soulflayer_v8_pool,https://scryfall.com/card/msc/576/doom-blade,2026-11-26
 Dovin's Veto,ドビンの拒否権,,{W}{U},2.0,Instant,,"This spell can't be countered.
 Counter target noncreature spell.",legal,yes,WAR,2019-05-03,list:soulflayer_v6,https://scryfall.com/card/war/193/dovins-veto,2026-11-26
@@ -557,10 +557,10 @@ Sleight of Hand,手練,,{U},1.0,Sorcery,,Look at the top two cards of your libra
 Slickshot Show-Off,精鋭射手団の目立ちたがり,,{1}{R},2.0,Creature — Bird Wizard,1/2,"Flying, haste
 Whenever you cast a noncreature spell, this creature gets +2/+0 until end of turn.
 Plot {1}{R} (You may pay {1}{R} and exile this card from your hand. Cast it as a sorcery on a later turn without paying its mana cost. Plot only as a sorcery.)",legal,yes,OTJ,2024-04-19,list:soulflayer_v8_pool,https://scryfall.com/card/otj/146/slickshot-show-off,2026-11-26
-Something Worth Saving,救う価値あり,,{1}{G},2.0,Instant,,"Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)",legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/114/something-worth-saving,2026-11-26
+Something Worth Saving,救う価値あり,,{1}{G},2.0,Instant,,"Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)",legal,yes,FRA,2026-10-02,deck:soulflayer_v8;list:soulflayer_v8_pool,https://scryfall.com/card/fra/114/something-worth-saving,2026-11-26
 Soul-Guide Lantern,魂標ランタン,,{1},1.0,Artifact,,"When this artifact enters, exile target card from a graveyard.
 {T}, Sacrifice this artifact: Exile each opponent's graveyard.
-{1}, {T}, Sacrifice this artifact: Draw a card.",legal,yes,EOC,2025-08-01,deck:soulflayer_v8;list:opponents;list:soulflayer_v8_pool,https://scryfall.com/card/eoc/143/soul-guide-lantern,2026-11-26
+{1}, {T}, Sacrifice this artifact: Draw a card.",legal,yes,EOC,2025-08-01,list:opponents;list:soulflayer_v8_pool,https://scryfall.com/card/eoc/143/soul-guide-lantern,2026-11-26
 Soul-Scar Mage,損魂魔道士,,{R},1.0,Creature — Human Wizard,1/2,"Prowess
 If a source you control would deal noncombat damage to a creature an opponent controls, put that many -1/-1 counters on that creature instead.",legal,yes,AKH,2017-04-28,list:opponents,https://scryfall.com/card/akh/148/soul-scar-mage,2026-11-26
 Soulflayer,魂剥ぎ,,{4}{B}{B},6.0,Creature — Demon,4/4,"Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)
@@ -625,7 +625,7 @@ Temporary Lockdown,一時的封鎖,,{1}{W}{W},3.0,Enchantment,,"When this enchan
 Terminal Criticism,絶望的批評,,{1}{B},2.0,Instant,,Destroy target creature or planeswalker that's blue or red. You gain 1 life.,legal,yes,FRA,2026-10-02,list:soulflayer_v8_pool,https://scryfall.com/card/fra/68/terminal-criticism,2026-11-26
 Test of Courage,度胸の試練,,{G},1.0,Instant,,"Choose one —
 • Alter the Past — Exile target card from a graveyard. You gain 2 life.
-• Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.",legal,yes,TRK,2026-11-13,list:soulflayer_v8_pool,https://scryfall.com/card/trk/220/test-of-courage,2026-11-26
+• Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.",legal,yes,TRK,2026-11-13,deck:soulflayer_v8;list:soulflayer_v8_pool,https://scryfall.com/card/trk/220/test-of-courage,2026-11-26
 The Dawning Archaic,夜明けのアルカイック,,{10},10.0,Legendary Creature — Avatar,7/7,"This spell costs {1} less to cast for each instant and sorcery card in your graveyard.
 Reach
 Whenever The Dawning Archaic attacks, you may cast target instant or sorcery card from your graveyard without paying its mana cost. If that spell would be put into your graveyard, exile it instead.",legal,yes,SOS,2026-04-24,list:sos_candidates,https://scryfall.com/card/sos/1/the-dawning-archaic,2026-11-26

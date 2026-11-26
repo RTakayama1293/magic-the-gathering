@@ -5,13 +5,14 @@ Deck
 3 Samut, Voice of Dissent
 2 Bringer of the Last Gift
 2 Atraxa, Grand Unifier
-4 Grisly Salvage
-2 Does Machines
+2 Grisly Salvage
+2 Something Worth Saving
 2 Wistfulness
 2 Dina's Guidance
 3 Otherworldly Gaze
 3 Bitter Triumph
-3 Fatal Push
+3 Thoughtseize
+2 Collective Brutality
 4 Watery Grave
 3 Overgrown Tomb
 1 Breeding Pool
@@ -24,11 +25,11 @@ Deck
 1 Island
 
 Sideboard
-3 Thoughtseize
+3 Fatal Push
 2 Go Blank
 1 Liliana of the Veil
 2 Strategic Betrayal
 2 Graveyard Trespasser
 2 Sheoldred, the Apocalypse
-2 Abrupt Decay
-1 Soul-Guide Lantern
+1 Abrupt Decay
+2 Test of Courage

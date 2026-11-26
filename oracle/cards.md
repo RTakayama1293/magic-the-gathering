@@ -484,7 +484,7 @@ Choose one or more —
 • Target opponent loses 2 life and you gain 2 life.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/inr/101/collective-brutality
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/inr/101/collective-brutality
 
 ## 神々との融和（Commune with the Gods）
 
@@ -747,7 +747,7 @@ When this Class becomes level 2, return up to two target artifact cards from you
 At the beginning of combat on your turn, put three +1/+1 counters on target artifact you control. If it isn't a creature, it becomes a 0/0 Robot creature in addition to its other types.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tmt/34/does-machines
+Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v6;list:soulflayer_v8　https://scryfall.com/card/tmt/34/does-machines
 
 ## 破滅の刃（Doom Blade）
 
@@ -2738,7 +2738,7 @@ Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　http
 Mill four cards. You may put a permanent card from among them into your hand. You gain 1 life. (To mill four cards, put the top four cards of your library into your graveyard.)
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/fra/114/something-worth-saving
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/fra/114/something-worth-saving
 
 ## 魂標ランタン（Soul-Guide Lantern）
 
@@ -2750,7 +2750,7 @@ When this artifact enters, exile target card from a graveyard.
 {1}, {T}, Sacrifice this artifact: Draw a card.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/eoc/143/soul-guide-lantern
+Pioneer: legal / Arena収録: yes　出どころ: list:opponents;list:soulflayer_v8_pool　https://scryfall.com/card/eoc/143/soul-guide-lantern
 
 ## 損魂魔道士（Soul-Scar Mage）
 
@@ -3076,7 +3076,7 @@ Choose one —
 • Obliterate the Transwarp Network — Destroy target artifact or enchantment with mana value 3 or less.
 ```
 
-Pioneer: legal / Arena収録: yes　出どころ: list:soulflayer_v8_pool　https://scryfall.com/card/trk/220/test-of-courage
+Pioneer: legal / Arena収録: yes　出どころ: deck:soulflayer_v8;list:soulflayer_v8_pool　https://scryfall.com/card/trk/220/test-of-courage
 
 ## 夜明けのアルカイック（The Dawning Archaic）
 
